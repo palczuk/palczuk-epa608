@@ -1,0 +1,290 @@
+{
+  "core": [
+    {
+      "q": "Section 608 of which federal law governs refrigerant handling in the United States?",
+      "options": ["The Clean Water Act", "The Clean Air Act", "The Energy Policy Act", "The Montreal Protocol Act"],
+      "answer": 1,
+      "explain": "Section 608 belongs to the Clean Air Act. It requires anyone who maintains, services, repairs, or disposes of equipment with regulated refrigerant to be certified."
+    },
+    {
+      "q": "What atmospheric layer is damaged by chlorine released from CFC and HCFC refrigerants?",
+      "options": ["The troposphere", "The stratospheric ozone layer", "The mesosphere", "The ionosphere"],
+      "answer": 1,
+      "explain": "Chlorine atoms released from CFCs and HCFCs break down stratospheric ozone. A single chlorine atom can destroy thousands of ozone molecules before it becomes inactive."
+    },
+    {
+      "q": "The international agreement that first set a timetable for phasing out ozone-depleting substances is the:",
+      "options": ["Kyoto Protocol", "Paris Agreement", "Montreal Protocol", "Basel Convention"],
+      "answer": 2,
+      "explain": "The Montreal Protocol (1987) established the global phase-out schedule for CFCs and HCFCs that U.S. law implements domestically through the Clean Air Act."
+    },
+    {
+      "q": "A refrigerant release of what quantity or less is exempt from mandatory recovery before opening the system?",
+      "options": ["0.1 ounce", "1 ounce", "1 pound", "There is no exemption"],
+      "answer": 0,
+      "explain": "De minimis releases of 0.1 ounce or less — such as the small amount lost when connecting or disconnecting gauge hoses — do not trigger the recovery requirement."
+    },
+    {
+      "q": "Which term describes cleaning refrigerant on-site for reuse in the same system or another appliance owned by the same person, without reaching the purity of new product?",
+      "options": ["Recovery", "Recycling", "Reclamation", "Regeneration"],
+      "answer": 1,
+      "explain": "Recycling reduces moisture, acidity, and particulates but does not test to the ARI 700 purity standard used for reclaimed refrigerant."
+    },
+    {
+      "q": "Reclaimed refrigerant must be processed and chemically tested to meet which purity standard before it can be sold as new product?",
+      "options": ["ARI 700", "ASHRAE 15", "NFPA 70", "SAE J639"],
+      "answer": 0,
+      "explain": "Reclamation restores refrigerant to the AHRI (formerly ARI) 700 purity specification, verified by chemical analysis, typically at an off-site facility."
+    },
+    {
+      "q": "If a technician finds a leak that requires repair, how many days do they generally have to complete the repair?",
+      "options": ["10 days", "30 days", "90 days", "180 days"],
+      "answer": 1,
+      "explain": "Leaks generally must be repaired within 30 days of discovery, unless the owner files a retrofit or retire plan, which extends the deadline to one year."
+    },
+    {
+      "q": "If an owner instead chooses to retrofit or retire a leaking appliance rather than repair it, the work must be completed within:",
+      "options": ["30 days", "6 months", "1 year", "2 years"],
+      "answer": 2,
+      "explain": "A documented retrofit or retire plan must be kept on site, and the retrofit or retirement must be completed within one year of the leak being discovered."
+    },
+    {
+      "q": "Which class of substances did the 1992 production and import prohibition first cover?",
+      "options": ["HFCs only", "CFCs and HCFCs", "HFOs only", "Natural refrigerants"],
+      "answer": 1,
+      "explain": "The July 1, 1992 prohibition targeted CFCs and HCFCs. HFCs were added to venting-prohibition coverage later, on November 15, 1995."
+    },
+    {
+      "q": "Under Section 608, it is illegal to knowingly vent which category of refrigerants to the atmosphere during service, maintenance, repair, or disposal?",
+      "options": ["Only CFCs", "Only HCFCs", "Any substitute or regulated refrigerant, including HFCs and HFOs", "Only refrigerants used in vehicles"],
+      "answer": 2,
+      "explain": "The venting prohibition applies broadly to ozone-depleting refrigerants and their substitutes, including HFCs and HFO blends — not just the original CFC/HCFC classes."
+    }
+  ],
+  "type1": [
+    {
+      "q": "Type I certification covers small appliances that are hermetically sealed, factory-charged, and contain how much refrigerant?",
+      "options": ["5 pounds or less", "15 pounds or less", "25 pounds or less", "No specific limit"],
+      "answer": 0,
+      "explain": "Type I applies to small appliances such as refrigerators, freezers, window air conditioners, dehumidifiers, and vending machines with a factory charge of 5 lbs or less."
+    },
+    {
+      "q": "Which of these is NOT typically classified as a Type I small appliance?",
+      "options": ["Household refrigerator", "Window air conditioner", "Rooftop commercial unit", "Vending machine"],
+      "answer": 2,
+      "explain": "Rooftop units are high-pressure commercial equipment, covered under Type II — not the small, hermetically sealed appliances covered by Type I."
+    },
+    {
+      "q": "For small appliances manufactured AFTER November 15, 1993, what is the minimum recovery efficiency required when the compressor is operating?",
+      "options": ["70%", "80%", "90%", "95%"],
+      "answer": 2,
+      "explain": "Post-1993 equipment requires recovering 90% of the refrigerant charge when the compressor is functional, or 80% if it is not, or evacuating the system to 4 inches of Hg vacuum."
+    },
+    {
+      "q": "For small appliances manufactured BEFORE November 15, 1993, what recovery percentage is required regardless of whether the compressor works?",
+      "options": ["70%", "80%", "90%", "100%"],
+      "answer": 1,
+      "explain": "Older equipment (pre-1993) only requires 80% recovery whether or not the compressor is operational, or evacuation to 4 inches Hg vacuum."
+    },
+    {
+      "q": "Passive recovery is best described as:",
+      "options": [
+        "Recovery using the appliance's own working compressor to push refrigerant into a recovery container",
+        "Recovery using a separate, self-contained recovery machine with its own compressor",
+        "Venting refrigerant directly to atmosphere",
+        "Recovery performed only by reclaiming facilities"
+      ],
+      "answer": 0,
+      "explain": "Passive (system-dependent) recovery relies on the appliance's own compressor. If that compressor doesn't work, active recovery equipment with an independent compressor must be used instead."
+    },
+    {
+      "q": "Active recovery equipment is defined by having:",
+      "options": [
+        "No moving parts",
+        "Its own self-contained compressor, separate from the appliance being serviced",
+        "A requirement to be manufactured before 1993",
+        "No vacuum capability"
+      ],
+      "answer": 1,
+      "explain": "Active recovery machines carry their own compressor, allowing recovery even when the appliance's built-in compressor has failed."
+    },
+    {
+      "q": "Which EPA 608 exam section is the only one that a certifying organization may administer as an open-book test?",
+      "options": ["Core", "Type I", "Type II", "Type III"],
+      "answer": 1,
+      "explain": "Type I is unique in that it may be offered open-book, including online proctored formats, making it the most accessible entry point for new technicians."
+    },
+    {
+      "q": "Is leak repair legally mandatory for small (Type I) appliances?",
+      "options": [
+        "Yes, always within 30 days",
+        "No, but repair is recommended whenever practical",
+        "Only for appliances over 5 lbs",
+        "Only for commercial units"
+      ],
+      "answer": 1,
+      "explain": "Unlike larger equipment, small appliances are not subject to a mandatory leak-repair deadline, though repairing leaks whenever possible is still good practice."
+    },
+    {
+      "q": "A technician recovering refrigerant from a small appliance with a non-functional compressor, manufactured in 2005, must recover at least:",
+      "options": ["90%", "80%, or evacuate to 4 in. Hg", "70%", "No recovery required"],
+      "answer": 1,
+      "explain": "With the compressor inoperative on post-1993 equipment, the requirement drops to 80% recovery, or the technician may instead pull a 4 inch Hg vacuum."
+    },
+    {
+      "q": "Which of the following requires certification to purchase regulated refrigerant for small appliance service?",
+      "options": ["Only Universal certification", "Any of Type I, Type II, Type III, or Universal, matching the equipment worked on", "No certification is required for small appliances", "Only a state contractor license"],
+      "answer": 1,
+      "explain": "A technician needs the certification matching the equipment category — Type I for small appliances — before purchasing regulated refrigerant for that work."
+    }
+  ],
+  "type2": [
+    {
+      "q": "Type II covers high-pressure appliances using refrigerants with a boiling point in what range at atmospheric pressure?",
+      "options": ["Below -50°C", "Between -50°C and 10°C", "Above 10°C", "Above 50°C"],
+      "answer": 1,
+      "explain": "High-pressure refrigerants such as R-22, R-410A, R-404A, and R-407C have boiling points between -50°C and 10°C at atmospheric pressure, distinguishing them from Type III's low-pressure refrigerants."
+    },
+    {
+      "q": "Which of these systems would typically require Type II (or Universal) certification to service?",
+      "options": ["A household refrigerator", "A residential split-system heat pump", "A low-pressure centrifugal chiller", "A dehumidifier"],
+      "answer": 1,
+      "explain": "Residential split systems, heat pumps, and rooftop commercial units run on high-pressure refrigerants and fall under Type II."
+    },
+    {
+      "q": "On recovery equipment manufactured after November 15, 1993, a Type II system holding LESS than 200 lbs of refrigerant must generally be evacuated to what vacuum level?",
+      "options": ["0 psig", "4 inches Hg vacuum", "15 inches Hg vacuum", "25 mm Hg absolute"],
+      "answer": 1,
+      "explain": "Post-1993 recovery equipment must pull systems under 200 lbs down to roughly 4 inches Hg vacuum before the system may be opened."
+    },
+    {
+      "q": "For very-high-pressure refrigerants like R-410A, R-404A, and R-507, why does EPA guidance set the target near 0 psig rather than a deep vacuum?",
+      "options": [
+        "These refrigerants are non-regulated so no target applies",
+        "Pulling a deep vacuum on these blends risks freezing residual moisture and damaging system components",
+        "It is faster to reach 0 psig",
+        "These refrigerants cannot be recovered at all"
+      ],
+      "answer": 1,
+      "explain": "Very-high-pressure blends are prone to moisture freeze-out under deep vacuum, so recovery targets for these are set closer to atmospheric (0 psig) rather than a deep inches-Hg vacuum."
+    },
+    {
+      "q": "What must a technician hold before purchasing Type II refrigerant to recover it from a rooftop commercial unit?",
+      "options": ["A Type I certification only", "A Type II or Universal certification", "A state HVAC contractor license only", "No certification, only employer authorization"],
+      "answer": 1,
+      "explain": "Federal law requires Type II or Universal EPA 608 certification specifically to purchase and handle high-pressure refrigerants — a state contractor license does not substitute for it."
+    },
+    {
+      "q": "Which of these is a common Type II refrigerant used in residential split systems and heat pumps?",
+      "options": ["R-11", "R-123", "R-410A", "R-114"],
+      "answer": 2,
+      "explain": "R-410A is a common high-pressure refrigerant used across modern residential split systems and heat pumps, and falls under Type II."
+    },
+    {
+      "q": "The distinction between Type II and Type III refrigerants is primarily based on:",
+      "options": ["Refrigerant color coding", "System boiling point / pressure classification", "Manufacturer brand", "Cylinder material"],
+      "answer": 1,
+      "explain": "Type classifications hinge on the refrigerant's boiling point at atmospheric pressure, which determines whether the system runs at high pressure (Type II) or below atmospheric pressure (Type III)."
+    },
+    {
+      "q": "General safety practice for Type II high-pressure work includes:",
+      "options": [
+        "Working without eye protection since refrigerant is odorless",
+        "Using proper PPE, ensuring adequate ventilation, and respecting refrigerant safety group ratings",
+        "Venting excess refrigerant to speed up the job",
+        "Ignoring manufacturer gauge ratings"
+      ],
+      "answer": 1,
+      "explain": "High-pressure refrigerant work carries burn, frostbite, and asphyxiation risk, so PPE, ventilation, and awareness of refrigerant safety classifications are core exam topics."
+    },
+    {
+      "q": "A technician measures the vacuum on a Type II system after recovery and reads it in inches of Hg. What does this unit tell you about the section being tested?",
+      "options": ["It signals Type III content", "It signals Type II content, since Type III uses mm Hg absolute instead", "It is irrelevant to certification type", "It only applies to Core questions"],
+      "answer": 1,
+      "explain": "Inches of Hg vacuum is the unit used for high-pressure (Type II) evacuation levels, while Type III low-pressure systems are measured in mm Hg absolute — a common exam unit trap."
+    },
+    {
+      "q": "Leak rate thresholds that can trigger mandatory repair obligations apply to appliances holding at least how much refrigerant?",
+      "options": ["5 lbs or more", "50 lbs or more", "500 lbs or more", "There is no minimum charge size"],
+      "answer": 1,
+      "explain": "Mandatory annual leak-rate repair triggers generally apply to appliances with a full charge of 50 lbs or more of refrigerant."
+    }
+  ],
+  "type3": [
+    {
+      "q": "Type III covers low-pressure appliances using refrigerants with a boiling point at atmospheric pressure that is:",
+      "options": ["Below -50°C", "Between -50°C and 10°C", "Above 10°C", "Exactly 0°C"],
+      "answer": 2,
+      "explain": "Low-pressure refrigerants such as R-11 and R-123, common in large chillers, boil above 10°C at atmospheric pressure — the opposite end of the spectrum from Type II."
+    },
+    {
+      "q": "Type III equipment most commonly refers to which kind of system?",
+      "options": ["Household refrigerators", "Low-pressure centrifugal chillers", "Window air conditioners", "Vending machines"],
+      "answer": 1,
+      "explain": "Type III certification centers on low-pressure chillers, typically found in large commercial and industrial cooling plants."
+    },
+    {
+      "q": "Because low-pressure chillers operate below atmospheric pressure, the main contamination risk during normal operation is:",
+      "options": ["Refrigerant venting to atmosphere under pressure", "Air and moisture infiltrating into the system", "Overcharging from the factory", "Excess oil migration only"],
+      "answer": 1,
+      "explain": "Since the system runs below atmospheric pressure, any leak tends to pull air and moisture IN rather than push refrigerant out — a key conceptual difference from high-pressure systems."
+    },
+    {
+      "q": "Required evacuation for Type III low-pressure appliances is expressed in which unit?",
+      "options": ["Inches of Hg vacuum, gauge", "PSIG", "mm Hg absolute", "Bar"],
+      "answer": 2,
+      "explain": "Type III evacuation levels are given in millimeters of mercury, absolute — a distinct unit from the inches-of-Hg-vacuum figures used for Type II, and a frequent point of confusion on the exam."
+    },
+    {
+      "q": "The standard evacuation target commonly cited for Type III low-pressure systems is approximately:",
+      "options": ["4 mm Hg absolute", "25 mm Hg absolute", "100 mm Hg absolute", "500 mm Hg absolute"],
+      "answer": 1,
+      "explain": "25 mm Hg absolute is the commonly referenced Type III evacuation target — always confirm the exact figure against your certifying organization's current chart before the exam."
+    },
+    {
+      "q": "Which of these refrigerants is associated with low-pressure (Type III) chiller applications?",
+      "options": ["R-410A", "R-404A", "R-123", "R-22"],
+      "answer": 2,
+      "explain": "R-123 is a low-pressure HCFC refrigerant historically used in centrifugal chillers, placing it under Type III rather than Type II."
+    },
+    {
+      "q": "Reading '25 mm Hg' on a Type III exam question versus '25 inches Hg' on a Type II question illustrates why technicians should:",
+      "options": [
+        "Ignore units since the numbers are similar",
+        "Always double-check the unit of measure before selecting an answer",
+        "Assume mm Hg and inches Hg are interchangeable",
+        "Skip unit-based questions entirely"
+      ],
+      "answer": 1,
+      "explain": "Mixing up mm Hg absolute and inches Hg vacuum is one of the most common exam traps between Type II and Type III questions — units carry real meaning, not just decoration."
+    },
+    {
+      "q": "Which general safety concern is heightened on low-pressure chiller work compared to sealed high-pressure systems?",
+      "options": [
+        "Risk of the system exploding under pressure",
+        "Increased chance of air and moisture contamination requiring careful evacuation before recharge",
+        "No safety concerns apply to low-pressure systems",
+        "Only electrical hazards apply"
+      ],
+      "answer": 1,
+      "explain": "Because these systems operate under vacuum, thorough evacuation and moisture control before recharging are critical safety and performance concerns unique to Type III work."
+    },
+    {
+      "q": "To earn Universal certification, a technician must pass:",
+      "options": ["Only the Core section", "Core plus Type II only", "Core, Type I, Type II, and Type III", "Any two of the four sections"],
+      "answer": 2,
+      "explain": "Universal certification requires passing all four sections — Core, Type I, Type II, and Type III — each with its own passing score."
+    },
+    {
+      "q": "If a technician has already passed Core and Type II, and later passes Type I and Type III, what happens to their certification?",
+      "options": [
+        "Nothing, they must retake all four together",
+        "It automatically upgrades to Universal once all four sections are passed",
+        "They must apply for a completely new certificate number",
+        "Universal is not available this way"
+      ],
+      "answer": 1,
+      "explain": "Section 608 certification can be built up over time — once Core plus all three Type sections are passed, credentials upgrade to Universal automatically."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "examStructure": [
+    { "label": "Total questions", "value": "100 (25 per section)" },
+    { "label": "Passing score", "value": "70–72% per section (18/25)" },
+    { "label": "Sections", "value": "Core, Type I, Type II, Type III" },
+    { "label": "Format", "value": "Closed book — except Type I, which may be open book" },
+    { "label": "Retakes", "value": "Only failed sections need to be retaken" },
+    { "label": "Validity", "value": "Certification does not expire once earned" },
+    { "label": "Prerequisite", "value": "Core must be passed to earn any Type or Universal credential" }
+  ],
+  "keyDates": [
+    { "label": "July 1, 1992", "value": "Production and import prohibition begins for CFCs and HCFCs" },
+    { "label": "November 15, 1993", "value": "Cut-off date separating recovery-equipment / evacuation-level requirements" },
+    { "label": "November 15, 1995", "value": "HFCs added to venting-prohibition coverage" }
+  ],
+  "recoveryType1": [
+    { "label": "Pre-Nov 15, 1993 equipment", "value": "80% recovery (compressor working or not), or evacuate to 4 in. Hg" },
+    { "label": "Post-Nov 15, 1993 equipment, compressor working", "value": "90% recovery, or evacuate to 4 in. Hg" },
+    { "label": "Post-Nov 15, 1993 equipment, compressor not working", "value": "80% recovery, or evacuate to 4 in. Hg" }
+  ],
+  "evacuationLevels": [
+    { "label": "Type II — under 200 lbs (post-1993 equipment)", "value": "≈ 4 in. Hg vacuum" },
+    { "label": "Type II — 200 lbs or more (post-1993 equipment)", "value": "≈ 23 in. Hg vacuum" },
+    { "label": "Type II — very-high-pressure blends (R-410A, R-404A, R-507)", "value": "≈ 0 psig" },
+    { "label": "Type III — low-pressure chillers", "value": "≈ 25 mm Hg absolute" }
+  ],
+  "threeRs": [
+    { "label": "Recovery", "value": "Removing refrigerant from a system in any condition and storing it in an external container, without necessarily testing or processing it." },
+    { "label": "Recycling", "value": "Reducing contaminants (moisture, acid, particulates) for reuse, typically on-site, without meeting new-product purity." },
+    { "label": "Reclamation", "value": "Reprocessing to the AHRI 700 purity standard, verified by chemical analysis, usually at an off-site facility, so it can be sold as new product." }
+  ],
+  "leakRepair": [
+    { "label": "Standard repair window", "value": "30 days from discovery" },
+    { "label": "Retrofit/retire alternative", "value": "Must be documented on-site and completed within 1 year" },
+    { "label": "Mandatory leak-rate trigger applies to", "value": "Appliances with a full charge of 50 lbs or more" }
+  ],
+  "unitTraps": [
+    { "label": "Type II unit", "value": "Inches of mercury (in. Hg) vacuum, gauge pressure" },
+    { "label": "Type III unit", "value": "Millimeters of mercury (mm Hg), absolute pressure" },
+    { "label": "Why it matters", "value": "The exam frequently swaps these units between near-identical answer choices — read the unit before the number." }
+  ]
+}
