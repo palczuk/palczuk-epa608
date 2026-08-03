@@ -1,1 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PALCZUK EPA 608 Study Guide — Certificação de Refrigerantes</title>
+<meta name="description" content="Guia de estudos dinâmico para a certificação EPA Section 608 (Core, Type I, II, III e Universal), com banco de questões e ficha de fatos-chave. Bilíngue PT/EN.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
 
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="topbar__brand">
+    <span class="topbar__mark">PZ</span>
+    <div class="topbar__word">
+      <span class="topbar__title">PALCZUK</span>
+      <span class="topbar__sub">EPA 608 Study Guide</span>
+    </div>
+  </div>
+  <nav class="topbar__nav" id="siteNav">
+    <a href="#overview" data-nav data-i18n="nav.overview">Visão geral</a>
+    <a href="#core" data-nav data-i18n="nav.core">Core</a>
+    <a href="#types" data-nav data-i18n="nav.types">Type I · II · III</a>
+    <a href="#facts" data-nav data-i18n="nav.facts">Ficha de fatos</a>
+    <a href="#quiz" data-nav data-i18n="nav.quiz">Simulado</a>
+  </nav>
+  <div class="topbar__right">
+    <div class="lang-toggle" id="langToggle" role="group" aria-label="Switch language / Mudar idioma">
+      <button type="button" class="lang-toggle__btn is-active" data-lang="pt">PT</button>
+      <button type="button" class="lang-toggle__btn" data-lang="en">EN</button>
+    </div>
+    <button class="topbar__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="overview">
+    <div class="hero__inner">
+      <div class="hero__text">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Engenharia Mecânica (BR) → HVACR (EUA) · WES validado</p>
+        <h1 class="hero__title">PALCZUK<br><span>EPA 608 Study Guide</span></h1>
+        <p class="hero__lede" data-i18n="hero.lede">
+          Guia de estudos dinâmico para a certificação federal exigida por lei para manusear
+          refrigerantes nos EUA sob a Seção 608 do Clean Air Act — Core, Type I, Type II, Type III e Universal.
+        </p>
+        <div class="hero__actions">
+          <a href="#core" class="btn btn--primary" data-i18n="hero.btnCore">Começar pelo Core</a>
+          <a href="#quiz" class="btn btn--ghost" data-i18n="hero.btnQuiz">Ir direto ao simulado</a>
+        </div>
+        <p class="hero__note" data-i18n="hero.note">Construído para uso pessoal de estudo · hospedável no GitHub Pages · pronto para integrar ao FieldCraft.</p>
+      </div>
+
+      <div class="gauge" role="img" aria-label="Manômetro ilustrativo indicando as quatro seções do exame EPA 608" data-i18n-attr="aria-label:gauge.aria">
+        <svg viewBox="0 0 300 300" class="gauge__svg">
+          <circle cx="150" cy="150" r="140" class="gauge__ring-outer"/>
+          <circle cx="150" cy="150" r="118" class="gauge__ring-inner"/>
+          <g class="gauge__ticks"></g>
+          <text x="150" y="112" class="gauge__label-top">EPA</text>
+          <text x="150" y="168" class="gauge__label-big">608</text>
+          <text x="150" y="196" class="gauge__label-bottom">SECTION 608 · CAA</text>
+          <line id="gaugeNeedle" x1="150" y1="150" x2="150" y2="55" class="gauge__needle"/>
+          <circle cx="150" cy="150" r="10" class="gauge__hub"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERT TYPES SUMMARY -->
+  <section class="panel panel--paper">
+    <h2 class="panel__title"><span class="panel__num">01</span> <span data-i18n="section1.title">Estrutura da certificação</span></h2>
+    <div class="cardgrid" id="examStructureGrid"><!-- injetado via JS a partir de facts.json --></div>
+  </section>
+
+  <!-- CORE -->
+  <section class="panel panel--blueprint" id="core">
+    <h2 class="panel__title panel__title--light"><span class="panel__num">02</span> <span data-i18n="core.title">Core — a base legal, obrigatória para todas as certificações</span></h2>
+    <p class="panel__intro" data-i18n="core.intro">
+      O Core testa a lei, não o procedimento de campo: destruição do ozônio, Clean Air Act, Protocolo de Montreal,
+      classificação de refrigerantes, os "três Rs" e segurança/transporte. Nenhum Type é válido sem passar no Core primeiro.
+    </p>
+    <div class="accordion" id="coreAccordion">
+      <details open>
+        <summary data-i18n="core.acc1.summary">Destruição da camada de ozônio</summary>
+        <p data-i18n="core.acc1.body">Átomos de cloro liberados por CFCs e HCFCs quebram moléculas de ozônio na estratosfera — um único átomo de cloro
+          pode destruir milhares de moléculas antes de se tornar inativo. É a base científica de toda a regulação da Seção 608.</p>
+      </details>
+      <details>
+        <summary data-i18n="core.acc2.summary">Clean Air Act &amp; Protocolo de Montreal</summary>
+        <p data-i18n="core.acc2.body">O Protocolo de Montreal (1987) estabeleceu o cronograma internacional de eliminação de substâncias destruidoras
+          de ozônio; o Clean Air Act (via Seção 608) implementa essas obrigações dentro dos EUA.</p>
+      </details>
+      <details>
+        <summary data-i18n="core.acc3.summary">Datas-chave de proibição</summary>
+        <p data-i18n="core.acc3.body">1º de julho de 1992: proibição de "venting" (liberação para a atmosfera) de CFCs e HCFCs.
+          15 de novembro de 1995: HFCs passam a ser incluídos na proibição de venting. 1º de janeiro de 1996:
+          proibida a fabricação/importação de CFC nos EUA (refrigerante já fabricado, recuperado ou reciclado
+          ainda pode ser usado).</p>
+      </details>
+      <details>
+        <summary data-i18n="core.acc4.summary">Liberação de minimis</summary>
+        <p data-i18n="core.acc4.body">Liberações de 0,1 onça ou menos — como a perda ao conectar/desconectar mangueiras de manifold — não exigem
+          recuperação prévia do sistema.</p>
+      </details>
+      <details>
+        <summary data-i18n="core.acc5.summary">Os três Rs: Recovery, Recycling, Reclamation</summary>
+        <p data-i18n="core.acc5.body"><strong>Recovery</strong> remove o refrigerante do sistema sem necessariamente processá-lo.
+          <strong>Recycling</strong> reduz contaminantes para reuso, geralmente no local, sem atingir pureza de produto novo.
+          <strong>Reclamation</strong> reprocessa até o padrão AHRI 700, testado quimicamente, normalmente fora do local.</p>
+      </details>
+      <details>
+        <summary data-i18n="core.acc6.summary">Reparo de vazamentos</summary>
+        <p data-i18n="core.acc6.body">Só se aplica a equipamentos com carga de 50 lb ou mais. Refrigeração comercial e industrial de processo:
+          reparo obrigatório acima de 35% de vazamento anual. Todos os demais equipamentos (inclusive conforto
+          térmico): reparo obrigatório acima de 15% ao ano. Prazo padrão: 30 dias após a descoberta, ou até 1 ano
+          com plano documentado de retrofit/retirada.</p>
+      </details>
+      <details>
+        <summary data-i18n="core.acc7.summary">Segurança e transporte</summary>
+        <p data-i18n="core.acc7.body">Cobre EPI, ventilação adequada, classificações de segurança de refrigerantes (ASHRAE 34) e regras de transporte
+          (DOT) para cilindros de refrigerante.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- TYPES -->
+  <section class="panel panel--paper" id="types">
+    <h2 class="panel__title"><span class="panel__num">03</span> <span data-i18n="types.title">Type I · Type II · Type III</span></h2>
+    <p class="panel__intro" data-i18n="types.intro">Sua base em termodinâmica ajuda bastante aqui: a lógica de pressão e ponto de ebulição
+      é a mesma física que você já estudou — a EPA só amarra isso a limites legais específicos.</p>
+
+    <div class="tabs" id="typeTabs">
+      <div class="tabs__nav">
+        <button class="tabs__btn is-active" data-tab="type1">Type I</button>
+        <button class="tabs__btn" data-tab="type2">Type II</button>
+        <button class="tabs__btn" data-tab="type3">Type III</button>
+      </div>
+
+      <div class="tabs__panel is-active" data-panel="type1">
+        <div class="typecard">
+          <div class="typecard__meta">
+            <span class="chip chip--teal" data-i18n="type1.chip1">Equipamentos pequenos</span>
+            <span class="chip" data-i18n="type1.chip2">≤ 5 lb de carga</span>
+          </div>
+          <h3 data-i18n="type1.h3">Small appliances</h3>
+          <p data-i18n="type1.p">Selados hermeticamente, com carga de fábrica de refrigerante. Exemplos: geladeiras e freezers domésticos,
+            ar-condicionado de janela, desumidificadores, máquinas de vending, bebedouros.</p>
+          <ul class="factlist">
+            <li data-i18n="type1.li1"><strong>Antes de 15/11/1993:</strong> recuperar 80% (compressor funcionando ou não), ou evacuar a 4 pol. Hg.</li>
+            <li data-i18n="type1.li2"><strong>Depois de 15/11/1993, compressor funcionando:</strong> recuperar 90%, ou evacuar a 4 pol. Hg.</li>
+            <li data-i18n="type1.li3"><strong>Depois de 15/11/1993, compressor com defeito:</strong> recuperar 80%, ou evacuar a 4 pol. Hg.</li>
+            <li data-i18n="type1.li4">Recuperação <strong>passiva</strong> usa o compressor do próprio aparelho; <strong>ativa</strong> usa máquina externa com compressor próprio.</li>
+            <li data-i18n="type1.li5">É a única seção do exame que pode ser feita em formato "open book".</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tabs__panel" data-panel="type2">
+        <div class="typecard">
+          <div class="typecard__meta">
+            <span class="chip chip--copper" data-i18n="type2.chip1">Alta pressão</span>
+            <span class="chip" data-i18n="type2.chip2">Ponto de ebulição −50°C a 10°C</span>
+          </div>
+          <h3 data-i18n="type2.h3">High-pressure appliances</h3>
+          <p data-i18n="type2.p">Split systems residenciais, bombas de calor, refrigeração comercial, rooftops. Refrigerantes típicos:
+            R-22, R-410A, R-404A, R-407C, R-507, R-134a (em sistemas comerciais grandes).</p>
+          <ul class="factlist">
+            <li data-i18n="type2.li1"><strong>HCFC-22, &lt; 200 lb:</strong> 0 pol. Hg de vácuo.</li>
+            <li data-i18n="type2.li2"><strong>HCFC-22, ≥ 200 lb:</strong> 4 pol. Hg (equip. pré-1993) / 10 pol. Hg (equip. certificado pós-1993).</li>
+            <li data-i18n="type2.li3"><strong>CFC-12, 500, 502, 114, &lt; 200 lb:</strong> 4 pol. Hg (pré-1993) / 10 pol. Hg (pós-1993).</li>
+            <li data-i18n="type2.li4"><strong>CFC-12, 500, 502, 114, ≥ 200 lb:</strong> 4 pol. Hg (pré-1993) / 15 pol. Hg (pós-1993).</li>
+            <li data-i18n="type2.li5"><strong>Muito alta pressão</strong> (CFC-13, 503): 0 pol. Hg de vácuo, em qualquer carga.</li>
+            <li data-i18n="type2.li6">Recuperação <strong>passiva é proibida</strong> acima de 15 lb de carga — exige equipamento ativo.</li>
+            <li data-i18n="type2.li7">Unidade do exame: <strong>polegadas de Hg</strong> (vácuo, manométrico).</li>
+          </ul>
+          <p class="typecard__caveat" data-i18n="type2.caveat">Tabela extraída do guia oficial (evacuação efetiva desde 13/07/1993, com
+            níveis mais rigorosos para equipamento certificado a partir de 15/11/1993). Confirme sempre contra o
+            material vigente da sua organização certificadora.</p>
+        </div>
+      </div>
+
+      <div class="tabs__panel" data-panel="type3">
+        <div class="typecard">
+          <div class="typecard__meta">
+            <span class="chip chip--red" data-i18n="type3.chip1">Baixa pressão</span>
+            <span class="chip" data-i18n="type3.chip2">Ponto de ebulição &gt; 10°C</span>
+          </div>
+          <h3 data-i18n="type3.h3">Low-pressure appliances (chillers)</h3>
+          <p data-i18n="type3.p">Chillers centrífugos de baixa pressão, comuns em grandes plantas comerciais/industriais. Refrigerantes
+            típicos: R-11, R-123.</p>
+          <ul class="factlist">
+            <li data-i18n="type3.li1">Sistema opera <strong>abaixo</strong> da pressão atmosférica — um vazamento puxa ar e umidade para
+              <strong>dentro</strong> do sistema, ao contrário do Type II.</li>
+            <li data-i18n="type3.li2">Nível de evacuação típico: <strong>≈ 25 mm Hg absoluto</strong> — mesma faixa antes e depois de 1993.</li>
+            <li data-i18n="type3.li3">Unidade do exame: <strong>milímetros de Hg, absoluto</strong> — não confundir com polegadas de Hg do Type II.</li>
+            <li data-i18n="type3.li4">Evacuação cuidadosa antes da recarga é crítica, pela alta sensibilidade à contaminação por ar/umidade.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FACTS -->
+  <section class="panel panel--blueprint" id="facts">
+    <h2 class="panel__title panel__title--light"><span class="panel__num">04</span> <span data-i18n="facts.title">Ficha de fatos — os números que a prova cobra</span></h2>
+    <p class="panel__intro" data-i18n="facts.intro">A EPA 608 testa números específicos mais do que qualquer outra prova de HVAC. Esta ficha
+      é gerada a partir de <code>data/facts.json</code> — edite o JSON para manter atualizado.</p>
+    <div class="factsheet" id="factSheet"><!-- injetado via JS --></div>
+  </section>
+
+  <!-- QUIZ -->
+  <section class="panel panel--paper" id="quiz">
+    <h2 class="panel__title"><span class="panel__num">05</span> <span data-i18n="quiz.title">Simulado dinâmico</span></h2>
+    <p class="panel__intro" data-i18n="quiz.intro">Questões carregadas de <code>data/questions.json</code>. Seu progresso e melhores notas
+      ficam salvos localmente no navegador (localStorage), por seção.</p>
+
+    <div class="quiz">
+      <div class="quiz__controls">
+        <label for="sectionSelect" data-i18n="quiz.sectionLabel">Seção</label>
+        <select id="sectionSelect">
+          <option value="core">Core</option>
+          <option value="type1">Type I</option>
+          <option value="type2">Type II</option>
+          <option value="type3">Type III</option>
+        </select>
+        <button id="startQuiz" class="btn btn--primary btn--sm" data-i18n="quiz.startBtn">Iniciar simulado</button>
+        <div class="quiz__best" id="quizBest"></div>
+      </div>
+
+      <div class="quiz__body" id="quizBody">
+        <p class="quiz__placeholder" data-i18n="quiz.placeholder">Selecione uma seção e clique em "Iniciar simulado" para começar.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p data-i18n="footer.text">PALCZUK EPA 608 Study Guide — material de estudo pessoal, sem afiliação com a EPA. Confirme sempre números
+    críticos junto à sua organização certificadora antes do exame.</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
