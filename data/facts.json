@@ -1,1 +1,148 @@
-
+{
+  "pt": {
+    "examStructure": [
+      { "label": "Total de questões", "value": "100 (25 por seção)" },
+      { "label": "Nota de corte", "value": "70% por seção (18/25)" },
+      { "label": "Seções", "value": "Core, Type I, Type II, Type III" },
+      { "label": "Universal", "value": "Aprovar nas quatro seções" },
+      { "label": "Reprovas", "value": "Só refaz a(s) seção(ões) reprovada(s)" },
+      { "label": "Validade", "value": "Certificação não expira" },
+      { "label": "Pré-requisito", "value": "Core é obrigatório para qualquer Type ou Universal" }
+    ],
+    "keyDates": [
+      { "label": "13 de julho de 1993", "value": "Todo sistema aberto à atmosfera passa a exigir recuperação e evacuação nos níveis oficiais" },
+      { "label": "15 de novembro de 1993", "value": "Equipamento de recuperação/reciclagem fabricado a partir desta data precisa certificação de laboratório aprovado pela EPA (ARI 740)" },
+      { "label": "Novembro de 1995", "value": "Proibição de venting passa a incluir também substitutos como HFCs (não por ODP, mas por potencial de aquecimento global)" },
+      { "label": "1º de janeiro de 1996", "value": "Proibida a fabricação ou importação de CFC nos EUA (refrigerante recuperado/reciclado ou já fabricado antes ainda pode ser usado)" }
+    ],
+    "recoveryType1": [
+      { "label": "Antes de 15/11/1993, compressor ligado ou não", "value": "80% do refrigerante, ou evacuar a 4 pol. Hg" },
+      { "label": "A partir de 15/11/1993, compressor funcionando", "value": "90%, ou evacuar a 4 pol. Hg" },
+      { "label": "A partir de 15/11/1993, compressor não funciona", "value": "80%, ou evacuar a 4 pol. Hg" }
+    ],
+    "evacuationLevels": [
+      { "label": "HCFC-22, carga < 200 lb", "value": "0 pol. Hg de vácuo" },
+      { "label": "HCFC-22, carga ≥ 200 lb", "value": "4 pol. Hg (pré-1993) / 10 pol. Hg (equip. certificado pós-1993)" },
+      { "label": "CFC-12, 500, 502, 114 — carga < 200 lb", "value": "4 pol. Hg (pré-1993) / 10 pol. Hg (equip. certificado pós-1993)" },
+      { "label": "CFC-12, 500, 502, 114 — carga ≥ 200 lb", "value": "4 pol. Hg (pré-1993) / 15 pol. Hg (equip. certificado pós-1993)" },
+      { "label": "Muito alta pressão — CFC-13, 503", "value": "0 pol. Hg de vácuo" },
+      { "label": "Baixa pressão — CFC-11, 123", "value": "25 mm Hg absoluto (mesmo valor antes e depois de 1993)" },
+      { "label": "Se vazamento impede atingir o nível exigido", "value": "Evacuar até a pressão atmosférica (0 psig) antes de abrir o sistema" },
+      { "label": "Meta geral de desidratação por vácuo profundo", "value": "500 microns, verificado com medidor de microns" }
+    ],
+    "threeRs": [
+      { "label": "Recover", "value": "Remover o refrigerante de um sistema, em qualquer condição, ativa ou passivamente, e armazená-lo em recipiente externo, sem necessariamente testar ou processar." },
+      { "label": "Recycle", "value": "Reduzir contaminantes (separação de óleo, remoção de não-condensáveis, passagens por filtro secador) para reuso, sem atingir as especificações de produto novo." },
+      { "label": "Reclaim", "value": "Reprocessar até a especificação ARI 700-1993, verificada por análise química — normalmente feito fora do local, em reclamadora ou pelo fabricante." }
+    ],
+    "leakRepair": [
+      { "label": "Limiar de obrigatoriedade", "value": "Só se aplica a equipamentos com carga de 50 lb ou mais" },
+      { "label": "Refrigeração comercial e industrial de processo (≥ 50 lb)", "value": "Reparo obrigatório se vazamento anual > 35% da carga" },
+      { "label": "Demais equipamentos (≥ 50 lb)", "value": "Reparo obrigatório se vazamento anual > 15% da carga" },
+      { "label": "Prazo padrão de reparo", "value": "30 dias após a descoberta" },
+      { "label": "Alternativa de retrofit/retirada", "value": "Documentado no local, concluído em até 1 ano" }
+    ],
+    "cylindersAndShipping": [
+      { "label": "Cilindro reutilizável (recuperação/transporte)", "value": "Corpo cinza, topo amarelo" },
+      { "label": "Cilindro descartável", "value": "DOT Spec 39, uso único — proibido reencher" },
+      { "label": "Enchimento máximo", "value": "80% da capacidade (líquido), para permitir expansão do gás" },
+      { "label": "Teste hidrostático (cilindros reutilizáveis)", "value": "A cada 5 anos" },
+      { "label": "Antes de descartar um cilindro", "value": "Reduzir a pressão a 0 psig ou menos e inutilizá-lo" }
+    ],
+    "safetyStandards": [
+      { "label": "ASHRAE Standard 34", "value": "Classifica refrigerantes por toxicidade (A = baixa, B = alta) e inflamabilidade (1 a 3). Ex.: A1, B3." },
+      { "label": "ASHRAE Standard 15-1994", "value": "Exige sensor de refrigerante, alarme e ventilação automática em salas de máquina ocupadas, para qualquer tipo de refrigerante" },
+      { "label": "Nitrogênio", "value": "Cilindros ~2000 psi — sempre usar regulador de pressão + válvula de alívio (nunca em série)" },
+      { "label": "Nunca usar", "value": "Ar comprimido ou oxigênio em teste de vazamento — oxigênio + óleo sob pressão é altamente explosivo" }
+    ],
+    "penalties": [
+      { "label": "Multa máxima (CAA)", "value": "Até US$ 27.500 por dia, por violação" },
+      { "label": "Recompensa por denúncia", "value": "Até US$ 10.000, oferecida pela EPA" }
+    ],
+    "unitTraps": [
+      { "label": "Type II (alta pressão)", "value": "Polegadas de Hg (in. Hg), vácuo manométrico" },
+      { "label": "Type III (baixa pressão)", "value": "Milímetros de Hg (mm Hg), pressão absoluta" },
+      { "label": "Recuperação passiva (system-dependent)", "value": "Proibida em Type II para aparelhos com mais de 15 lb de refrigerante — acima disso, exige equipamento ativo (compressor próprio)" }
+    ],
+    "definitions": [
+      { "label": "Major repair", "value": "Manutenção/reparo que envolve remoção do compressor, condensador, evaporador ou trocador de calor auxiliar" },
+      { "label": "Opening (abertura)", "value": "Qualquer serviço que liberaria refrigerante à atmosfera — conectar/desconectar mangueiras e manômetros para medir pressão NÃO é considerado 'opening'" },
+      { "label": "High-pressure appliance", "value": "Ponto de ebulição entre -50°C e 10°C (-58°F a 50°F) à pressão atmosférica — ex.: R-12, R-22, R-114, R-500, R-502" },
+      { "label": "Very high-pressure appliance", "value": "Ponto de ebulição abaixo de -50°C (-58°F) — ex.: R-13, R-503" },
+      { "label": "Low-pressure appliance", "value": "Ponto de ebulição acima de 10°C (50°F) — ex.: R-11, R-113, R-123" }
+    ]
+  },
+  "en": {
+    "examStructure": [
+      { "label": "Total questions", "value": "100 (25 per section)" },
+      { "label": "Passing score", "value": "70% per section (18/25)" },
+      { "label": "Sections", "value": "Core, Type I, Type II, Type III" },
+      { "label": "Universal", "value": "Pass all four sections" },
+      { "label": "Retakes", "value": "Only failed section(s) need to be retaken" },
+      { "label": "Validity", "value": "Certification does not expire" },
+      { "label": "Prerequisite", "value": "Core is required before any Type or Universal credential" }
+    ],
+    "keyDates": [
+      { "label": "July 13, 1993", "value": "Any system opened to the atmosphere now requires recovery and evacuation to the official levels" },
+      { "label": "November 15, 1993", "value": "Recovery/recycling equipment manufactured from this date needs certification from an EPA-approved lab (ARI 740)" },
+      { "label": "November 1995", "value": "The venting prohibition is extended to substitutes such as HFCs (not for ODP, but for global warming potential)" },
+      { "label": "January 1, 1996", "value": "Manufacture or import of CFCs is banned in the US (refrigerant recovered, recycled, or already produced before this date may still be used)" }
+    ],
+    "recoveryType1": [
+      { "label": "Before 11/15/1993, compressor working or not", "value": "80% of the charge, or evacuate to 4 in. Hg" },
+      { "label": "From 11/15/1993 onward, compressor working", "value": "90%, or evacuate to 4 in. Hg" },
+      { "label": "From 11/15/1993 onward, compressor not working", "value": "80%, or evacuate to 4 in. Hg" }
+    ],
+    "evacuationLevels": [
+      { "label": "HCFC-22, charge < 200 lb", "value": "0 in. Hg vacuum" },
+      { "label": "HCFC-22, charge ≥ 200 lb", "value": "4 in. Hg (pre-1993) / 10 in. Hg (certified post-1993 equipment)" },
+      { "label": "CFC-12, 500, 502, 114 — charge < 200 lb", "value": "4 in. Hg (pre-1993) / 10 in. Hg (certified post-1993 equipment)" },
+      { "label": "CFC-12, 500, 502, 114 — charge ≥ 200 lb", "value": "4 in. Hg (pre-1993) / 15 in. Hg (certified post-1993 equipment)" },
+      { "label": "Very high pressure — CFC-13, 503", "value": "0 in. Hg vacuum" },
+      { "label": "Low pressure — CFC-11, 123", "value": "25 mm Hg absolute (same value before and after 1993)" },
+      { "label": "If a leak prevents reaching the required level", "value": "Evacuate to atmospheric pressure (0 psig) before opening the system" },
+      { "label": "General deep-vacuum dehydration target", "value": "500 microns, checked with a micron gauge" }
+    ],
+    "threeRs": [
+      { "label": "Recover", "value": "Remove refrigerant from a system, in any condition, actively or passively, and store it in an external container without necessarily testing or processing it." },
+      { "label": "Recycle", "value": "Reduce contaminants (oil separation, non-condensable removal, passes through filter-driers) for reuse, without meeting new-product specifications." },
+      { "label": "Reclaim", "value": "Reprocess to the ARI 700-1993 specification, verified by chemical analysis — typically done off-site, at a reclaimer or by the manufacturer." }
+    ],
+    "leakRepair": [
+      { "label": "Mandatory threshold", "value": "Only applies to equipment with a charge of 50 lb or more" },
+      { "label": "Commercial & industrial process refrigeration (≥ 50 lb)", "value": "Repair required if annual leak rate exceeds 35% of charge" },
+      { "label": "Other equipment (≥ 50 lb)", "value": "Repair required if annual leak rate exceeds 15% of charge" },
+      { "label": "Standard repair deadline", "value": "30 days from discovery" },
+      { "label": "Retrofit/retire alternative", "value": "Documented on-site, completed within 1 year" }
+    ],
+    "cylindersAndShipping": [
+      { "label": "Reusable cylinder (recovery/transport)", "value": "Gray body, yellow top" },
+      { "label": "Disposable cylinder", "value": "DOT Spec 39, single use — refilling is prohibited" },
+      { "label": "Maximum fill", "value": "80% of capacity (liquid), to allow for gas expansion" },
+      { "label": "Hydrostatic test (reusable cylinders)", "value": "Every 5 years" },
+      { "label": "Before scrapping a cylinder", "value": "Reduce pressure to 0 psig or less and render it unusable" }
+    ],
+    "safetyStandards": [
+      { "label": "ASHRAE Standard 34", "value": "Classifies refrigerants by toxicity (A = low, B = high) and flammability (1–3). E.g.: A1, B3." },
+      { "label": "ASHRAE Standard 15-1994", "value": "Requires a refrigerant sensor, alarm, and automatic ventilation in occupied equipment rooms, for any refrigerant type" },
+      { "label": "Nitrogen", "value": "Cylinders ~2000 psi — always use a pressure regulator + relief valve (never in series)" },
+      { "label": "Never use", "value": "Compressed air or oxygen for leak testing — oxygen plus oil under pressure is highly explosive" }
+    ],
+    "penalties": [
+      { "label": "Maximum fine (CAA)", "value": "Up to $27,500 per day, per violation" },
+      { "label": "Reward for reporting", "value": "Up to $10,000, offered by the EPA" }
+    ],
+    "unitTraps": [
+      { "label": "Type II (high pressure)", "value": "Inches of Hg (in. Hg), gauge vacuum" },
+      { "label": "Type III (low pressure)", "value": "Millimeters of Hg (mm Hg), absolute pressure" },
+      { "label": "Passive (system-dependent) recovery", "value": "Prohibited in Type II for appliances with more than 15 lb of refrigerant — above that, active equipment (own compressor) is required" }
+    ],
+    "definitions": [
+      { "label": "Major repair", "value": "Maintenance/repair involving removal of the compressor, condenser, evaporator, or auxiliary heat exchanger coil" },
+      { "label": "Opening", "value": "Any service that would release refrigerant to the atmosphere — connecting/disconnecting hoses and gauges to measure pressure is NOT considered 'opening'" },
+      { "label": "High-pressure appliance", "value": "Boiling point between -50°C and 10°C (-58°F to 50°F) at atmospheric pressure — e.g., R-12, R-22, R-114, R-500, R-502" },
+      { "label": "Very high-pressure appliance", "value": "Boiling point below -50°C (-58°F) — e.g., R-13, R-503" },
+      { "label": "Low-pressure appliance", "value": "Boiling point above 10°C (50°F) — e.g., R-11, R-113, R-123" }
+    ]
+  }
+}
