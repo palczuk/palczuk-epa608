@@ -1,1 +1,850 @@
-
+{
+  "pt": {
+    "core": [
+      {
+        "q": "A partir de qual data é ilegal liberar (vent) refrigerantes Classe I e Classe II para a atmosfera durante o serviço?",
+        "options": ["1º de julho de 1992", "1º de julho de 1993", "15 de novembro de 1993", "1º de janeiro de 1996"],
+        "answer": 0,
+        "explain": "A proibição de venting de refrigerantes Classe I (CFC) e Classe II (HCFC) entrou em vigor em 1º de julho de 1992 — não confundir com a data de proibição de fabricação/importação (1996)."
+      },
+      {
+        "q": "A partir de qual data ficou proibida a fabricação ou importação de CFC nos Estados Unidos?",
+        "options": ["1º de julho de 1992", "15 de novembro de 1993", "1º de janeiro de 1996", "15 de novembro de 1995"],
+        "answer": 2,
+        "explain": "A fabricação/importação de CFC foi proibida a partir de 1º de janeiro de 1996. Refrigerante já fabricado antes dessa data, recuperado ou reciclado, ainda pode ser usado."
+      },
+      {
+        "q": "Qual átomo presente em CFCs e HCFCs é responsável por destruir o ozônio na estratosfera?",
+        "options": ["Flúor", "Carbono", "Hidrogênio", "Cloro"],
+        "answer": 3,
+        "explain": "O átomo de cloro reage com o ozônio formando monóxido de cloro, que se decompõe rapidamente liberando o cloro de volta — permitindo que um único átomo destrua milhares de moléculas de ozônio."
+      },
+      {
+        "q": "Uma molécula de ozônio é composta por:",
+        "options": ["Refrigerante e amônia", "Três átomos de oxigênio (O3)", "Oxigênio e amônia", "Um átomo de cloro"],
+        "answer": 1,
+        "explain": "Ozônio (O3) é uma molécula de três átomos de oxigênio ligados."
+      },
+      {
+        "q": "Qual das opções abaixo é um refrigerante CFC?",
+        "options": ["R-134a", "R-123", "R-22", "R-12"],
+        "answer": 3,
+        "explain": "R-12 é um CFC clássico. R-22 e R-123 são HCFCs; R-134a é um HFC (não contém cloro)."
+      },
+      {
+        "q": "Qual refrigerante não contém cloro?",
+        "options": ["R-134a", "R-123", "R-22", "R-12"],
+        "answer": 0,
+        "explain": "R-134a é um HFC (hidrofluorocarbono) — não tem cloro na molécula, por isso não contribui para a depleção de ozônio."
+      },
+      {
+        "q": "Recover (recuperar) significa, segundo a definição da EPA:",
+        "options": [
+          "Reduzir contaminantes no refrigerante usado por separação de óleo",
+          "Remover o refrigerante, em qualquer condição, de um sistema e armazená-lo em recipiente externo, sem necessariamente testar ou processar",
+          "Reprocessar o refrigerante até as especificações de produto novo",
+          "Remover o refrigerante e mudar sua propriedade"
+        ],
+        "answer": 1,
+        "explain": "Recovery é a remoção do refrigerante do sistema para um recipiente externo, independentemente de ser depois testado, reciclado ou reclamado."
+      },
+      {
+        "q": "Qual é a diferença central entre recycle e reclaim?",
+        "options": [
+          "Recycle deve ser feito em usina de reciclagem; reclaim pode ser feito no local",
+          "Recycle limpa o refrigerante para reuso; reclaim processa até a especificação de produto novo, com verificação química",
+          "Não há diferença prática entre os dois",
+          "Reclaim é sempre mais barato que recycle"
+        ],
+        "answer": 1,
+        "explain": "Recycle reduz contaminantes sem atingir pureza de produto novo; reclaim exige reprocessamento até o padrão ARI 700 e verificação por análise química, geralmente fora do local."
+      },
+      {
+        "q": "Qual porcentagem máxima de enchimento é recomendada para cilindros de refrigerante, para permitir a expansão do gás?",
+        "options": ["60%", "70%", "80%", "90%"],
+        "answer": 2,
+        "explain": "Cilindros nunca devem ser enchidos acima de 80% da capacidade — o espaço restante permite a expansão do refrigerante líquido sob variação de temperatura."
+      },
+      {
+        "q": "Vazamentos que exigem reparo obrigatório (equipamentos com 50 lb ou mais de refrigerante) seguem qual regra para refrigeração comercial/industrial de processo versus os demais equipamentos?",
+        "options": [
+          "15% ao ano para comercial/industrial de processo; 35% para os demais",
+          "35% ao ano para comercial/industrial de processo; 15% para os demais",
+          "20% ao ano para ambos",
+          "Não há limite definido, fica a critério do técnico"
+        ],
+        "answer": 1,
+        "explain": "Refrigeração comercial e industrial de processo tem limiar de 35% ao ano; todos os demais equipamentos (inclusive conforto térmico) têm limiar de 15% ao ano — ambos aplicáveis apenas a cargas de 50 lb ou mais."
+      },
+      {
+        "q": "Um vazamento que exige reparo geralmente deve ser corrigido em quantos dias após a descoberta?",
+        "options": ["10 dias", "30 dias", "90 dias", "180 dias"],
+        "answer": 1,
+        "explain": "O prazo padrão é 30 dias, salvo quando o proprietário documenta um plano de retrofit ou retirada, a ser concluído em até 1 ano."
+      },
+      {
+        "q": "Qual é a multa máxima prevista pela violação do Clean Air Act (CAA)?",
+        "options": ["US$ 2.750 por dia", "US$ 10.000 por dia", "US$ 27.500 por dia, por violação", "Não há multa monetária, apenas suspensão de licença"],
+        "answer": 2,
+        "explain": "A multa pode chegar a US$ 27.500 por dia, por violação, além de possível perda de certificação e processo em corte federal."
+      },
+      {
+        "q": "Uma pessoa que denuncia uma violação do CAA pode receber uma recompensa de até:",
+        "options": ["US$ 1.000", "US$ 10.000", "US$ 100.000", "Não há recompensa"],
+        "answer": 1,
+        "explain": "A EPA oferece recompensa de até US$ 10.000 para quem denunciar violações que resultem em multa."
+      },
+      {
+        "q": "O que é o Protocolo de Montreal?",
+        "options": [
+          "Um acordo entre Canadá e EUA sobre uso de refrigerantes",
+          "Um tratado internacional entre nações para proteger a camada de ozônio estratosférica",
+          "Um método de limpeza do ar desenvolvido em Montreal",
+          "Uma regulação sobre emissão de carbono"
+        ],
+        "answer": 1,
+        "explain": "O Protocolo de Montreal (1987) é um tratado internacional que estabeleceu o cronograma de eliminação de substâncias destruidoras da camada de ozônio, incluindo CFCs, HCFCs e halons."
+      },
+      {
+        "q": "Antes de descartar um cilindro de refrigerante, o técnico deve:",
+        "options": [
+          "Liberar o refrigerante restante para a atmosfera",
+          "Reduzir a pressão a 0 psig ou menos e inutilizar o cilindro",
+          "Furar o cilindro",
+          "Adicionar ar comprimido"
+        ],
+        "answer": 1,
+        "explain": "O cilindro deve ser esvaziado até 0 psig ou menos e inutilizado antes do descarte — nunca deve ser liberado diretamente para a atmosfera."
+      },
+      {
+        "q": "Cilindros de refrigerante reutilizáveis (usados para recuperação/transporte) costumam ter qual cor?",
+        "options": ["Verde com topo vermelho", "Cinza com topo amarelo", "Azul com topo branco", "Preto com topo laranja"],
+        "answer": 1,
+        "explain": "Cilindros reutilizáveis são tipicamente cinza com o topo amarelo. Cilindros descartáveis (DOT Spec 39) são de uso único e nunca devem ser reenchidos."
+      },
+      {
+        "q": "Com que frequência cilindros reutilizáveis devem passar por teste hidrostático?",
+        "options": ["A cada ano", "A cada 2 anos", "A cada 5 anos", "Nunca precisam ser testados"],
+        "answer": 2,
+        "explain": "O DOT exige teste hidrostático a cada 5 anos para cilindros reutilizáveis, com a devida marcação estampada no cilindro."
+      },
+      {
+        "q": "Qual gás é o mais indicado para pressurizar um sistema e testar vazamentos antes de carregar com refrigerante?",
+        "options": ["Oxigênio comprimido", "Ar comprimido", "Nitrogênio", "Refrigerante puro, sempre"],
+        "answer": 2,
+        "explain": "Nitrogênio é um gás inerte e é o método preferido para pressurizar e testar vazamentos. Ar comprimido e oxigênio nunca devem ser usados — a combinação com óleo sob pressão é altamente explosiva."
+      },
+      {
+        "q": "Segundo a norma ASHRAE 34, o que diferencia as classificações A e B de refrigerantes?",
+        "options": [
+          "A = inflamável, B = não inflamável",
+          "A = baixa toxicidade, B = alta toxicidade",
+          "A = alta pressão, B = baixa pressão",
+          "A = uso comercial, B = uso residencial"
+        ],
+        "answer": 1,
+        "explain": "A ASHRAE 34 classifica refrigerantes por toxicidade (A = baixa, B = alta) e por inflamabilidade (1 a 3, sendo 3 o mais inflamável) — por exemplo A1, B2, A3."
+      },
+      {
+        "q": "O que a ASHRAE Standard 15-1994 exige em salas de máquina ocupadas?",
+        "options": [
+          "Apenas extintores de incêndio",
+          "Sensor de refrigerante com alarme e partida automática de ventilação, antes do limite TLV-TWA ser excedido",
+          "Uso obrigatório de máscaras faciais",
+          "Nenhuma exigência específica"
+        ],
+        "answer": 1,
+        "explain": "A norma exige sensores que disparem alarme e ventilação automaticamente em salas ocupadas onde o refrigerante possa se concentrar, atuando antes que o limite de exposição (TLV-TWA) seja ultrapassado."
+      }
+    ],
+    "type1": [
+      {
+        "q": "Qual é a definição de 'small appliance' segundo a EPA?",
+        "options": [
+          "Fabricado, carregado e selado hermeticamente de fábrica com 1 lb ou menos de refrigerante",
+          "Fabricado, carregado e selado hermeticamente de fábrica com 5 lb ou menos de refrigerante",
+          "Qualquer aparelho com mais de 5 lb de refrigerante",
+          "Qualquer aparelho com menos de 15 lb de refrigerante"
+        ],
+        "answer": 1,
+        "explain": "Small appliances são selados hermeticamente de fábrica com carga de 5 lb ou menos — geladeiras domésticas, ar-condicionado de janela, desumidificadores, máquinas de vending, bebedouros, entre outros."
+      },
+      {
+        "q": "Usando equipamento de recuperação fabricado a partir de 15/11/1993, com o compressor do aparelho funcionando, qual a porcentagem mínima de recuperação exigida (ou nível de vácuo alternativo)?",
+        "options": [
+          "80%, ou vácuo de 4 pol. Hg",
+          "90%, ou vácuo de 4 pol. Hg",
+          "99%, ou vácuo de 10 pol. Hg",
+          "70%, ou vácuo de 6 pol. Hg"
+        ],
+        "answer": 1,
+        "explain": "Com o compressor funcionando e equipamento pós-1993, a exigência é 90% de recuperação, ou evacuar o sistema a 4 polegadas de Hg de vácuo."
+      },
+      {
+        "q": "E se o compressor não estiver funcionando, com o mesmo equipamento pós-1993?",
+        "options": ["70%, ou vácuo de 4 pol. Hg", "80%, ou vácuo de 4 pol. Hg", "90%, ou vácuo de 4 pol. Hg", "Não é possível recuperar sem compressor"],
+        "answer": 1,
+        "explain": "Com o compressor inoperante, a exigência cai para 80% de recuperação, ou evacuação a 4 polegadas de Hg de vácuo — usando válvulas de acesso no lado de alta e de baixa."
+      },
+      {
+        "q": "Equipamento de recuperação fabricado ANTES de 15/11/1993 deve ser capaz de recuperar, independente do compressor funcionar ou não:",
+        "options": ["70% do refrigerante, ou vácuo de 4 pol. Hg", "80% do refrigerante, ou vácuo de 4 pol. Hg", "90% do refrigerante, ou vácuo de 6 pol. Hg", "100% do refrigerante"],
+        "answer": 1,
+        "explain": "Equipamento fabricado antes de 15/11/1993 tem exigência única de 80%, independente do estado do compressor, ou vácuo de 4 polegadas de Hg."
+      },
+      {
+        "q": "Recuperação passiva (system-dependent) em small appliances:",
+        "options": [
+          "Sempre exige que o compressor do próprio aparelho esteja funcionando",
+          "Pode recuperar refrigerante mesmo com compressor não funcionando, para recipiente não pressurizado",
+          "É proibida pela EPA",
+          "Só pode ser usada em aparelhos com mais de 15 lb"
+        ],
+        "answer": 1,
+        "explain": "Recuperação passiva pode usar o compressor do próprio aparelho quando ele funciona; quando não funciona, ainda é possível recuperar via válvulas de acesso para um recipiente não pressurizado, atingindo os 80% ou o vácuo exigido."
+      },
+      {
+        "q": "Qual é a função de um 'low-loss fitting' em equipamento de recuperação fabricado a partir de 15/11/1993?",
+        "options": [
+          "Aumentar a velocidade de recuperação",
+          "Fechar automaticamente ou manualmente ao desconectar a mangueira, evitando perda de refrigerante",
+          "Filtrar umidade do refrigerante",
+          "Medir a pressão do sistema"
+        ],
+        "answer": 1,
+        "explain": "Low-loss fittings fecham (manual ou automaticamente) ao desconectar mangueiras, minimizando a liberação de refrigerante durante a troca de conexões."
+      },
+      {
+        "q": "É obrigatório reparar vazamentos em small appliances (Type I)?",
+        "options": [
+          "Sim, sempre em até 30 dias",
+          "Não é obrigatório, mas é uma boa prática reparar sempre que possível",
+          "Só é obrigatório acima de 5 lb",
+          "Só é obrigatório para aparelhos comerciais"
+        ],
+        "answer": 1,
+        "explain": "Ao contrário de equipamentos maiores, não há prazo legal obrigatório de reparo para small appliances — mas reparar vazamentos continua sendo boa prática recomendada."
+      },
+      {
+        "q": "Para trabalhar em small appliances a partir de 15/11/1993, qual certificação o técnico precisa ter?",
+        "options": ["Apenas Type II", "Type I ou Universal", "Apenas Core", "Nenhuma, é isento"],
+        "answer": 1,
+        "explain": "A certificação Type I (ou Universal, que inclui Type I) é exigida para comprar refrigerante regulado e atuar em small appliances."
+      },
+      {
+        "q": "Como recuperar refrigerante de um sistema com restrição total na entrada do tubo capilar e compressor não funcionando?",
+        "options": [
+          "Apenas uma válvula de acesso no lado de baixa",
+          "Duas válvulas de acesso, no lado de alta e no lado de baixa",
+          "Apenas uma válvula de acesso no lado de alta",
+          "Nenhuma válvula é necessária"
+        ],
+        "answer": 1,
+        "explain": "Com o compressor inoperante, é necessário acessar tanto o lado de alta quanto o de baixa pressão para atingir os 80% de recuperação exigidos."
+      }
+    ],
+    "type2": [
+      {
+        "q": "Antes de carregar um sistema novo com refrigerante, o que deve ser feito?",
+        "options": [
+          "Pressurizar com ar comprimido e testar vazamento",
+          "Pressurizar com nitrogênio (gás inerte) e testar vazamento",
+          "Pressurizar com oxigênio",
+          "Carregar direto, sem teste prévio"
+        ],
+        "answer": 1,
+        "explain": "Nitrogênio é o gás inerte recomendado para pressurizar e testar vazamentos antes da carga com refrigerante."
+      },
+      {
+        "q": "A classificação Type II, segundo a EPA, se aplica a qual tipo de equipamento?",
+        "options": [
+          "Small appliances com 5 lb ou menos",
+          "Geladeiras e máquinas de vending",
+          "Sistemas de baixa pressão como chillers centrífugos",
+          "Equipamentos de ar-condicionado split com 5 lb ou mais de refrigerante"
+        ],
+        "answer": 3,
+        "explain": "Type II cobre equipamentos de alta pressão como splits, bombas de calor e refrigeração comercial com carga de 5 lb ou mais."
+      },
+      {
+        "q": "Qual nível de evacuação é exigido para um sistema com HCFC-22 e carga menor que 200 lb?",
+        "options": ["0 pol. Hg", "4 pol. Hg", "10 pol. Hg", "15 pol. Hg"],
+        "answer": 0,
+        "explain": "Para HCFC-22 com carga abaixo de 200 lb, o nível exigido é 0 polegadas de Hg de vácuo — o único caso da tabela que não distingue equipamento pré/pós-1993."
+      },
+      {
+        "q": "Quantas polegadas de Hg de vácuo são exigidas para HCFC-22 com carga acima de 200 lb, usando equipamento fabricado a partir de 15/11/1993?",
+        "options": ["4", "10", "15", "25"],
+        "answer": 1,
+        "explain": "Com equipamento certificado pós-1993, o nível exigido sobe para 10 polegadas de Hg (contra 4 pol. Hg para equipamento pré-1993)."
+      },
+      {
+        "q": "Recuperação passiva (system-dependent) é proibida em Type II para aparelhos com carga de refrigerante acima de:",
+        "options": ["5 lb", "15 lb", "50 lb", "200 lb"],
+        "answer": 1,
+        "explain": "Acima de 15 lb, o técnico deve usar equipamento de recuperação ativo (com compressor próprio) — recuperação passiva não é permitida nesse caso."
+      },
+      {
+        "q": "Refrigeração comercial e industrial de processo com 50 lb ou mais de carga deve ter reparo obrigatório se o vazamento anual exceder:",
+        "options": ["10%", "15%", "35%", "50%"],
+        "answer": 2,
+        "explain": "O limiar para refrigeração comercial e industrial de processo é 35% ao ano; os demais equipamentos (incluindo conforto térmico) usam o limiar de 15%."
+      },
+      {
+        "q": "O que caracteriza um 'major repair' segundo a definição da EPA?",
+        "options": [
+          "Qualquer serviço que exija recuperação de refrigerante",
+          "Remoção do compressor, condensador, evaporador ou trocador de calor auxiliar",
+          "Reparo que custe mais de US$ 1.000",
+          "Substituição de filtro secador"
+        ],
+        "answer": 1,
+        "explain": "Major repair é definido pela remoção de um destes componentes específicos: compressor, condensador, evaporador ou trocador de calor auxiliar."
+      },
+      {
+        "q": "Se um vazamento é grande o suficiente para impedir atingir o nível de evacuação exigido, o que o técnico deve fazer?",
+        "options": [
+          "Evacuar até onde for possível e depois abrir o sistema normalmente",
+          "Evacuar até a pressão atmosférica (0 psig) antes de abrir o sistema",
+          "Não é permitido abrir o sistema nessas condições",
+          "Chamar a EPA para autorização especial"
+        ],
+        "answer": 1,
+        "explain": "Nesse caso excepcional, a exigência cai para evacuar até 0 psig (pressão atmosférica) antes de abrir o sistema."
+      },
+      {
+        "q": "Por que nunca se deve dar partida em um compressor hermético sob vácuo profundo?",
+        "options": [
+          "Não há problema em fazer isso",
+          "Pode danificar o compressor (enrolamento do motor, válvulas)",
+          "Só aumenta o consumo de energia",
+          "Isso acelera a evacuação"
+        ],
+        "answer": 1,
+        "explain": "Dar partida em compressor hermético sob vácuo profundo pode danificar o enrolamento do motor e as válvulas do compressor."
+      },
+      {
+        "q": "Qual é a unidade usada para expressar o nível de evacuação em sistemas Type II?",
+        "options": ["Milímetros de Hg absoluto", "Polegadas de Hg de vácuo", "PSIA", "Bar"],
+        "answer": 1,
+        "explain": "Type II usa polegadas de Hg (vácuo, manométrico) — diferente do Type III, que usa milímetros de Hg absoluto."
+      }
+    ],
+    "type3": [
+      {
+        "q": "Por que sistemas de baixa pressão (Type III) tendem a puxar ar e umidade para dentro, em vez de vazar refrigerante para fora?",
+        "options": [
+          "Porque operam acima da pressão atmosférica",
+          "Porque operam abaixo da pressão atmosférica (em vácuo)",
+          "Porque usam refrigerantes menos densos que o ar",
+          "Isso não ocorre em sistemas de baixa pressão"
+        ],
+        "answer": 1,
+        "explain": "Como esses sistemas operam em vácuo (abaixo da pressão atmosférica), qualquer vazamento tende a puxar ar e umidade para dentro do circuito, em vez de deixar refrigerante escapar."
+      },
+      {
+        "q": "Qual é o nível de evacuação exigido para sistemas de baixa pressão com refrigerantes como R-11 e R-123?",
+        "options": ["4 pol. Hg", "10 pol. Hg", "25 mm Hg absoluto", "0 psig"],
+        "answer": 2,
+        "explain": "O nível exigido é 25 mm Hg absoluto — o mesmo valor tanto para equipamento fabricado antes quanto depois de 15/11/1993."
+      },
+      {
+        "q": "Qual é a função do 'purge unit' em um chiller de baixa pressão?",
+        "options": [
+          "Remover refrigerante do sistema",
+          "Remover o óleo do sistema",
+          "Remover o ar (não-condensáveis) que se acumula no topo do condensador",
+          "Aquecer o refrigerante antes da recuperação"
+        ],
+        "answer": 2,
+        "explain": "O purge unit remove o ar e outros não-condensáveis que se acumulam no topo do condensador — operação excessiva do purge indica possível vazamento."
+      },
+      {
+        "q": "Qual é a pressão típica de disparo do disco de ruptura (rupture disk) em chillers centrífugos de baixa pressão?",
+        "options": ["5 psig", "10 psig", "15 psig", "25 psig"],
+        "answer": 2,
+        "explain": "O disco de ruptura normalmente dispara a 15 psig; por isso a pressão máxima de teste do sistema deve ficar em 10 psig ou menos."
+      },
+      {
+        "q": "Antes de remover óleo de um sistema de baixa pressão, a que temperatura ele deve ser aquecido para liberar o refrigerante contido nele?",
+        "options": ["70°F", "100°F", "130°F", "180°F"],
+        "answer": 2,
+        "explain": "O óleo deve ser aquecido a 130°F antes da remoção, para liberar o refrigerante que ficou dissolvido nele."
+      },
+      {
+        "q": "Ao recarregar um sistema de baixa pressão evacuado, por que se deve introduzir vapor antes do líquido?",
+        "options": [
+          "Para economizar refrigerante",
+          "Porque líquido injetado em vácuo profundo pode ferver e congelar a água presente nos tubos",
+          "Não há motivo técnico específico",
+          "Para acelerar o processo de carga"
+        ],
+        "answer": 1,
+        "explain": "Se refrigerante líquido for introduzido em vácuo profundo, ele vaporiza rapidamente e pode reduzir a temperatura o suficiente para congelar água nos tubos, causando ruptura."
+      },
+      {
+        "q": "Por onde um compressor centrífugo deve ser carregado com refrigerante?",
+        "options": [
+          "Pela válvula de carga do condensador",
+          "Pela válvula de carga do evaporador (ponto mais baixo do lado de baixa pressão)",
+          "Pela válvula do purge unit",
+          "Não importa o ponto de acesso"
+        ],
+        "answer": 1,
+        "explain": "A carga deve ser feita pela válvula de carga do evaporador, por ser o ponto mais baixo do lado de baixa pressão do sistema."
+      },
+      {
+        "q": "Como testar vazamento em uma water box de um chiller?",
+        "options": [
+          "Deixar a água e verificar bolhas",
+          "Remover a água e inserir a sonda do detector pela válvula de dreno",
+          "Testar apenas a água quanto a traços de refrigerante",
+          "Usar apenas uma lanterna para inspeção visual"
+        ],
+        "answer": 1,
+        "explain": "O procedimento recomendado é remover a água da water box e inserir a sonda do detector de vazamento pela válvula de dreno."
+      },
+      {
+        "q": "Qual unidade de medida é usada para o nível de evacuação em Type III, diferentemente do Type II?",
+        "options": ["Polegadas de Hg, manométrico", "PSIG", "Milímetros de Hg, absoluto", "Bar"],
+        "answer": 2,
+        "explain": "Type III usa milímetros de Hg absoluto (mm Hg), enquanto Type II usa polegadas de Hg de vácuo — uma armadilha clássica do exame."
+      },
+      {
+        "q": "Para earn (obter) a certificação Universal, o técnico precisa:",
+        "options": [
+          "Passar apenas no Core",
+          "Passar no Core mais Type II apenas",
+          "Passar no Core, Type I, Type II e Type III",
+          "Passar em quaisquer duas das quatro seções"
+        ],
+        "answer": 2,
+        "explain": "A certificação Universal exige aprovação nas quatro seções: Core, Type I, Type II e Type III, cada uma com nota mínima de 70%."
+      }
+    ]
+  },
+  "en": {
+    "core": [
+      {
+        "q": "As of what date is it illegal to vent Class I and Class II refrigerants to the atmosphere during service?",
+        "options": ["July 1, 1992", "July 1, 1993", "November 15, 1993", "January 1, 1996"],
+        "answer": 0,
+        "explain": "The venting prohibition for Class I (CFC) and Class II (HCFC) refrigerants took effect July 1, 1992 — don't confuse it with the manufacture/import ban date (1996)."
+      },
+      {
+        "q": "As of what date was manufacturing or importing CFCs banned in the United States?",
+        "options": ["July 1, 1992", "November 15, 1993", "January 1, 1996", "November 15, 1995"],
+        "answer": 2,
+        "explain": "CFC manufacture/import was banned starting January 1, 1996. Refrigerant already produced before that date, or recovered/recycled, may still be used."
+      },
+      {
+        "q": "Which atom found in CFCs and HCFCs is responsible for destroying ozone in the stratosphere?",
+        "options": ["Fluorine", "Carbon", "Hydrogen", "Chlorine"],
+        "answer": 3,
+        "explain": "Chlorine reacts with ozone to form chlorine monoxide, which quickly breaks down and releases the chlorine again — letting a single atom destroy thousands of ozone molecules."
+      },
+      {
+        "q": "An ozone molecule is made up of:",
+        "options": ["Refrigerant and ammonia", "Three oxygen atoms (O3)", "Oxygen and ammonia", "A single chlorine atom"],
+        "answer": 1,
+        "explain": "Ozone (O3) is a molecule of three bonded oxygen atoms."
+      },
+      {
+        "q": "Which of the following is a CFC refrigerant?",
+        "options": ["R-134a", "R-123", "R-22", "R-12"],
+        "answer": 3,
+        "explain": "R-12 is a classic CFC. R-22 and R-123 are HCFCs; R-134a is an HFC (contains no chlorine)."
+      },
+      {
+        "q": "Which refrigerant contains no chlorine?",
+        "options": ["R-134a", "R-123", "R-22", "R-12"],
+        "answer": 0,
+        "explain": "R-134a is an HFC (hydrofluorocarbon) — no chlorine in the molecule, so it does not contribute to ozone depletion."
+      },
+      {
+        "q": "According to the EPA definition, to recover means to:",
+        "options": [
+          "Reduce contaminants in used refrigerant through oil separation",
+          "Remove refrigerant, in any condition, from a system and store it in an external container, without necessarily testing or processing it",
+          "Reprocess refrigerant to new-product specifications",
+          "Remove refrigerant and change its ownership"
+        ],
+        "answer": 1,
+        "explain": "Recovery is removing refrigerant from the system into an external container, regardless of whether it's later tested, recycled, or reclaimed."
+      },
+      {
+        "q": "What is the core difference between recycle and reclaim?",
+        "options": [
+          "Recycling must be done at a recycling plant; reclaiming can be done on-site",
+          "Recycling cleans refrigerant for reuse; reclaiming processes it to new-product specification with chemical verification",
+          "There is no practical difference between the two",
+          "Reclaiming is always cheaper than recycling"
+        ],
+        "answer": 1,
+        "explain": "Recycling reduces contaminants without reaching new-product purity; reclaiming requires reprocessing to the ARI 700 standard and chemical-analysis verification, usually off-site."
+      },
+      {
+        "q": "What is the maximum recommended fill percentage for refrigerant cylinders, to allow for gas expansion?",
+        "options": ["60%", "70%", "80%", "90%"],
+        "answer": 2,
+        "explain": "Cylinders should never be filled above 80% of capacity — the remaining space allows for liquid refrigerant expansion as temperature changes."
+      },
+      {
+        "q": "For leaks that require mandatory repair (equipment with 50 lb or more of refrigerant), what rule applies to commercial/industrial process refrigeration versus other equipment?",
+        "options": [
+          "15% annually for commercial/industrial process; 35% for other equipment",
+          "35% annually for commercial/industrial process; 15% for other equipment",
+          "20% annually for both",
+          "No defined limit — it's up to the technician's judgment"
+        ],
+        "answer": 1,
+        "explain": "Commercial and industrial process refrigeration has a 35% annual threshold; all other equipment (including comfort cooling) has a 15% annual threshold — both only apply to charges of 50 lb or more."
+      },
+      {
+        "q": "A leak requiring repair must generally be fixed within how many days of discovery?",
+        "options": ["10 days", "30 days", "90 days", "180 days"],
+        "answer": 1,
+        "explain": "The standard deadline is 30 days, unless the owner documents a retrofit or retire plan, to be completed within 1 year."
+      },
+      {
+        "q": "What is the maximum fine for violating the Clean Air Act (CAA)?",
+        "options": ["$2,750 per day", "$10,000 per day", "$27,500 per day, per violation", "There is no monetary fine, only license suspension"],
+        "answer": 2,
+        "explain": "The fine can reach up to $27,500 per day, per violation, plus possible loss of certification and federal court proceedings."
+      },
+      {
+        "q": "Someone who reports a CAA violation may receive a reward of up to:",
+        "options": ["$1,000", "$10,000", "$100,000", "There is no reward"],
+        "answer": 1,
+        "explain": "The EPA offers a reward of up to $10,000 for reporting violations that result in a fine."
+      },
+      {
+        "q": "What is the Montreal Protocol?",
+        "options": [
+          "An agreement between Canada and the US on refrigerant use",
+          "An international treaty among nations designed to protect the stratospheric ozone layer",
+          "An air-cleaning method developed in Montreal",
+          "A carbon emissions regulation"
+        ],
+        "answer": 1,
+        "explain": "The Montreal Protocol (1987) is an international treaty that set the timetable for phasing out ozone-depleting substances, including CFCs, HCFCs, and halons."
+      },
+      {
+        "q": "Before scrapping a refrigerant cylinder, a technician must:",
+        "options": [
+          "Release the remaining refrigerant to the atmosphere",
+          "Reduce the pressure to 0 psig or less and render the cylinder unusable",
+          "Puncture the cylinder",
+          "Add compressed air"
+        ],
+        "answer": 1,
+        "explain": "The cylinder must be emptied to 0 psig or less and rendered unusable before disposal — it should never be released directly to the atmosphere."
+      },
+      {
+        "q": "Reusable refrigerant cylinders (used for recovery/transport) are typically what color?",
+        "options": ["Green with a red top", "Gray with a yellow top", "Blue with a white top", "Black with an orange top"],
+        "answer": 1,
+        "explain": "Reusable cylinders are typically gray with a yellow top. Disposable cylinders (DOT Spec 39) are single-use and must never be refilled."
+      },
+      {
+        "q": "How often must reusable cylinders undergo hydrostatic testing?",
+        "options": ["Every year", "Every 2 years", "Every 5 years", "They never need to be tested"],
+        "answer": 2,
+        "explain": "The DOT requires hydrostatic testing every 5 years for reusable cylinders, with the corresponding stamp on the cylinder."
+      },
+      {
+        "q": "Which gas is best suited for pressurizing a system and leak-testing it before charging with refrigerant?",
+        "options": ["Compressed oxygen", "Compressed air", "Nitrogen", "Pure refrigerant, always"],
+        "answer": 2,
+        "explain": "Nitrogen is an inert gas and is the preferred method for pressurizing and leak-testing. Compressed air and oxygen should never be used — combined with oil under pressure, they are highly explosive."
+      },
+      {
+        "q": "Under ASHRAE 34, what differentiates the A and B refrigerant classifications?",
+        "options": [
+          "A = flammable, B = non-flammable",
+          "A = low toxicity, B = high toxicity",
+          "A = high pressure, B = low pressure",
+          "A = commercial use, B = residential use"
+        ],
+        "answer": 1,
+        "explain": "ASHRAE 34 classifies refrigerants by toxicity (A = low, B = high) and by flammability (1 to 3, with 3 being most flammable) — for example A1, B2, A3."
+      },
+      {
+        "q": "What does ASHRAE Standard 15-1994 require in occupied equipment rooms?",
+        "options": [
+          "Fire extinguishers only",
+          "A refrigerant sensor with alarm and automatic ventilation start-up, before the TLV-TWA limit is exceeded",
+          "Mandatory use of face masks",
+          "No specific requirement"
+        ],
+        "answer": 1,
+        "explain": "The standard requires sensors that automatically trigger an alarm and ventilation in occupied rooms where refrigerant could concentrate, acting before the exposure limit (TLV-TWA) is exceeded."
+      }
+    ],
+    "type1": [
+      {
+        "q": "What is the EPA's definition of a 'small appliance'?",
+        "options": [
+          "Manufactured, charged, and hermetically sealed at the factory with 1 lb or less of refrigerant",
+          "Manufactured, charged, and hermetically sealed at the factory with 5 lb or less of refrigerant",
+          "Any appliance with more than 5 lb of refrigerant",
+          "Any appliance with less than 15 lb of refrigerant"
+        ],
+        "answer": 1,
+        "explain": "Small appliances are hermetically sealed at the factory with a charge of 5 lb or less — household refrigerators, window air conditioners, dehumidifiers, vending machines, drinking water coolers, among others."
+      },
+      {
+        "q": "Using recovery equipment manufactured on or after 11/15/1993, with the appliance's compressor running, what is the minimum recovery percentage required (or alternative vacuum level)?",
+        "options": [
+          "80%, or 4 in. Hg vacuum",
+          "90%, or 4 in. Hg vacuum",
+          "99%, or 10 in. Hg vacuum",
+          "70%, or 6 in. Hg vacuum"
+        ],
+        "answer": 1,
+        "explain": "With the compressor running and post-1993 equipment, the requirement is 90% recovery, or evacuating the system to 4 inches of Hg vacuum."
+      },
+      {
+        "q": "What if the compressor is not working, with the same post-1993 equipment?",
+        "options": ["70%, or 4 in. Hg vacuum", "80%, or 4 in. Hg vacuum", "90%, or 4 in. Hg vacuum", "Recovery isn't possible without a compressor"],
+        "answer": 1,
+        "explain": "With the compressor inoperative, the requirement drops to 80% recovery, or evacuation to 4 inches of Hg vacuum — using access valves on both the high and low sides."
+      },
+      {
+        "q": "Recovery equipment manufactured BEFORE 11/15/1993 must be able to recover, regardless of whether the compressor works:",
+        "options": ["70% of the refrigerant, or 4 in. Hg vacuum", "80% of the refrigerant, or 4 in. Hg vacuum", "90% of the refrigerant, or 6 in. Hg vacuum", "100% of the refrigerant"],
+        "answer": 1,
+        "explain": "Equipment manufactured before 11/15/1993 has a single requirement of 80%, regardless of compressor condition, or 4 inches of Hg vacuum."
+      },
+      {
+        "q": "Passive (system-dependent) recovery on small appliances:",
+        "options": [
+          "Always requires the appliance's own compressor to be working",
+          "Can still recover refrigerant even with a non-working compressor, into a non-pressurized container",
+          "Is prohibited by the EPA",
+          "Can only be used on appliances over 15 lb"
+        ],
+        "answer": 1,
+        "explain": "Passive recovery can use the appliance's own compressor when it works; when it doesn't, refrigerant can still be recovered through access valves into a non-pressurized container, reaching the required 80% or vacuum level."
+      },
+      {
+        "q": "What is the purpose of a 'low-loss fitting' on recovery equipment manufactured on or after 11/15/1993?",
+        "options": [
+          "Increase recovery speed",
+          "Close automatically or manually when the hose is disconnected, preventing refrigerant loss",
+          "Filter moisture from the refrigerant",
+          "Measure system pressure"
+        ],
+        "answer": 1,
+        "explain": "Low-loss fittings close (manually or automatically) when hoses are disconnected, minimizing refrigerant release during connection changes."
+      },
+      {
+        "q": "Is leak repair mandatory for small appliances (Type I)?",
+        "options": [
+          "Yes, always within 30 days",
+          "It's not mandatory, but repairing whenever possible is good practice",
+          "Only mandatory above 5 lb",
+          "Only mandatory for commercial appliances"
+        ],
+        "answer": 1,
+        "explain": "Unlike larger equipment, there is no mandatory legal repair deadline for small appliances — but repairing leaks remains recommended good practice."
+      },
+      {
+        "q": "To work on small appliances as of 11/15/1993, which certification must a technician hold?",
+        "options": ["Type II only", "Type I or Universal", "Core only", "None, it's exempt"],
+        "answer": 1,
+        "explain": "Type I certification (or Universal, which includes Type I) is required to purchase regulated refrigerant and work on small appliances."
+      },
+      {
+        "q": "How should refrigerant be recovered from a system with a complete restriction at the capillary tube inlet and a non-working compressor?",
+        "options": [
+          "A single access valve on the low side only",
+          "Two access valves, on both the high side and the low side",
+          "A single access valve on the high side only",
+          "No access valve is needed"
+        ],
+        "answer": 1,
+        "explain": "With the compressor inoperative, both the high side and low side must be accessed to reach the required 80% recovery."
+      }
+    ],
+    "type2": [
+      {
+        "q": "Before charging a new system with refrigerant, what should be done?",
+        "options": [
+          "Pressurize with compressed air and leak-test",
+          "Pressurize with nitrogen (an inert gas) and leak-test",
+          "Pressurize with oxygen",
+          "Charge directly, with no prior test"
+        ],
+        "answer": 1,
+        "explain": "Nitrogen is the recommended inert gas for pressurizing and leak-testing before charging with refrigerant."
+      },
+      {
+        "q": "According to the EPA, the Type II classification applies to which kind of equipment?",
+        "options": [
+          "Small appliances with 5 lb or less",
+          "Refrigerators and vending machines",
+          "Low-pressure systems such as centrifugal chillers",
+          "Split air-conditioning equipment with 5 lb or more of refrigerant"
+        ],
+        "answer": 3,
+        "explain": "Type II covers high-pressure equipment such as split systems, heat pumps, and commercial refrigeration with a charge of 5 lb or more."
+      },
+      {
+        "q": "What evacuation level is required for a system with HCFC-22 and a charge under 200 lb?",
+        "options": ["0 in. Hg", "4 in. Hg", "10 in. Hg", "15 in. Hg"],
+        "answer": 0,
+        "explain": "For HCFC-22 under 200 lb, the required level is 0 inches of Hg vacuum — the only case in the table that doesn't distinguish pre/post-1993 equipment."
+      },
+      {
+        "q": "How many inches of Hg vacuum are required for HCFC-22 with a charge over 200 lb, using equipment manufactured on or after 11/15/1993?",
+        "options": ["4", "10", "15", "25"],
+        "answer": 1,
+        "explain": "With certified post-1993 equipment, the required level rises to 10 inches of Hg (versus 4 in. Hg for pre-1993 equipment)."
+      },
+      {
+        "q": "Passive (system-dependent) recovery is prohibited in Type II for appliances with a refrigerant charge above:",
+        "options": ["5 lb", "15 lb", "50 lb", "200 lb"],
+        "answer": 1,
+        "explain": "Above 15 lb, the technician must use active recovery equipment (with its own compressor) — passive recovery is not permitted in that case."
+      },
+      {
+        "q": "Commercial and industrial process refrigeration with 50 lb or more of charge must be repaired if the annual leak rate exceeds:",
+        "options": ["10%", "15%", "35%", "50%"],
+        "answer": 2,
+        "explain": "The threshold for commercial and industrial process refrigeration is 35% annually; other equipment (including comfort cooling) uses the 15% threshold."
+      },
+      {
+        "q": "What defines a 'major repair' under the EPA's definition?",
+        "options": [
+          "Any service that requires recovering refrigerant",
+          "Removal of the compressor, condenser, evaporator, or auxiliary heat exchanger coil",
+          "A repair costing more than $1,000",
+          "Replacing a filter-drier"
+        ],
+        "answer": 1,
+        "explain": "A major repair is defined by removal of one of these specific components: compressor, condenser, evaporator, or auxiliary heat exchanger coil."
+      },
+      {
+        "q": "If a leak is large enough to prevent reaching the required evacuation level, what should the technician do?",
+        "options": [
+          "Evacuate as far as possible and then open the system normally",
+          "Evacuate to atmospheric pressure (0 psig) before opening the system",
+          "The system may not be opened under these conditions",
+          "Call the EPA for special authorization"
+        ],
+        "answer": 1,
+        "explain": "In this exceptional case, the requirement drops to evacuating to 0 psig (atmospheric pressure) before opening the system."
+      },
+      {
+        "q": "Why should a hermetic compressor never be started while under deep vacuum?",
+        "options": [
+          "There's no issue with doing this",
+          "It can damage the compressor (motor windings, valves)",
+          "It only increases energy consumption",
+          "It speeds up evacuation"
+        ],
+        "answer": 1,
+        "explain": "Starting a hermetic compressor under deep vacuum can damage the motor windings and the compressor's valves."
+      },
+      {
+        "q": "What unit is used to express the evacuation level in Type II systems?",
+        "options": ["Millimeters of Hg absolute", "Inches of Hg vacuum", "PSIA", "Bar"],
+        "answer": 1,
+        "explain": "Type II uses inches of Hg (vacuum, gauge) — unlike Type III, which uses millimeters of Hg absolute."
+      }
+    ],
+    "type3": [
+      {
+        "q": "Why do low-pressure (Type III) systems tend to draw air and moisture inward, instead of leaking refrigerant outward?",
+        "options": [
+          "Because they operate above atmospheric pressure",
+          "Because they operate below atmospheric pressure (in a vacuum)",
+          "Because they use refrigerants less dense than air",
+          "This does not happen in low-pressure systems"
+        ],
+        "answer": 1,
+        "explain": "Since these systems operate under vacuum (below atmospheric pressure), any leak tends to draw air and moisture into the circuit, rather than letting refrigerant escape."
+      },
+      {
+        "q": "What evacuation level is required for low-pressure systems using refrigerants such as R-11 and R-123?",
+        "options": ["4 in. Hg", "10 in. Hg", "25 mm Hg absolute", "0 psig"],
+        "answer": 2,
+        "explain": "The required level is 25 mm Hg absolute — the same value for equipment manufactured both before and after 11/15/1993."
+      },
+      {
+        "q": "What is the purpose of the 'purge unit' on a low-pressure chiller?",
+        "options": [
+          "Remove refrigerant from the system",
+          "Remove oil from the system",
+          "Remove air (non-condensables) that accumulates at the top of the condenser",
+          "Heat the refrigerant before recovery"
+        ],
+        "answer": 2,
+        "explain": "The purge unit removes air and other non-condensables that accumulate at the top of the condenser — excessive purge operation indicates a possible leak."
+      },
+      {
+        "q": "What is the typical trigger pressure of the rupture disk on low-pressure centrifugal chillers?",
+        "options": ["5 psig", "10 psig", "15 psig", "25 psig"],
+        "answer": 2,
+        "explain": "The rupture disk typically triggers at 15 psig, which is why the system's maximum test pressure should stay at 10 psig or below."
+      },
+      {
+        "q": "Before removing oil from a low-pressure system, to what temperature should it be heated to release the refrigerant trapped in it?",
+        "options": ["70°F", "100°F", "130°F", "180°F"],
+        "answer": 2,
+        "explain": "The oil should be heated to 130°F before removal, to release refrigerant that has dissolved into it."
+      },
+      {
+        "q": "When recharging an evacuated low-pressure system, why should vapor be introduced before liquid?",
+        "options": [
+          "To save refrigerant",
+          "Because liquid injected into a deep vacuum can boil and freeze water present in the tubes",
+          "There is no specific technical reason",
+          "To speed up the charging process"
+        ],
+        "answer": 1,
+        "explain": "If liquid refrigerant is introduced into a deep vacuum, it vaporizes rapidly and can lower the temperature enough to freeze water in the tubes, causing rupture."
+      },
+      {
+        "q": "Where should a centrifugal compressor be charged with refrigerant?",
+        "options": [
+          "Through the condenser charging valve",
+          "Through the evaporator charging valve (the lowest point on the low-pressure side)",
+          "Through the purge unit valve",
+          "The access point doesn't matter"
+        ],
+        "answer": 1,
+        "explain": "Charging should be done through the evaporator charging valve, since it's the lowest point on the low-pressure side of the system."
+      },
+      {
+        "q": "How should a chiller water box be leak-tested?",
+        "options": [
+          "Leave the water in and check for bubbles",
+          "Remove the water and insert the detector probe through the drain valve",
+          "Only test the water for traces of refrigerant",
+          "Use only a flashlight for visual inspection"
+        ],
+        "answer": 1,
+        "explain": "The recommended procedure is to remove the water from the water box and insert the leak-detector probe through the drain valve."
+      },
+      {
+        "q": "Which unit of measure is used for the evacuation level in Type III, unlike Type II?",
+        "options": ["Inches of Hg, gauge", "PSIG", "Millimeters of Hg, absolute", "Bar"],
+        "answer": 2,
+        "explain": "Type III uses millimeters of Hg absolute (mm Hg), while Type II uses inches of Hg vacuum — a classic exam trap."
+      },
+      {
+        "q": "To earn Universal certification, a technician must:",
+        "options": [
+          "Pass only Core",
+          "Pass Core plus Type II only",
+          "Pass Core, Type I, Type II, and Type III",
+          "Pass any two of the four sections"
+        ],
+        "answer": 2,
+        "explain": "Universal certification requires passing all four sections — Core, Type I, Type II, and Type III — each with a minimum score of 70%."
+      }
+    ]
+  }
+}
