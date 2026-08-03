@@ -246,6 +246,19 @@
     críticos junto à sua organização certificadora antes do exame.</p>
 </footer>
 
+<!-- STICKY PRIORITY PANEL -->
+<button class="sticky-toggle" id="stickyToggle" data-i18n="sticky.openLabel">Prioridades</button>
+<aside class="sticky-panel" id="stickyPanel" aria-label="Top priorities">
+  <div class="sticky-panel__head">
+    <div>
+      <strong data-i18n="sticky.title">★ Top prioridades</strong>
+      <span data-i18n="sticky.subtitle">Os fatos mais cobrados na prova</span>
+    </div>
+    <button class="sticky-panel__close" id="stickyClose" data-i18n-attr="aria-label:sticky.closeAria" aria-label="Fechar painel de prioridades">✕</button>
+  </div>
+  <dl class="sticky-panel__list" id="stickyList"><!-- injetado via JS --></dl>
+</aside>
+
 <script src="js/app.js"></script>
 </body>
 </html>

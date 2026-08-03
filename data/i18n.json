@@ -1,159 +1,422 @@
 {
-  "nav.overview":  { "pt": "Visão geral", "en": "Overview" },
-  "nav.core":      { "pt": "Core", "en": "Core" },
-  "nav.types":     { "pt": "Type I · II · III", "en": "Type I · II · III" },
-  "nav.facts":     { "pt": "Ficha de fatos", "en": "Fact sheet" },
-  "nav.quiz":      { "pt": "Simulado", "en": "Practice quiz" },
-
-  "hero.eyebrow": { "pt": "Engenharia Mecânica", "en": "Mechanical Engineering" },
+  "nav.overview": {
+    "pt": "Visão geral",
+    "en": "Overview"
+  },
+  "nav.core": {
+    "pt": "Core",
+    "en": "Core"
+  },
+  "nav.types": {
+    "pt": "Type I · II · III",
+    "en": "Type I · II · III"
+  },
+  "nav.facts": {
+    "pt": "Ficha de fatos",
+    "en": "Fact sheet"
+  },
+  "nav.quiz": {
+    "pt": "Simulado",
+    "en": "Practice quiz"
+  },
+  "hero.eyebrow": {
+    "pt": "Engenharia Mecânica",
+    "en": "Mechanical Engineering"
+  },
   "hero.lede": {
     "pt": "Guia de estudos dinâmico para a certificação federal exigida por lei para manusear refrigerantes nos EUA sob a Seção 608 do Clean Air Act — Core, Type I, Type II, Type III e Universal.",
     "en": "A dynamic study guide for the federal certification legally required to handle refrigerants in the US under Section 608 of the Clean Air Act — Core, Type I, Type II, Type III, and Universal."
   },
-  "hero.btnCore": { "pt": "Começar pelo Core", "en": "Start with Core" },
-  "hero.btnQuiz": { "pt": "Ir direto ao simulado", "en": "Jump to the practice quiz" },
-  "hero.note": { "pt": "Construído para uso pessoal de estudo · hospedável no GitHub Pages · pronto para integrar ao FieldCraft.", "en": "Built for personal study use · deployable on GitHub Pages · ready to plug into FieldCraft." },
-  "gauge.aria": { "pt": "Manômetro ilustrativo indicando as quatro seções do exame EPA 608", "en": "Illustrative gauge indicating the four sections of the EPA 608 exam" },
-
-  "section1.title": { "pt": "Estrutura da certificação", "en": "Certification structure" },
-
-  "core.title": { "pt": "Core — a base legal, obrigatória para todas as certificações", "en": "Core — the legal foundation, required for every certification" },
+  "hero.btnCore": {
+    "pt": "Começar pelo Core",
+    "en": "Start with Core"
+  },
+  "hero.btnQuiz": {
+    "pt": "Ir direto ao simulado",
+    "en": "Jump to the practice quiz"
+  },
+  "hero.note": {
+    "pt": "Construído para uso pessoal de estudo · hospedável no GitHub Pages · pronto para integrar ao FieldCraft.",
+    "en": "Built for personal study use · deployable on GitHub Pages · ready to plug into FieldCraft."
+  },
+  "gauge.aria": {
+    "pt": "Manômetro ilustrativo indicando as quatro seções do exame EPA 608",
+    "en": "Illustrative gauge indicating the four sections of the EPA 608 exam"
+  },
+  "section1.title": {
+    "pt": "Estrutura da certificação",
+    "en": "Certification structure"
+  },
+  "core.title": {
+    "pt": "Core — a base legal, obrigatória para todas as certificações",
+    "en": "Core — the legal foundation, required for every certification"
+  },
   "core.intro": {
     "pt": "O Core testa a lei, não o procedimento de campo: destruição do ozônio, Clean Air Act, Protocolo de Montreal, classificação de refrigerantes, os \"três Rs\" e segurança/transporte. Nenhum Type é válido sem passar no Core primeiro.",
     "en": "Core tests the law, not field procedure: ozone destruction, the Clean Air Act, the Montreal Protocol, refrigerant classification, the \"three Rs\", and safety/shipping. No Type certification counts without passing Core first."
   },
-  "core.acc1.summary": { "pt": "Destruição da camada de ozônio", "en": "Ozone layer destruction" },
+  "core.acc1.summary": {
+    "pt": "Destruição da camada de ozônio",
+    "en": "Ozone layer destruction"
+  },
   "core.acc1.body": {
     "pt": "Átomos de cloro liberados por CFCs e HCFCs quebram moléculas de ozônio na estratosfera — um único átomo de cloro pode destruir milhares de moléculas antes de se tornar inativo. É a base científica de toda a regulação da Seção 608.",
     "en": "Chlorine atoms released by CFCs and HCFCs break down ozone molecules in the stratosphere — a single chlorine atom can destroy thousands of molecules before it becomes inactive. This is the scientific basis for all of Section 608's regulation."
   },
-  "core.acc2.summary": { "pt": "Clean Air Act &amp; Protocolo de Montreal", "en": "Clean Air Act &amp; Montreal Protocol" },
+  "core.acc2.summary": {
+    "pt": "Clean Air Act &amp; Protocolo de Montreal",
+    "en": "Clean Air Act &amp; Montreal Protocol"
+  },
   "core.acc2.body": {
     "pt": "O Protocolo de Montreal (1987) estabeleceu o cronograma internacional de eliminação de substâncias destruidoras de ozônio; o Clean Air Act (via Seção 608) implementa essas obrigações dentro dos EUA.",
     "en": "The Montreal Protocol (1987) set the international timetable for phasing out ozone-depleting substances; the Clean Air Act (through Section 608) implements those obligations inside the US."
   },
-  "core.acc3.summary": { "pt": "Datas-chave de proibição", "en": "Key prohibition dates" },
+  "core.acc3.summary": {
+    "pt": "Datas-chave de proibição",
+    "en": "Key prohibition dates"
+  },
   "core.acc3.body": {
     "pt": "1º de julho de 1992: proibição de \"venting\" (liberação para a atmosfera) de CFCs e HCFCs. 15 de novembro de 1995: HFCs passam a ser incluídos na proibição de venting. 1º de janeiro de 1996: proibida a fabricação/importação de CFC nos EUA (refrigerante já fabricado, recuperado ou reciclado ainda pode ser usado).",
     "en": "July 1, 1992: venting (releasing refrigerant to the atmosphere) of CFCs and HCFCs becomes illegal. November 15, 1995: HFCs are added to the venting prohibition. January 1, 1996: manufacture/import of CFCs is banned in the US (refrigerant already produced, recovered, or recycled can still be used)."
   },
-  "core.acc4.summary": { "pt": "Liberação de minimis", "en": "De minimis release" },
+  "core.acc4.summary": {
+    "pt": "Liberação de minimis",
+    "en": "De minimis release"
+  },
   "core.acc4.body": {
     "pt": "Liberações de 0,1 onça ou menos — como a perda ao conectar/desconectar mangueiras de manifold — não exigem recuperação prévia do sistema.",
     "en": "Releases of 0.1 ounce or less — such as the small loss when connecting or disconnecting manifold hoses — do not require prior system recovery."
   },
-  "core.acc5.summary": { "pt": "Os três Rs: Recovery, Recycling, Reclamation", "en": "The three R's: Recovery, Recycling, Reclamation" },
+  "core.acc5.summary": {
+    "pt": "Os três Rs: Recovery, Recycling, Reclamation",
+    "en": "The three R's: Recovery, Recycling, Reclamation"
+  },
   "core.acc5.body": {
     "pt": "<strong>Recovery</strong> remove o refrigerante do sistema sem necessariamente processá-lo. <strong>Recycling</strong> reduz contaminantes para reuso, geralmente no local, sem atingir pureza de produto novo. <strong>Reclamation</strong> reprocessa até o padrão AHRI 700, testado quimicamente, normalmente fora do local.",
     "en": "<strong>Recovery</strong> removes refrigerant from the system without necessarily processing it. <strong>Recycling</strong> reduces contaminants for reuse, usually on-site, without reaching new-product purity. <strong>Reclamation</strong> reprocesses to the AHRI 700 standard, verified by chemical testing, typically off-site."
   },
-  "core.acc6.summary": { "pt": "Reparo de vazamentos", "en": "Leak repair" },
+  "core.acc6.summary": {
+    "pt": "Reparo de vazamentos",
+    "en": "Leak repair"
+  },
   "core.acc6.body": {
     "pt": "Só se aplica a equipamentos com carga de 50 lb ou mais. Refrigeração comercial e industrial de processo: reparo obrigatório acima de 35% de vazamento anual. Todos os demais equipamentos (inclusive conforto térmico): reparo obrigatório acima de 15% ao ano. Prazo padrão: 30 dias após a descoberta, ou até 1 ano com plano documentado de retrofit/retirada.",
     "en": "Only applies to equipment with a charge of 50 lb or more. Commercial and industrial process refrigeration: repair required above a 35% annual leak rate. All other equipment (including comfort cooling): repair required above 15% annually. Standard deadline: 30 days from discovery, or up to 1 year with a documented retrofit/retire plan."
   },
-  "core.acc7.summary": { "pt": "Segurança e transporte", "en": "Safety and shipping" },
+  "core.acc7.summary": {
+    "pt": "Segurança e transporte",
+    "en": "Safety and shipping"
+  },
   "core.acc7.body": {
     "pt": "Cobre EPI, ventilação adequada, classificações de segurança de refrigerantes (ASHRAE 34) e regras de transporte (DOT) para cilindros de refrigerante.",
     "en": "Covers PPE, proper ventilation, refrigerant safety classifications (ASHRAE 34), and DOT shipping rules for refrigerant cylinders."
   },
-
-  "types.title": { "pt": "Type I · Type II · Type III", "en": "Type I · Type II · Type III" },
+  "types.title": {
+    "pt": "Type I · Type II · Type III",
+    "en": "Type I · Type II · Type III"
+  },
   "types.intro": {
     "pt": "Sua base em termodinâmica ajuda bastante aqui: a lógica de pressão e ponto de ebulição é a mesma física que você já estudou — a EPA só amarra isso a limites legais específicos.",
     "en": "Your thermodynamics background helps a lot here: the pressure and boiling-point logic is the same physics you already studied — the EPA just ties it to specific legal limits."
   },
-
-  "type1.chip1": { "pt": "Equipamentos pequenos", "en": "Small appliances" },
-  "type1.chip2": { "pt": "≤ 5 lb de carga", "en": "≤ 5 lb charge" },
-  "type1.h3": { "pt": "Small appliances", "en": "Small appliances" },
+  "type1.chip1": {
+    "pt": "Equipamentos pequenos",
+    "en": "Small appliances"
+  },
+  "type1.chip2": {
+    "pt": "≤ 5 lb de carga",
+    "en": "≤ 5 lb charge"
+  },
+  "type1.h3": {
+    "pt": "Small appliances",
+    "en": "Small appliances"
+  },
   "type1.p": {
     "pt": "Selados hermeticamente, com carga de fábrica de refrigerante. Exemplos: geladeiras e freezers domésticos, ar-condicionado de janela, desumidificadores, máquinas de vending, bebedouros.",
     "en": "Hermetically sealed, with a factory refrigerant charge. Examples: household refrigerators and freezers, window air conditioners, dehumidifiers, vending machines, drinking water coolers."
   },
-  "type1.li1": { "pt": "<strong>Antes de 15/11/1993:</strong> recuperar 80% (compressor funcionando ou não), ou evacuar a 4 pol. Hg.", "en": "<strong>Before 11/15/1993:</strong> recover 80% (compressor working or not), or evacuate to 4 in. Hg." },
-  "type1.li2": { "pt": "<strong>Depois de 15/11/1993, compressor funcionando:</strong> recuperar 90%, ou evacuar a 4 pol. Hg.", "en": "<strong>After 11/15/1993, compressor working:</strong> recover 90%, or evacuate to 4 in. Hg." },
-  "type1.li3": { "pt": "<strong>Depois de 15/11/1993, compressor com defeito:</strong> recuperar 80%, ou evacuar a 4 pol. Hg.", "en": "<strong>After 11/15/1993, compressor not working:</strong> recover 80%, or evacuate to 4 in. Hg." },
-  "type1.li4": { "pt": "Recuperação <strong>passiva</strong> usa o compressor do próprio aparelho; <strong>ativa</strong> usa máquina externa com compressor próprio.", "en": "<strong>Passive</strong> recovery uses the appliance's own compressor; <strong>active</strong> recovery uses an external machine with its own compressor." },
-  "type1.li5": { "pt": "É a única seção do exame que pode ser feita em formato \"open book\".", "en": "It's the only exam section that may be offered open-book." },
-
-  "type2.chip1": { "pt": "Alta pressão", "en": "High pressure" },
-  "type2.chip2": { "pt": "Ponto de ebulição −50°C a 10°C", "en": "Boiling point −50°C to 10°C" },
-  "type2.h3": { "pt": "High-pressure appliances", "en": "High-pressure appliances" },
+  "type1.li1": {
+    "pt": "<strong>Antes de 15/11/1993:</strong> recuperar 80% (compressor funcionando ou não), ou evacuar a 4 pol. Hg.",
+    "en": "<strong>Before 11/15/1993:</strong> recover 80% (compressor working or not), or evacuate to 4 in. Hg."
+  },
+  "type1.li2": {
+    "pt": "<strong>Depois de 15/11/1993, compressor funcionando:</strong> recuperar 90%, ou evacuar a 4 pol. Hg.",
+    "en": "<strong>After 11/15/1993, compressor working:</strong> recover 90%, or evacuate to 4 in. Hg."
+  },
+  "type1.li3": {
+    "pt": "<strong>Depois de 15/11/1993, compressor com defeito:</strong> recuperar 80%, ou evacuar a 4 pol. Hg.",
+    "en": "<strong>After 11/15/1993, compressor not working:</strong> recover 80%, or evacuate to 4 in. Hg."
+  },
+  "type1.li4": {
+    "pt": "Recuperação <strong>passiva</strong> usa o compressor do próprio aparelho; <strong>ativa</strong> usa máquina externa com compressor próprio.",
+    "en": "<strong>Passive</strong> recovery uses the appliance's own compressor; <strong>active</strong> recovery uses an external machine with its own compressor."
+  },
+  "type1.li5": {
+    "pt": "É a única seção do exame que pode ser feita em formato \"open book\".",
+    "en": "It's the only exam section that may be offered open-book."
+  },
+  "type2.chip1": {
+    "pt": "Alta pressão",
+    "en": "High pressure"
+  },
+  "type2.chip2": {
+    "pt": "Ponto de ebulição −50°C a 10°C",
+    "en": "Boiling point −50°C to 10°C"
+  },
+  "type2.h3": {
+    "pt": "High-pressure appliances",
+    "en": "High-pressure appliances"
+  },
   "type2.p": {
     "pt": "Split systems residenciais, bombas de calor, refrigeração comercial, rooftops. Refrigerantes típicos: R-22, R-410A, R-404A, R-407C, R-507, R-134a (em sistemas comerciais grandes).",
     "en": "Residential split systems, heat pumps, commercial refrigeration, rooftop units. Typical refrigerants: R-22, R-410A, R-404A, R-407C, R-507, R-134a (in larger commercial systems)."
   },
-  "type2.li1": { "pt": "<strong>HCFC-22, &lt; 200 lb:</strong> 0 pol. Hg de vácuo.", "en": "<strong>HCFC-22, &lt; 200 lb:</strong> 0 in. Hg vacuum." },
-  "type2.li2": { "pt": "<strong>HCFC-22, ≥ 200 lb:</strong> 4 pol. Hg (equip. pré-1993) / 10 pol. Hg (equip. certificado pós-1993).", "en": "<strong>HCFC-22, ≥ 200 lb:</strong> 4 in. Hg (pre-1993 equipment) / 10 in. Hg (certified post-1993 equipment)." },
-  "type2.li3": { "pt": "<strong>CFC-12, 500, 502, 114, &lt; 200 lb:</strong> 4 pol. Hg (pré-1993) / 10 pol. Hg (pós-1993).", "en": "<strong>CFC-12, 500, 502, 114, &lt; 200 lb:</strong> 4 in. Hg (pre-1993) / 10 in. Hg (post-1993)." },
-  "type2.li4": { "pt": "<strong>CFC-12, 500, 502, 114, ≥ 200 lb:</strong> 4 pol. Hg (pré-1993) / 15 pol. Hg (pós-1993).", "en": "<strong>CFC-12, 500, 502, 114, ≥ 200 lb:</strong> 4 in. Hg (pre-1993) / 15 in. Hg (post-1993)." },
-  "type2.li5": { "pt": "<strong>Muito alta pressão</strong> (CFC-13, 503): 0 pol. Hg de vácuo, em qualquer carga.", "en": "<strong>Very high pressure</strong> (CFC-13, 503): 0 in. Hg vacuum, at any charge size." },
-  "type2.li6": { "pt": "Recuperação <strong>passiva é proibida</strong> acima de 15 lb de carga — exige equipamento ativo.", "en": "<strong>Passive recovery is prohibited</strong> above a 15 lb charge — active equipment is required." },
-  "type2.li7": { "pt": "Unidade do exame: <strong>polegadas de Hg</strong> (vácuo, manométrico).", "en": "Exam unit: <strong>inches of Hg</strong> (vacuum, gauge)." },
+  "type2.li1": {
+    "pt": "<strong>HCFC-22, &lt; 200 lb:</strong> 0 pol. Hg de vácuo.",
+    "en": "<strong>HCFC-22, &lt; 200 lb:</strong> 0 in. Hg vacuum."
+  },
+  "type2.li2": {
+    "pt": "<strong>HCFC-22, ≥ 200 lb:</strong> 4 pol. Hg (equip. pré-1993) / 10 pol. Hg (equip. certificado pós-1993).",
+    "en": "<strong>HCFC-22, ≥ 200 lb:</strong> 4 in. Hg (pre-1993 equipment) / 10 in. Hg (certified post-1993 equipment)."
+  },
+  "type2.li3": {
+    "pt": "<strong>CFC-12, 500, 502, 114, &lt; 200 lb:</strong> 4 pol. Hg (pré-1993) / 10 pol. Hg (pós-1993).",
+    "en": "<strong>CFC-12, 500, 502, 114, &lt; 200 lb:</strong> 4 in. Hg (pre-1993) / 10 in. Hg (post-1993)."
+  },
+  "type2.li4": {
+    "pt": "<strong>CFC-12, 500, 502, 114, ≥ 200 lb:</strong> 4 pol. Hg (pré-1993) / 15 pol. Hg (pós-1993).",
+    "en": "<strong>CFC-12, 500, 502, 114, ≥ 200 lb:</strong> 4 in. Hg (pre-1993) / 15 in. Hg (post-1993)."
+  },
+  "type2.li5": {
+    "pt": "<strong>Muito alta pressão</strong> (CFC-13, 503): 0 pol. Hg de vácuo, em qualquer carga.",
+    "en": "<strong>Very high pressure</strong> (CFC-13, 503): 0 in. Hg vacuum, at any charge size."
+  },
+  "type2.li6": {
+    "pt": "Recuperação <strong>passiva é proibida</strong> acima de 15 lb de carga — exige equipamento ativo.",
+    "en": "<strong>Passive recovery is prohibited</strong> above a 15 lb charge — active equipment is required."
+  },
+  "type2.li7": {
+    "pt": "Unidade do exame: <strong>polegadas de Hg</strong> (vácuo, manométrico).",
+    "en": "Exam unit: <strong>inches of Hg</strong> (vacuum, gauge)."
+  },
   "type2.caveat": {
     "pt": "Tabela extraída do guia oficial (evacuação efetiva desde 13/07/1993, com níveis mais rigorosos para equipamento certificado a partir de 15/11/1993). Confirme sempre contra o material vigente da sua organização certificadora.",
     "en": "Table drawn from the official guide (evacuation effective since 7/13/1993, with stricter levels for equipment certified from 11/15/1993 onward). Always confirm against your certifying organization's current material."
   },
-
-  "type3.chip1": { "pt": "Baixa pressão", "en": "Low pressure" },
-  "type3.chip2": { "pt": "Ponto de ebulição &gt; 10°C", "en": "Boiling point &gt; 10°C" },
-  "type3.h3": { "pt": "Low-pressure appliances (chillers)", "en": "Low-pressure appliances (chillers)" },
+  "type3.chip1": {
+    "pt": "Baixa pressão",
+    "en": "Low pressure"
+  },
+  "type3.chip2": {
+    "pt": "Ponto de ebulição &gt; 10°C",
+    "en": "Boiling point &gt; 10°C"
+  },
+  "type3.h3": {
+    "pt": "Low-pressure appliances (chillers)",
+    "en": "Low-pressure appliances (chillers)"
+  },
   "type3.p": {
     "pt": "Chillers centrífugos de baixa pressão, comuns em grandes plantas comerciais/industriais. Refrigerantes típicos: R-11, R-123.",
     "en": "Low-pressure centrifugal chillers, common in large commercial/industrial plants. Typical refrigerants: R-11, R-123."
   },
-  "type3.li1": { "pt": "Sistema opera <strong>abaixo</strong> da pressão atmosférica — um vazamento puxa ar e umidade para <strong>dentro</strong> do sistema, ao contrário do Type II.", "en": "The system operates <strong>below</strong> atmospheric pressure — a leak pulls air and moisture <strong>into</strong> the system, the opposite of Type II." },
-  "type3.li2": { "pt": "Nível de evacuação típico: <strong>≈ 25 mm Hg absoluto</strong> — mesma faixa antes e depois de 1993.", "en": "Typical evacuation level: <strong>≈ 25 mm Hg absolute</strong> — the same figure both before and after 1993." },
-  "type3.li3": { "pt": "Unidade do exame: <strong>milímetros de Hg, absoluto</strong> — não confundir com polegadas de Hg do Type II.", "en": "Exam unit: <strong>millimeters of Hg, absolute</strong> — don't confuse it with Type II's inches of Hg." },
-  "type3.li4": { "pt": "Evacuação cuidadosa antes da recarga é crítica, pela alta sensibilidade à contaminação por ar/umidade.", "en": "Careful evacuation before recharge is critical, given the high sensitivity to air/moisture contamination." },
-
-  "facts.title": { "pt": "Ficha de fatos — os números que a prova cobra", "en": "Fact sheet — the numbers the exam tests" },
+  "type3.li1": {
+    "pt": "Sistema opera <strong>abaixo</strong> da pressão atmosférica — um vazamento puxa ar e umidade para <strong>dentro</strong> do sistema, ao contrário do Type II.",
+    "en": "The system operates <strong>below</strong> atmospheric pressure — a leak pulls air and moisture <strong>into</strong> the system, the opposite of Type II."
+  },
+  "type3.li2": {
+    "pt": "Nível de evacuação típico: <strong>≈ 25 mm Hg absoluto</strong> — mesma faixa antes e depois de 1993.",
+    "en": "Typical evacuation level: <strong>≈ 25 mm Hg absolute</strong> — the same figure both before and after 1993."
+  },
+  "type3.li3": {
+    "pt": "Unidade do exame: <strong>milímetros de Hg, absoluto</strong> — não confundir com polegadas de Hg do Type II.",
+    "en": "Exam unit: <strong>millimeters of Hg, absolute</strong> — don't confuse it with Type II's inches of Hg."
+  },
+  "type3.li4": {
+    "pt": "Evacuação cuidadosa antes da recarga é crítica, pela alta sensibilidade à contaminação por ar/umidade.",
+    "en": "Careful evacuation before recharge is critical, given the high sensitivity to air/moisture contamination."
+  },
+  "facts.title": {
+    "pt": "Ficha de fatos — os números que a prova cobra",
+    "en": "Fact sheet — the numbers the exam tests"
+  },
   "facts.intro": {
     "pt": "A EPA 608 testa números específicos mais do que qualquer outra prova de HVAC. Esta ficha é gerada a partir de <code>data/facts.json</code> — edite o JSON para manter atualizado.",
     "en": "EPA 608 tests specific numbers more than almost any other HVAC exam. This sheet is generated from <code>data/facts.json</code> — edit the JSON to keep it current."
   },
-
-  "quiz.title": { "pt": "Simulado dinâmico", "en": "Dynamic practice quiz" },
+  "quiz.title": {
+    "pt": "Simulado dinâmico",
+    "en": "Dynamic practice quiz"
+  },
   "quiz.intro": {
     "pt": "Questões carregadas de <code>data/questions.json</code>. Seu progresso e melhores notas ficam salvos localmente no navegador (localStorage), por seção.",
     "en": "Questions loaded from <code>data/questions.json</code>. Your progress and best scores are saved locally in your browser (localStorage), per section."
   },
-  "quiz.sectionLabel": { "pt": "Seção", "en": "Section" },
-  "quiz.startBtn": { "pt": "Iniciar simulado", "en": "Start quiz" },
-  "quiz.placeholder": { "pt": "Selecione uma seção e clique em \"Iniciar simulado\" para começar.", "en": "Select a section and click \"Start quiz\" to begin." },
-
+  "quiz.sectionLabel": {
+    "pt": "Seção",
+    "en": "Section"
+  },
+  "quiz.startBtn": {
+    "pt": "Iniciar simulado",
+    "en": "Start quiz"
+  },
+  "quiz.placeholder": {
+    "pt": "Selecione uma seção e clique em \"Iniciar simulado\" para começar.",
+    "en": "Select a section and click \"Start quiz\" to begin."
+  },
   "footer.text": {
     "pt": "PALCZUK EPA 608 Study Guide — material de estudo pessoal, sem afiliação com a EPA. Confirme sempre números críticos junto à sua organização certificadora antes do exame.",
     "en": "PALCZUK EPA 608 Study Guide — personal study material, not affiliated with the EPA. Always confirm critical numbers with your certifying organization before the exam."
   },
-
-  "js.sectionLabels.core":  { "pt": "Core", "en": "Core" },
-  "js.sectionLabels.type1": { "pt": "Type I", "en": "Type I" },
-  "js.sectionLabels.type2": { "pt": "Type II", "en": "Type II" },
-  "js.sectionLabels.type3": { "pt": "Type III", "en": "Type III" },
-
-  "js.quiz.questionOf": { "pt": "Questão {n} de {total} · {section}", "en": "Question {n} of {total} · {section}" },
-  "js.quiz.next": { "pt": "Próxima pergunta", "en": "Next question" },
-  "js.quiz.seeResult": { "pt": "Ver resultado", "en": "See result" },
-  "js.quiz.bestWithData": { "pt": "Melhor resultado ({section}): {score}/{total} · tentativas: {attempts}", "en": "Best result ({section}): {score}/{total} · attempts: {attempts}" },
-  "js.quiz.bestEmpty": { "pt": "Sem tentativas salvas para {section} ainda.", "en": "No saved attempts for {section} yet." },
-  "js.quiz.above": { "pt": "ACIMA da linha de corte (70%)", "en": "ABOVE the passing line (70%)" },
-  "js.quiz.below": { "pt": "ABAIXO da linha de corte (70%)", "en": "BELOW the passing line (70%)" },
-  "js.quiz.passMsg": { "pt": "Bom sinal — revise as questões erradas na ficha de fatos e mantenha a prática distribuída ao longo da semana.", "en": "Good sign — review any missed questions against the fact sheet and keep practicing spread across the week." },
-  "js.quiz.failMsg": { "pt": "Ainda não é hora do exame real nesta seção. Volte à ficha de fatos e ao Core/Type correspondente antes de tentar de novo.", "en": "Not quite ready for the real exam on this section yet. Revisit the fact sheet and the matching Core/Type content before trying again." },
-  "js.quiz.retry": { "pt": "Tentar novamente", "en": "Try again" },
-
-  "lang.toggleAria": { "pt": "Mudar idioma", "en": "Switch language" },
-
-  "facts.group.dates": { "pt": "Datas-chave", "en": "Key dates" },
-  "facts.group.recoveryType1": { "pt": "Recuperação — Type I", "en": "Recovery — Type I" },
-  "facts.group.evacuation": { "pt": "Níveis de evacuação", "en": "Evacuation levels" },
-  "facts.group.threeRs": { "pt": "Os três Rs", "en": "The three R's" },
-  "facts.group.leakRepair": { "pt": "Reparo de vazamentos", "en": "Leak repair" },
-  "facts.group.cylinders": { "pt": "Cilindros e transporte", "en": "Cylinders and shipping" },
-  "facts.group.safety": { "pt": "Normas de segurança", "en": "Safety standards" },
-  "facts.group.penalties": { "pt": "Penalidades", "en": "Penalties" },
-  "facts.group.unitTraps": { "pt": "Armadilhas de unidade", "en": "Unit traps" },
-  "facts.group.definitions": { "pt": "Definições oficiais", "en": "Official definitions" }
+  "js.sectionLabels.core": {
+    "pt": "Core",
+    "en": "Core"
+  },
+  "js.sectionLabels.type1": {
+    "pt": "Type I",
+    "en": "Type I"
+  },
+  "js.sectionLabels.type2": {
+    "pt": "Type II",
+    "en": "Type II"
+  },
+  "js.sectionLabels.type3": {
+    "pt": "Type III",
+    "en": "Type III"
+  },
+  "js.quiz.questionOf": {
+    "pt": "Questão {n} de {total} · {section}",
+    "en": "Question {n} of {total} · {section}"
+  },
+  "js.quiz.next": {
+    "pt": "Próxima pergunta",
+    "en": "Next question"
+  },
+  "js.quiz.seeResult": {
+    "pt": "Ver resultado",
+    "en": "See result"
+  },
+  "js.quiz.bestWithData": {
+    "pt": "Melhor resultado ({section}): {score}/{total} · tentativas: {attempts}",
+    "en": "Best result ({section}): {score}/{total} · attempts: {attempts}"
+  },
+  "js.quiz.bestEmpty": {
+    "pt": "Sem tentativas salvas para {section} ainda.",
+    "en": "No saved attempts for {section} yet."
+  },
+  "js.quiz.above": {
+    "pt": "ACIMA da linha de corte (70%)",
+    "en": "ABOVE the passing line (70%)"
+  },
+  "js.quiz.below": {
+    "pt": "ABAIXO da linha de corte (70%)",
+    "en": "BELOW the passing line (70%)"
+  },
+  "js.quiz.passMsg": {
+    "pt": "Bom sinal — revise as questões erradas na ficha de fatos e mantenha a prática distribuída ao longo da semana.",
+    "en": "Good sign — review any missed questions against the fact sheet and keep practicing spread across the week."
+  },
+  "js.quiz.failMsg": {
+    "pt": "Ainda não é hora do exame real nesta seção. Volte à ficha de fatos e ao Core/Type correspondente antes de tentar de novo.",
+    "en": "Not quite ready for the real exam on this section yet. Revisit the fact sheet and the matching Core/Type content before trying again."
+  },
+  "js.quiz.retry": {
+    "pt": "Tentar novamente",
+    "en": "Try again"
+  },
+  "lang.toggleAria": {
+    "pt": "Mudar idioma",
+    "en": "Switch language"
+  },
+  "facts.group.dates": {
+    "pt": "Datas-chave",
+    "en": "Key dates"
+  },
+  "facts.group.recoveryType1": {
+    "pt": "Recuperação — Type I",
+    "en": "Recovery — Type I"
+  },
+  "facts.group.evacuation": {
+    "pt": "Níveis de evacuação",
+    "en": "Evacuation levels"
+  },
+  "facts.group.threeRs": {
+    "pt": "Os três Rs",
+    "en": "The three R's"
+  },
+  "facts.group.leakRepair": {
+    "pt": "Reparo de vazamentos",
+    "en": "Leak repair"
+  },
+  "facts.group.cylinders": {
+    "pt": "Cilindros e transporte",
+    "en": "Cylinders and shipping"
+  },
+  "facts.group.safety": {
+    "pt": "Normas de segurança",
+    "en": "Safety standards"
+  },
+  "facts.group.penalties": {
+    "pt": "Penalidades",
+    "en": "Penalties"
+  },
+  "facts.group.unitTraps": {
+    "pt": "Armadilhas de unidade",
+    "en": "Unit traps"
+  },
+  "facts.group.definitions": {
+    "pt": "Definições oficiais",
+    "en": "Official definitions"
+  },
+  "facts.group.oils": {
+    "pt": "Óleos de refrigeração",
+    "en": "Refrigeration oils"
+  },
+  "facts.group.blends": {
+    "pt": "Blends e fractionation",
+    "en": "Blends and fractionation"
+  },
+  "facts.group.cycle": {
+    "pt": "Ciclo de refrigeração",
+    "en": "Refrigeration cycle"
+  },
+  "facts.group.leakTools": {
+    "pt": "Detecção de vazamento",
+    "en": "Leak detection"
+  },
+  "facts.group.gauges": {
+    "pt": "Manômetros (manifold)",
+    "en": "Gauge manifold"
+  },
+  "facts.group.evacMicron": {
+    "pt": "Evacuação e microns",
+    "en": "Evacuation and microns"
+  },
+  "facts.group.recoverySpeed": {
+    "pt": "Acelerando a recuperação",
+    "en": "Speeding up recovery"
+  },
+  "facts.group.thermalDecomp": {
+    "pt": "Decomposição térmica",
+    "en": "Thermal decomposition"
+  },
+  "facts.group.substitutes": {
+    "pt": "Substitutos e drop-ins",
+    "en": "Substitutes and drop-ins"
+  },
+  "sticky.title": {
+    "pt": "★ Top prioridades",
+    "en": "★ Top priorities"
+  },
+  "sticky.subtitle": {
+    "pt": "Os fatos mais cobrados na prova",
+    "en": "The most heavily tested facts"
+  },
+  "sticky.openLabel": {
+    "pt": "Prioridades",
+    "en": "Priorities"
+  },
+  "sticky.closeAria": {
+    "pt": "Fechar painel de prioridades",
+    "en": "Close priorities panel"
+  }
 }

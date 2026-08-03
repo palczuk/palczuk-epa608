@@ -3,37 +3,67 @@
     "core": [
       {
         "q": "A partir de qual data é ilegal liberar (vent) refrigerantes Classe I e Classe II para a atmosfera durante o serviço?",
-        "options": ["1º de julho de 1992", "1º de julho de 1993", "15 de novembro de 1993", "1º de janeiro de 1996"],
+        "options": [
+          "1º de julho de 1992",
+          "1º de julho de 1993",
+          "15 de novembro de 1993",
+          "1º de janeiro de 1996"
+        ],
         "answer": 0,
         "explain": "A proibição de venting de refrigerantes Classe I (CFC) e Classe II (HCFC) entrou em vigor em 1º de julho de 1992 — não confundir com a data de proibição de fabricação/importação (1996)."
       },
       {
         "q": "A partir de qual data ficou proibida a fabricação ou importação de CFC nos Estados Unidos?",
-        "options": ["1º de julho de 1992", "15 de novembro de 1993", "1º de janeiro de 1996", "15 de novembro de 1995"],
+        "options": [
+          "1º de julho de 1992",
+          "15 de novembro de 1993",
+          "1º de janeiro de 1996",
+          "15 de novembro de 1995"
+        ],
         "answer": 2,
         "explain": "A fabricação/importação de CFC foi proibida a partir de 1º de janeiro de 1996. Refrigerante já fabricado antes dessa data, recuperado ou reciclado, ainda pode ser usado."
       },
       {
         "q": "Qual átomo presente em CFCs e HCFCs é responsável por destruir o ozônio na estratosfera?",
-        "options": ["Flúor", "Carbono", "Hidrogênio", "Cloro"],
+        "options": [
+          "Flúor",
+          "Carbono",
+          "Hidrogênio",
+          "Cloro"
+        ],
         "answer": 3,
         "explain": "O átomo de cloro reage com o ozônio formando monóxido de cloro, que se decompõe rapidamente liberando o cloro de volta — permitindo que um único átomo destrua milhares de moléculas de ozônio."
       },
       {
         "q": "Uma molécula de ozônio é composta por:",
-        "options": ["Refrigerante e amônia", "Três átomos de oxigênio (O3)", "Oxigênio e amônia", "Um átomo de cloro"],
+        "options": [
+          "Refrigerante e amônia",
+          "Três átomos de oxigênio (O3)",
+          "Oxigênio e amônia",
+          "Um átomo de cloro"
+        ],
         "answer": 1,
         "explain": "Ozônio (O3) é uma molécula de três átomos de oxigênio ligados."
       },
       {
         "q": "Qual das opções abaixo é um refrigerante CFC?",
-        "options": ["R-134a", "R-123", "R-22", "R-12"],
+        "options": [
+          "R-134a",
+          "R-123",
+          "R-22",
+          "R-12"
+        ],
         "answer": 3,
         "explain": "R-12 é um CFC clássico. R-22 e R-123 são HCFCs; R-134a é um HFC (não contém cloro)."
       },
       {
         "q": "Qual refrigerante não contém cloro?",
-        "options": ["R-134a", "R-123", "R-22", "R-12"],
+        "options": [
+          "R-134a",
+          "R-123",
+          "R-22",
+          "R-12"
+        ],
         "answer": 0,
         "explain": "R-134a é um HFC (hidrofluorocarbono) — não tem cloro na molécula, por isso não contribui para a depleção de ozônio."
       },
@@ -61,7 +91,12 @@
       },
       {
         "q": "Qual porcentagem máxima de enchimento é recomendada para cilindros de refrigerante, para permitir a expansão do gás?",
-        "options": ["60%", "70%", "80%", "90%"],
+        "options": [
+          "60%",
+          "70%",
+          "80%",
+          "90%"
+        ],
         "answer": 2,
         "explain": "Cilindros nunca devem ser enchidos acima de 80% da capacidade — o espaço restante permite a expansão do refrigerante líquido sob variação de temperatura."
       },
@@ -78,19 +113,34 @@
       },
       {
         "q": "Um vazamento que exige reparo geralmente deve ser corrigido em quantos dias após a descoberta?",
-        "options": ["10 dias", "30 dias", "90 dias", "180 dias"],
+        "options": [
+          "10 dias",
+          "30 dias",
+          "90 dias",
+          "180 dias"
+        ],
         "answer": 1,
         "explain": "O prazo padrão é 30 dias, salvo quando o proprietário documenta um plano de retrofit ou retirada, a ser concluído em até 1 ano."
       },
       {
         "q": "Qual é a multa máxima prevista pela violação do Clean Air Act (CAA)?",
-        "options": ["US$ 2.750 por dia", "US$ 10.000 por dia", "US$ 27.500 por dia, por violação", "Não há multa monetária, apenas suspensão de licença"],
+        "options": [
+          "US$ 2.750 por dia",
+          "US$ 10.000 por dia",
+          "US$ 27.500 por dia, por violação",
+          "Não há multa monetária, apenas suspensão de licença"
+        ],
         "answer": 2,
         "explain": "A multa pode chegar a US$ 27.500 por dia, por violação, além de possível perda de certificação e processo em corte federal."
       },
       {
         "q": "Uma pessoa que denuncia uma violação do CAA pode receber uma recompensa de até:",
-        "options": ["US$ 1.000", "US$ 10.000", "US$ 100.000", "Não há recompensa"],
+        "options": [
+          "US$ 1.000",
+          "US$ 10.000",
+          "US$ 100.000",
+          "Não há recompensa"
+        ],
         "answer": 1,
         "explain": "A EPA oferece recompensa de até US$ 10.000 para quem denunciar violações que resultem em multa."
       },
@@ -118,19 +168,34 @@
       },
       {
         "q": "Cilindros de refrigerante reutilizáveis (usados para recuperação/transporte) costumam ter qual cor?",
-        "options": ["Verde com topo vermelho", "Cinza com topo amarelo", "Azul com topo branco", "Preto com topo laranja"],
+        "options": [
+          "Verde com topo vermelho",
+          "Cinza com topo amarelo",
+          "Azul com topo branco",
+          "Preto com topo laranja"
+        ],
         "answer": 1,
         "explain": "Cilindros reutilizáveis são tipicamente cinza com o topo amarelo. Cilindros descartáveis (DOT Spec 39) são de uso único e nunca devem ser reenchidos."
       },
       {
         "q": "Com que frequência cilindros reutilizáveis devem passar por teste hidrostático?",
-        "options": ["A cada ano", "A cada 2 anos", "A cada 5 anos", "Nunca precisam ser testados"],
+        "options": [
+          "A cada ano",
+          "A cada 2 anos",
+          "A cada 5 anos",
+          "Nunca precisam ser testados"
+        ],
         "answer": 2,
         "explain": "O DOT exige teste hidrostático a cada 5 anos para cilindros reutilizáveis, com a devida marcação estampada no cilindro."
       },
       {
         "q": "Qual gás é o mais indicado para pressurizar um sistema e testar vazamentos antes de carregar com refrigerante?",
-        "options": ["Oxigênio comprimido", "Ar comprimido", "Nitrogênio", "Refrigerante puro, sempre"],
+        "options": [
+          "Oxigênio comprimido",
+          "Ar comprimido",
+          "Nitrogênio",
+          "Refrigerante puro, sempre"
+        ],
         "answer": 2,
         "explain": "Nitrogênio é um gás inerte e é o método preferido para pressurizar e testar vazamentos. Ar comprimido e oxigênio nunca devem ser usados — a combinação com óleo sob pressão é altamente explosiva."
       },
@@ -155,6 +220,127 @@
         ],
         "answer": 1,
         "explain": "A norma exige sensores que disparem alarme e ventilação automaticamente em salas ocupadas onde o refrigerante possa se concentrar, atuando antes que o limite de exposição (TLV-TWA) seja ultrapassado."
+      },
+      {
+        "q": "Qual é a função do aquecedor de cárter (crankcase heater) em um compressor?",
+        "options": [
+          "Aumentar a pressão de descarga",
+          "Evitar migração de refrigerante para o óleo durante paradas, prevenindo dano na partida",
+          "Aquecer o refrigerante antes da evaporação",
+          "Substituir o filtro secador"
+        ],
+        "answer": 1,
+        "explain": "O aquecedor de cárter evita que o refrigerante migre e se condense no óleo durante paradas, prevenindo dano ao compressor quando ele liga novamente."
+      },
+      {
+        "q": "Refrigerantes HFC como o R-134a exigem qual tipo de óleo lubrificante?",
+        "options": [
+          "Óleo mineral",
+          "Alquilbenzeno",
+          "POE (poliol éster) ou PAG (polialquilenoglicol)",
+          "Não precisam de óleo"
+        ],
+        "answer": 2,
+        "explain": "HFCs exigem óleos sintéticos POE ou PAG, incompatíveis com o óleo mineral usado em CFCs e HCFCs."
+      },
+      {
+        "q": "O que significa dizer que um óleo é 'higroscópico'?",
+        "options": [
+          "Que ele é altamente inflamável",
+          "Que ele absorve umidade",
+          "Que ele não se mistura com refrigerante",
+          "Que ele é usado só em baixa pressão"
+        ],
+        "answer": 1,
+        "explain": "Óleo higroscópico absorve água — e a água, combinada a calor e pressão, forma ácidos que corroem o sistema."
+      },
+      {
+        "q": "Refrigerantes zeotrópicos (numeração 4xx) devem ser carregados no sistema em qual estado?",
+        "options": [
+          "Vapor",
+          "Líquido",
+          "Não importa o estado",
+          "Sempre como mistura de vapor e líquido em partes iguais"
+        ],
+        "answer": 1,
+        "explain": "Blends zeotrópicos devem ser carregados como líquido para preservar a proporção original dos componentes da mistura."
+      },
+      {
+        "q": "O que é 'fractionation' em um blend zeotrópico?",
+        "options": [
+          "A separação do óleo do refrigerante",
+          "A mudança de composição do blend causada por vazamentos, já que os componentes vaporizam em taxas diferentes",
+          "Um método de reciclagem",
+          "A conversão de HFC em HCFC"
+        ],
+        "answer": 1,
+        "explain": "Como os componentes de um blend zeotrópico vaporizam em taxas diferentes, um vazamento pode alterar a composição restante do blend — esse fenômeno é a fractionation."
+      },
+      {
+        "q": "Qual componente do ciclo de refrigeração recebe o líquido de alta pressão vindo do condensador?",
+        "options": [
+          "Evaporador",
+          "Acumulador",
+          "Receiver",
+          "Compressor"
+        ],
+        "answer": 2,
+        "explain": "O receiver recebe e armazena o líquido de alta pressão proveniente do condensador, antes de seguir para o dispositivo de expansão."
+      },
+      {
+        "q": "Qual é a função do compressor no ciclo de refrigeração?",
+        "options": [
+          "Condensar vapor em líquido",
+          "Comprimir vapor de baixa pressão para vapor de alta pressão",
+          "Expandir líquido de alta pressão",
+          "Armazenar líquido residual"
+        ],
+        "answer": 1,
+        "explain": "O compressor recebe vapor de baixa pressão do acumulador/evaporador e o comprime para vapor de alta pressão, que segue para o condensador."
+      },
+      {
+        "q": "De que cor costuma ser o manômetro composto (compound gauge) e o que ele mede?",
+        "options": [
+          "Vermelho — mede alta pressão",
+          "Azul — mede baixa pressão (psig) e vácuo (pol. Hg)",
+          "Amarelo — mede apenas vácuo",
+          "Verde — mede temperatura"
+        ],
+        "answer": 1,
+        "explain": "O manômetro composto é tipicamente azul e mede tanto pressão baixa (psig) quanto vácuo (polegadas de Hg) no mesmo mostrador."
+      },
+      {
+        "q": "De que cor costuma ser o manômetro de alta pressão e o que ele mede?",
+        "options": [
+          "Azul — mede vácuo",
+          "Vermelho — mede a pressão de descarga do lado de alta",
+          "Amarelo — mede temperatura",
+          "Verde — mede baixa pressão"
+        ],
+        "answer": 1,
+        "explain": "O manômetro de alta pressão é tipicamente vermelho, com escala contínua (geralmente 0 a 500 psi), medindo a pressão de descarga."
+      },
+      {
+        "q": "Para que serve a mangueira central (geralmente amarela) de um jogo de manômetros?",
+        "options": [
+          "Só para medir temperatura",
+          "Conectar a um dispositivo de recuperação, bomba de vácuo ou carga de refrigerante",
+          "Substituir a mangueira de alta pressão",
+          "Não tem uso prático"
+        ],
+        "answer": 1,
+        "explain": "A mangueira central (amarela) é a via de conexão para recuperação, evacuação a vácuo ou carga de refrigerante no sistema."
+      },
+      {
+        "q": "Por que solda ou brasagem sem antes recuperar o refrigerante do sistema é perigoso?",
+        "options": [
+          "Não há perigo real",
+          "O calor pode decompor o refrigerante em ácido clorídrico, ácido fluorídrico e gás fosgênio, todos tóxicos",
+          "Isso só afeta a cor do metal",
+          "O refrigerante vira nitrogênio"
+        ],
+        "answer": 1,
+        "explain": "Chamas ou calor excessivo decompõem quimicamente o refrigerante residual, formando gases e ácidos tóxicos — por isso o sistema deve ser recuperado e evacuado antes de qualquer solda."
       }
     ],
     "type1": [
@@ -182,13 +368,23 @@
       },
       {
         "q": "E se o compressor não estiver funcionando, com o mesmo equipamento pós-1993?",
-        "options": ["70%, ou vácuo de 4 pol. Hg", "80%, ou vácuo de 4 pol. Hg", "90%, ou vácuo de 4 pol. Hg", "Não é possível recuperar sem compressor"],
+        "options": [
+          "70%, ou vácuo de 4 pol. Hg",
+          "80%, ou vácuo de 4 pol. Hg",
+          "90%, ou vácuo de 4 pol. Hg",
+          "Não é possível recuperar sem compressor"
+        ],
         "answer": 1,
         "explain": "Com o compressor inoperante, a exigência cai para 80% de recuperação, ou evacuação a 4 polegadas de Hg de vácuo — usando válvulas de acesso no lado de alta e de baixa."
       },
       {
         "q": "Equipamento de recuperação fabricado ANTES de 15/11/1993 deve ser capaz de recuperar, independente do compressor funcionar ou não:",
-        "options": ["70% do refrigerante, ou vácuo de 4 pol. Hg", "80% do refrigerante, ou vácuo de 4 pol. Hg", "90% do refrigerante, ou vácuo de 6 pol. Hg", "100% do refrigerante"],
+        "options": [
+          "70% do refrigerante, ou vácuo de 4 pol. Hg",
+          "80% do refrigerante, ou vácuo de 4 pol. Hg",
+          "90% do refrigerante, ou vácuo de 6 pol. Hg",
+          "100% do refrigerante"
+        ],
         "answer": 1,
         "explain": "Equipamento fabricado antes de 15/11/1993 tem exigência única de 80%, independente do estado do compressor, ou vácuo de 4 polegadas de Hg."
       },
@@ -227,7 +423,12 @@
       },
       {
         "q": "Para trabalhar em small appliances a partir de 15/11/1993, qual certificação o técnico precisa ter?",
-        "options": ["Apenas Type II", "Type I ou Universal", "Apenas Core", "Nenhuma, é isento"],
+        "options": [
+          "Apenas Type II",
+          "Type I ou Universal",
+          "Apenas Core",
+          "Nenhuma, é isento"
+        ],
         "answer": 1,
         "explain": "A certificação Type I (ou Universal, que inclui Type I) é exigida para comprar refrigerante regulado e atuar em small appliances."
       },
@@ -241,6 +442,72 @@
         ],
         "answer": 1,
         "explain": "Com o compressor inoperante, é necessário acessar tanto o lado de alta quanto o de baixa pressão para atingir os 80% de recuperação exigidos."
+      },
+      {
+        "q": "Qual é o comportamento correto ao recuperar refrigerante de um sistema com compressor operante, usando recuperação passiva?",
+        "options": [
+          "Recuperar apenas do lado de baixa",
+          "Usar o próprio compressor para bombear o refrigerante a partir de uma única válvula no lado de alta",
+          "Não é possível recuperar com compressor funcionando",
+          "Recuperar apenas do lado de alta sem usar o compressor"
+        ],
+        "answer": 1,
+        "explain": "Com o compressor funcionando, ele mesmo pode ser usado para bombear o refrigerante para um recipiente não pressurizado, geralmente a partir de uma válvula no lado de alta."
+      },
+      {
+        "q": "O que pode ser feito para ajudar a liberar refrigerante retido no óleo de um compressor não operante durante recuperação passiva?",
+        "options": [
+          "Aquecer e bater levemente no compressor",
+          "Resfriar o compressor com gelo",
+          "Adicionar nitrogênio ao óleo",
+          "Substituir o óleo imediatamente"
+        ],
+        "answer": 0,
+        "explain": "Aquecer e bater levemente (heat and strike) o compressor ajuda a liberar o refrigerante que ficou dissolvido no óleo, facilitando a recuperação passiva."
+      },
+      {
+        "q": "Solderless access fittings (conexões sem solda) instaladas para o serviço devem ser:",
+        "options": [
+          "Deixadas permanentemente no aparelho",
+          "Removidas ao final do serviço, pois tendem a vazar com o tempo",
+          "Substituídas por fita isolante",
+          "Usadas apenas em sistemas Type II"
+        ],
+        "answer": 1,
+        "explain": "Fittings sem solda (piercing valves) tendem a vazar ao longo do tempo e devem ser removidas ao final do serviço, não deixadas permanentemente."
+      },
+      {
+        "q": "Depois de recuperar o refrigerante e deixá-lo atingir a temperatura ambiente, como verificar se há ar ou não-condensáveis no cilindro?",
+        "options": [
+          "Cheirar o cilindro",
+          "Comparar a pressão do cilindro com a temperatura, usando uma tabela pressão/temperatura",
+          "Pesar o cilindro",
+          "Abrir e verificar visualmente"
+        ],
+        "answer": 1,
+        "explain": "Se a pressão lida no cilindro não corresponder à temperatura ambiente segundo a tabela pressão/temperatura do refrigerante, isso indica presença de ar ou outros não-condensáveis."
+      },
+      {
+        "q": "Um cilindro de recuperação misturado com refrigerantes diferentes deve ser tratado como?",
+        "options": [
+          "Descartado na atmosfera",
+          "Nunca deve ser misturado — recupere em tanque separado se isso já ocorreu",
+          "Reclamado normalmente sem restrição",
+          "Vendido como refrigerante virgem"
+        ],
+        "answer": 1,
+        "explain": "Refrigerantes nunca devem ser misturados em um cilindro de recuperação; se isso ocorreu, o conteúdo deve ser tratado à parte e a reclamadora avisada, podendo recusar ou cobrar taxa extra."
+      },
+      {
+        "q": "Small appliances (Type I) usando refrigerante recuperado podem ser recarregados com esse mesmo refrigerante sem reciclagem/reclamação, desde que:",
+        "options": [
+          "Nunca é permitido reusar sem reclamar",
+          "Seja devolvido ao mesmo aparelho ou a outro de mesma propriedade",
+          "Seja vendido para terceiros",
+          "Seja misturado com refrigerante novo"
+        ],
+        "answer": 1,
+        "explain": "Refrigerante recuperado pode ser devolvido ao aparelho de origem, ou a outro aparelho pertencente ao mesmo proprietário, sem precisar ser reciclado ou reclamado."
       }
     ],
     "type2": [
@@ -268,25 +535,45 @@
       },
       {
         "q": "Qual nível de evacuação é exigido para um sistema com HCFC-22 e carga menor que 200 lb?",
-        "options": ["0 pol. Hg", "4 pol. Hg", "10 pol. Hg", "15 pol. Hg"],
+        "options": [
+          "0 pol. Hg",
+          "4 pol. Hg",
+          "10 pol. Hg",
+          "15 pol. Hg"
+        ],
         "answer": 0,
         "explain": "Para HCFC-22 com carga abaixo de 200 lb, o nível exigido é 0 polegadas de Hg de vácuo — o único caso da tabela que não distingue equipamento pré/pós-1993."
       },
       {
         "q": "Quantas polegadas de Hg de vácuo são exigidas para HCFC-22 com carga acima de 200 lb, usando equipamento fabricado a partir de 15/11/1993?",
-        "options": ["4", "10", "15", "25"],
+        "options": [
+          "4",
+          "10",
+          "15",
+          "25"
+        ],
         "answer": 1,
         "explain": "Com equipamento certificado pós-1993, o nível exigido sobe para 10 polegadas de Hg (contra 4 pol. Hg para equipamento pré-1993)."
       },
       {
         "q": "Recuperação passiva (system-dependent) é proibida em Type II para aparelhos com carga de refrigerante acima de:",
-        "options": ["5 lb", "15 lb", "50 lb", "200 lb"],
+        "options": [
+          "5 lb",
+          "15 lb",
+          "50 lb",
+          "200 lb"
+        ],
         "answer": 1,
         "explain": "Acima de 15 lb, o técnico deve usar equipamento de recuperação ativo (com compressor próprio) — recuperação passiva não é permitida nesse caso."
       },
       {
         "q": "Refrigeração comercial e industrial de processo com 50 lb ou mais de carga deve ter reparo obrigatório se o vazamento anual exceder:",
-        "options": ["10%", "15%", "35%", "50%"],
+        "options": [
+          "10%",
+          "15%",
+          "35%",
+          "50%"
+        ],
         "answer": 2,
         "explain": "O limiar para refrigeração comercial e industrial de processo é 35% ao ano; os demais equipamentos (incluindo conforto térmico) usam o limiar de 15%."
       },
@@ -325,9 +612,124 @@
       },
       {
         "q": "Qual é a unidade usada para expressar o nível de evacuação em sistemas Type II?",
-        "options": ["Milímetros de Hg absoluto", "Polegadas de Hg de vácuo", "PSIA", "Bar"],
+        "options": [
+          "Milímetros de Hg absoluto",
+          "Polegadas de Hg de vácuo",
+          "PSIA",
+          "Bar"
+        ],
         "answer": 1,
         "explain": "Type II usa polegadas de Hg (vácuo, manométrico) — diferente do Type III, que usa milímetros de Hg absoluto."
+      },
+      {
+        "q": "Qual gás pode ser usado como gás traço (em pequena quantidade) misturado ao nitrogênio para ajudar a localizar um vazamento?",
+        "options": [
+          "Oxigênio",
+          "R-22",
+          "Ar comprimido",
+          "Hélio puro"
+        ],
+        "answer": 1,
+        "explain": "É aceitável usar uma pequena quantidade de R-22 como gás traço misturado ao nitrogênio para localizar vazamentos, embora nitrogênio puro seja sempre preferido."
+      },
+      {
+        "q": "Depois de concluir a recuperação, por que o técnico deve esperar alguns minutos e observar se a pressão sobe?",
+        "options": [
+          "Para verificar se o clima está estável",
+          "Porque líquido residual no sistema ou no óleo pode continuar vaporizando, exigindo recuperação adicional",
+          "Para economizar energia",
+          "Não há necessidade de esperar"
+        ],
+        "answer": 1,
+        "explain": "Se a pressão subir após a recuperação, isso indica que ainda há líquido no sistema ou dissolvido no óleo vaporizando — a recuperação deve continuar até estabilizar."
+      },
+      {
+        "q": "Qual é a meta geral de vácuo profundo para desidratação, medida com um medidor de microns?",
+        "options": [
+          "50 microns",
+          "250 microns",
+          "500 microns",
+          "1000 microns"
+        ],
+        "answer": 2,
+        "explain": "A meta geral de vácuo profundo para remover umidade é 500 microns, verificada com um medidor de microns (não um manômetro comum)."
+      },
+      {
+        "q": "Quais fatores afetam o tempo necessário para evacuar um sistema?",
+        "options": [
+          "Apenas o tamanho do sistema",
+          "Tamanho do equipamento, temperatura ambiente, quantidade de umidade e capacidade da bomba/linha de sucção",
+          "Apenas a cor do refrigerante",
+          "Apenas o tipo de óleo usado"
+        ],
+        "answer": 1,
+        "explain": "O tempo de evacuação depende do tamanho do equipamento, temperatura ambiente, quantidade de umidade presente e da capacidade da bomba e da linha de sucção."
+      },
+      {
+        "q": "O que pode acontecer se um vácuo profundo for puxado rápido demais em um sistema com muita água presente?",
+        "options": [
+          "Nada de especial",
+          "A água pode congelar dentro do sistema",
+          "O óleo evapora instantaneamente",
+          "O compressor liga sozinho"
+        ],
+        "answer": 1,
+        "explain": "Puxar vácuo rápido demais pode congelar água presente no sistema — nesses casos, deve-se evacuar mais devagar ou introduzir calor/nitrogênio."
+      },
+      {
+        "q": "Quais técnicas aceleram a recuperação de refrigerante?",
+        "options": [
+          "Manter o cilindro de recuperação quente",
+          "Manter o sistema quente e o cilindro de recuperação frio, com mangueiras curtas e largas",
+          "Usar mangueiras longas e finas",
+          "Recuperar apenas o vapor, nunca o líquido"
+        ],
+        "answer": 1,
+        "explain": "Manter o sistema aquecido (pressão alta) e o cilindro de recuperação frio (pressão baixa), com mangueiras curtas e de diâmetro largo, acelera significativamente a recuperação."
+      },
+      {
+        "q": "Por que se recomenda recuperar o refrigerante líquido antes do vapor?",
+        "options": [
+          "Não faz diferença na prática",
+          "Acelera o processo, já que o líquido carrega muito mais massa de refrigerante por unidade de tempo",
+          "O vapor é mais perigoso de recuperar",
+          "A lei exige recuperar vapor primeiro"
+        ],
+        "answer": 1,
+        "explain": "Recuperar o líquido primeiro acelera o processo, pois uma dada vazão de líquido remove muito mais massa de refrigerante do que a mesma vazão em vapor."
+      },
+      {
+        "q": "Não existem substitutos 'drop-in' verdadeiros para R-12 ou R-22 principalmente por quê?",
+        "options": [
+          "Por questões de custo apenas",
+          "Porque os óleos e refrigerantes novos não são compatíveis com os antigos",
+          "Porque é proibido por lei testar substitutos",
+          "Porque não existem refrigerantes alternativos"
+        ],
+        "answer": 1,
+        "explain": "A incompatibilidade entre os óleos/refrigerantes antigos (mineral, CFC/HCFC) e os novos (POE/PAG, HFC) impede a existência de um substituto 'drop-in' verdadeiro."
+      },
+      {
+        "q": "Qual é a ordem de preferência recomendada para testar vazamentos em um sistema Type II?",
+        "options": [
+          "Ar comprimido, depois oxigênio",
+          "Nitrogênio puro é o preferido; nitrogênio com traço de R-22 é aceitável como último recurso",
+          "Oxigênio puro sempre",
+          "Refrigerante puro sempre, sem gás inerte"
+        ],
+        "answer": 1,
+        "explain": "Nitrogênio puro é sempre a primeira escolha para pressurizar e testar vazamentos; usar refrigerante como traço é aceitável apenas quando necessário para localizar o vazamento."
+      },
+      {
+        "q": "Ao trocar de um refrigerante para outro na mesma máquina de recuperação, o que deve ser feito antes de recuperar o novo refrigerante?",
+        "options": [
+          "Nada, pode-se recuperar diretamente",
+          "Purgar o equipamento, recuperando ao máximo o refrigerante anterior, e trocar o filtro",
+          "Vender a máquina",
+          "Misturar os dois refrigerantes propositalmente"
+        ],
+        "answer": 1,
+        "explain": "Antes de mudar de refrigerante, o equipamento de recuperação deve ser purgado do refrigerante anterior e o filtro trocado, evitando contaminação cruzada."
       }
     ],
     "type3": [
@@ -344,7 +746,12 @@
       },
       {
         "q": "Qual é o nível de evacuação exigido para sistemas de baixa pressão com refrigerantes como R-11 e R-123?",
-        "options": ["4 pol. Hg", "10 pol. Hg", "25 mm Hg absoluto", "0 psig"],
+        "options": [
+          "4 pol. Hg",
+          "10 pol. Hg",
+          "25 mm Hg absoluto",
+          "0 psig"
+        ],
         "answer": 2,
         "explain": "O nível exigido é 25 mm Hg absoluto — o mesmo valor tanto para equipamento fabricado antes quanto depois de 15/11/1993."
       },
@@ -361,13 +768,23 @@
       },
       {
         "q": "Qual é a pressão típica de disparo do disco de ruptura (rupture disk) em chillers centrífugos de baixa pressão?",
-        "options": ["5 psig", "10 psig", "15 psig", "25 psig"],
+        "options": [
+          "5 psig",
+          "10 psig",
+          "15 psig",
+          "25 psig"
+        ],
         "answer": 2,
         "explain": "O disco de ruptura normalmente dispara a 15 psig; por isso a pressão máxima de teste do sistema deve ficar em 10 psig ou menos."
       },
       {
         "q": "Antes de remover óleo de um sistema de baixa pressão, a que temperatura ele deve ser aquecido para liberar o refrigerante contido nele?",
-        "options": ["70°F", "100°F", "130°F", "180°F"],
+        "options": [
+          "70°F",
+          "100°F",
+          "130°F",
+          "180°F"
+        ],
         "answer": 2,
         "explain": "O óleo deve ser aquecido a 130°F antes da remoção, para liberar o refrigerante que ficou dissolvido nele."
       },
@@ -406,7 +823,12 @@
       },
       {
         "q": "Qual unidade de medida é usada para o nível de evacuação em Type III, diferentemente do Type II?",
-        "options": ["Polegadas de Hg, manométrico", "PSIG", "Milímetros de Hg, absoluto", "Bar"],
+        "options": [
+          "Polegadas de Hg, manométrico",
+          "PSIG",
+          "Milímetros de Hg, absoluto",
+          "Bar"
+        ],
         "answer": 2,
         "explain": "Type III usa milímetros de Hg absoluto (mm Hg), enquanto Type II usa polegadas de Hg de vácuo — uma armadilha clássica do exame."
       },
@@ -420,6 +842,116 @@
         ],
         "answer": 2,
         "explain": "A certificação Universal exige aprovação nas quatro seções: Core, Type I, Type II e Type III, cada uma com nota mínima de 70%."
+      },
+      {
+        "q": "Segundo a diretriz ASHRAE 3-1996, quando um sistema de baixa pressão deve ser considerado como tendo um vazamento durante teste de vácuo?",
+        "options": [
+          "Nunca há um critério definido",
+          "Quando a pressão sobe de 1 mm Hg para acima de 2,5 mm Hg durante o teste",
+          "Somente se houver ruído audível",
+          "A cada 6 meses, independente do resultado"
+        ],
+        "answer": 1,
+        "explain": "A diretriz ASHRAE 3-1996 recomenda investigar vazamento quando o sistema sobe de 1 mm Hg para acima de 2,5 mm Hg durante o teste de vácuo."
+      },
+      {
+        "q": "O que caracteriza um purge unit de alta eficiência?",
+        "options": [
+          "Expele grandes quantidades de refrigerante junto com o ar",
+          "Expele muito pouco refrigerante ao remover os não-condensáveis",
+          "Não remove ar, apenas óleo",
+          "Funciona apenas em sistemas de alta pressão"
+        ],
+        "answer": 1,
+        "explain": "Um purge unit de alta eficiência remove os não-condensáveis (ar) do sistema liberando o mínimo possível de refrigerante junto."
+      },
+      {
+        "q": "De onde um purge unit de compressor centrífugo tipicamente puxa sua sucção?",
+        "options": [
+          "Do fundo do evaporador",
+          "Do topo do chiller barrel/condensador",
+          "Da sucção do compressor",
+          "Da válvula de carga"
+        ],
+        "answer": 1,
+        "explain": "O purge unit de um compressor centrífugo normalmente puxa sucção do topo do chiller barrel (condensador), onde os não-condensáveis se acumulam, devolvendo o refrigerante ao evaporador."
+      },
+      {
+        "q": "Qual é a pressão máxima recomendada ao pressurizar um sistema de baixa pressão para teste de vazamento?",
+        "options": [
+          "5 psig",
+          "10 psig ou menos, para não acionar o disco de ruptura (geralmente ajustado a 15 psig)",
+          "25 psig",
+          "50 psig"
+        ],
+        "answer": 1,
+        "explain": "A pressão de teste deve ficar em 10 psig ou menos, com margem de segurança abaixo do disco de ruptura, tipicamente ajustado para 15 psig."
+      },
+      {
+        "q": "Quais são as formas preferidas de aumentar a pressão em um sistema de baixa pressão para teste de vazamento?",
+        "options": [
+          "Ar comprimido e oxigênio",
+          "Água quente controlada ou mantas de aquecimento",
+          "Gelo seco",
+          "Vácuo profundo adicional"
+        ],
+        "answer": 1,
+        "explain": "Água quente controlada circulando pelo sistema, ou mantas de aquecimento, são os métodos preferidos para elevar a pressão sem usar gases perigosos."
+      },
+      {
+        "q": "Como testar vazamento em tubos suspeitos de furos, além dos métodos padrão?",
+        "options": [
+          "Teste hidrostático de tubo",
+          "Apenas inspeção visual externa",
+          "Impossível testar tubos individualmente",
+          "Substituir todos os tubos preventivamente"
+        ],
+        "answer": 0,
+        "explain": "Um teste hidrostático de tubo (hydrostatic tube test) pode ser usado quando há suspeita de vazamento em tubos específicos do feixe."
+      },
+      {
+        "q": "Por que sistemas de baixa pressão parados por longos períodos devem ter a pressão ligeiramente elevada acima da atmosférica?",
+        "options": [
+          "Para economizar refrigerante",
+          "Para evitar acúmulo de ar no sistema durante a inatividade",
+          "Para acelerar a próxima partida",
+          "Não há necessidade disso"
+        ],
+        "answer": 1,
+        "explain": "Manter a pressão levemente acima da atmosférica durante longos períodos parados evita que o ar seja puxado para dentro do sistema em vácuo."
+      },
+      {
+        "q": "De onde tipicamente vem a água usada em um condensador resfriado a água de um chiller?",
+        "options": [
+          "Do próprio evaporador",
+          "De um poço profundo, torre de resfriamento ou rede municipal",
+          "Sempre do próprio chiller",
+          "Não usa água externa"
+        ],
+        "answer": 1,
+        "explain": "A água de resfriamento normalmente vem de uma torre de resfriamento, poço profundo ou abastecimento municipal, dependendo da instalação."
+      },
+      {
+        "q": "Quais partes do sistema devem ser drenadas de água antes de recuperar o refrigerante de um chiller?",
+        "options": [
+          "Somente o evaporador",
+          "Evaporador e condensador",
+          "Somente a torre de resfriamento",
+          "Nenhuma drenagem é necessária"
+        ],
+        "answer": 1,
+        "explain": "Tanto o evaporador quanto o condensador (quando resfriados a água) devem ser drenados antes da recuperação, para evitar congelamento e facilitar o serviço."
+      },
+      {
+        "q": "Um chiller R-11 de 350 toneladas, depois de removido todo o líquido, ainda pode reter quantos quilos aproximados de vapor residual?",
+        "options": [
+          "Cerca de 10 lb",
+          "Cerca de 100 lb",
+          "Zero, não resta nada",
+          "Mais de 1000 lb"
+        ],
+        "answer": 1,
+        "explain": "Mesmo após remover todo o líquido, um chiller grande pode reter dezenas a mais de 100 lb de vapor residual, que deve ser recuperado separadamente."
       }
     ]
   },
@@ -427,37 +959,67 @@
     "core": [
       {
         "q": "As of what date is it illegal to vent Class I and Class II refrigerants to the atmosphere during service?",
-        "options": ["July 1, 1992", "July 1, 1993", "November 15, 1993", "January 1, 1996"],
+        "options": [
+          "July 1, 1992",
+          "July 1, 1993",
+          "November 15, 1993",
+          "January 1, 1996"
+        ],
         "answer": 0,
         "explain": "The venting prohibition for Class I (CFC) and Class II (HCFC) refrigerants took effect July 1, 1992 — don't confuse it with the manufacture/import ban date (1996)."
       },
       {
         "q": "As of what date was manufacturing or importing CFCs banned in the United States?",
-        "options": ["July 1, 1992", "November 15, 1993", "January 1, 1996", "November 15, 1995"],
+        "options": [
+          "July 1, 1992",
+          "November 15, 1993",
+          "January 1, 1996",
+          "November 15, 1995"
+        ],
         "answer": 2,
         "explain": "CFC manufacture/import was banned starting January 1, 1996. Refrigerant already produced before that date, or recovered/recycled, may still be used."
       },
       {
         "q": "Which atom found in CFCs and HCFCs is responsible for destroying ozone in the stratosphere?",
-        "options": ["Fluorine", "Carbon", "Hydrogen", "Chlorine"],
+        "options": [
+          "Fluorine",
+          "Carbon",
+          "Hydrogen",
+          "Chlorine"
+        ],
         "answer": 3,
         "explain": "Chlorine reacts with ozone to form chlorine monoxide, which quickly breaks down and releases the chlorine again — letting a single atom destroy thousands of ozone molecules."
       },
       {
         "q": "An ozone molecule is made up of:",
-        "options": ["Refrigerant and ammonia", "Three oxygen atoms (O3)", "Oxygen and ammonia", "A single chlorine atom"],
+        "options": [
+          "Refrigerant and ammonia",
+          "Three oxygen atoms (O3)",
+          "Oxygen and ammonia",
+          "A single chlorine atom"
+        ],
         "answer": 1,
         "explain": "Ozone (O3) is a molecule of three bonded oxygen atoms."
       },
       {
         "q": "Which of the following is a CFC refrigerant?",
-        "options": ["R-134a", "R-123", "R-22", "R-12"],
+        "options": [
+          "R-134a",
+          "R-123",
+          "R-22",
+          "R-12"
+        ],
         "answer": 3,
         "explain": "R-12 is a classic CFC. R-22 and R-123 are HCFCs; R-134a is an HFC (contains no chlorine)."
       },
       {
         "q": "Which refrigerant contains no chlorine?",
-        "options": ["R-134a", "R-123", "R-22", "R-12"],
+        "options": [
+          "R-134a",
+          "R-123",
+          "R-22",
+          "R-12"
+        ],
         "answer": 0,
         "explain": "R-134a is an HFC (hydrofluorocarbon) — no chlorine in the molecule, so it does not contribute to ozone depletion."
       },
@@ -485,7 +1047,12 @@
       },
       {
         "q": "What is the maximum recommended fill percentage for refrigerant cylinders, to allow for gas expansion?",
-        "options": ["60%", "70%", "80%", "90%"],
+        "options": [
+          "60%",
+          "70%",
+          "80%",
+          "90%"
+        ],
         "answer": 2,
         "explain": "Cylinders should never be filled above 80% of capacity — the remaining space allows for liquid refrigerant expansion as temperature changes."
       },
@@ -502,19 +1069,34 @@
       },
       {
         "q": "A leak requiring repair must generally be fixed within how many days of discovery?",
-        "options": ["10 days", "30 days", "90 days", "180 days"],
+        "options": [
+          "10 days",
+          "30 days",
+          "90 days",
+          "180 days"
+        ],
         "answer": 1,
         "explain": "The standard deadline is 30 days, unless the owner documents a retrofit or retire plan, to be completed within 1 year."
       },
       {
         "q": "What is the maximum fine for violating the Clean Air Act (CAA)?",
-        "options": ["$2,750 per day", "$10,000 per day", "$27,500 per day, per violation", "There is no monetary fine, only license suspension"],
+        "options": [
+          "$2,750 per day",
+          "$10,000 per day",
+          "$27,500 per day, per violation",
+          "There is no monetary fine, only license suspension"
+        ],
         "answer": 2,
         "explain": "The fine can reach up to $27,500 per day, per violation, plus possible loss of certification and federal court proceedings."
       },
       {
         "q": "Someone who reports a CAA violation may receive a reward of up to:",
-        "options": ["$1,000", "$10,000", "$100,000", "There is no reward"],
+        "options": [
+          "$1,000",
+          "$10,000",
+          "$100,000",
+          "There is no reward"
+        ],
         "answer": 1,
         "explain": "The EPA offers a reward of up to $10,000 for reporting violations that result in a fine."
       },
@@ -542,19 +1124,34 @@
       },
       {
         "q": "Reusable refrigerant cylinders (used for recovery/transport) are typically what color?",
-        "options": ["Green with a red top", "Gray with a yellow top", "Blue with a white top", "Black with an orange top"],
+        "options": [
+          "Green with a red top",
+          "Gray with a yellow top",
+          "Blue with a white top",
+          "Black with an orange top"
+        ],
         "answer": 1,
         "explain": "Reusable cylinders are typically gray with a yellow top. Disposable cylinders (DOT Spec 39) are single-use and must never be refilled."
       },
       {
         "q": "How often must reusable cylinders undergo hydrostatic testing?",
-        "options": ["Every year", "Every 2 years", "Every 5 years", "They never need to be tested"],
+        "options": [
+          "Every year",
+          "Every 2 years",
+          "Every 5 years",
+          "They never need to be tested"
+        ],
         "answer": 2,
         "explain": "The DOT requires hydrostatic testing every 5 years for reusable cylinders, with the corresponding stamp on the cylinder."
       },
       {
         "q": "Which gas is best suited for pressurizing a system and leak-testing it before charging with refrigerant?",
-        "options": ["Compressed oxygen", "Compressed air", "Nitrogen", "Pure refrigerant, always"],
+        "options": [
+          "Compressed oxygen",
+          "Compressed air",
+          "Nitrogen",
+          "Pure refrigerant, always"
+        ],
         "answer": 2,
         "explain": "Nitrogen is an inert gas and is the preferred method for pressurizing and leak-testing. Compressed air and oxygen should never be used — combined with oil under pressure, they are highly explosive."
       },
@@ -579,6 +1176,127 @@
         ],
         "answer": 1,
         "explain": "The standard requires sensors that automatically trigger an alarm and ventilation in occupied rooms where refrigerant could concentrate, acting before the exposure limit (TLV-TWA) is exceeded."
+      },
+      {
+        "q": "What is the purpose of a compressor's crankcase heater?",
+        "options": [
+          "Increase discharge pressure",
+          "Prevent refrigerant migration into the oil during shutdown, avoiding startup damage",
+          "Heat the refrigerant before evaporation",
+          "Replace the filter-drier"
+        ],
+        "answer": 1,
+        "explain": "The crankcase heater keeps refrigerant from migrating into and condensing in the oil during shutdown, preventing compressor damage when it restarts."
+      },
+      {
+        "q": "HFC refrigerants such as R-134a require which type of lubricating oil?",
+        "options": [
+          "Mineral oil",
+          "Alkylbenzene",
+          "POE (polyol ester) or PAG (polyalkylene glycol)",
+          "No oil is required"
+        ],
+        "answer": 2,
+        "explain": "HFCs require synthetic POE or PAG oils, which are incompatible with the mineral oil used with CFCs and HCFCs."
+      },
+      {
+        "q": "What does it mean to say an oil is 'hygroscopic'?",
+        "options": [
+          "That it's highly flammable",
+          "That it absorbs moisture",
+          "That it doesn't mix with refrigerant",
+          "That it's only used in low-pressure systems"
+        ],
+        "answer": 1,
+        "explain": "Hygroscopic oil absorbs water — and water, combined with heat and pressure, forms acids that corrode the system."
+      },
+      {
+        "q": "Zeotropic refrigerants (4xx numbering) must be charged into the system in which state?",
+        "options": [
+          "Vapor",
+          "Liquid",
+          "State doesn't matter",
+          "Always as an equal vapor/liquid mix"
+        ],
+        "answer": 1,
+        "explain": "Zeotropic blends must be charged as liquid to preserve the blend's original component ratio."
+      },
+      {
+        "q": "What is 'fractionation' in a zeotropic blend?",
+        "options": [
+          "Oil separating from the refrigerant",
+          "A change in the blend's composition caused by leaks, since components vaporize at different rates",
+          "A recycling method",
+          "Converting HFC into HCFC"
+        ],
+        "answer": 1,
+        "explain": "Since components of a zeotropic blend vaporize at different rates, a leak can change the composition of what remains — that phenomenon is fractionation."
+      },
+      {
+        "q": "Which refrigeration-cycle component receives high-pressure liquid from the condenser?",
+        "options": [
+          "Evaporator",
+          "Accumulator",
+          "Receiver",
+          "Compressor"
+        ],
+        "answer": 2,
+        "explain": "The receiver receives and stores high-pressure liquid from the condenser, before it moves on to the metering device."
+      },
+      {
+        "q": "What is the compressor's role in the refrigeration cycle?",
+        "options": [
+          "Condense vapor into liquid",
+          "Compress low-pressure vapor into high-pressure vapor",
+          "Expand high-pressure liquid",
+          "Store residual liquid"
+        ],
+        "answer": 1,
+        "explain": "The compressor takes in low-pressure vapor from the accumulator/evaporator and compresses it into high-pressure vapor, which moves on to the condenser."
+      },
+      {
+        "q": "What color is the compound gauge usually, and what does it measure?",
+        "options": [
+          "Red — measures high pressure",
+          "Blue — measures low pressure (psig) and vacuum (in. Hg)",
+          "Yellow — measures vacuum only",
+          "Green — measures temperature"
+        ],
+        "answer": 1,
+        "explain": "The compound gauge is typically blue and measures both low pressure (psig) and vacuum (inches of Hg) on the same dial."
+      },
+      {
+        "q": "What color is the high-pressure gauge usually, and what does it measure?",
+        "options": [
+          "Blue — measures vacuum",
+          "Red — measures the high-side discharge pressure",
+          "Yellow — measures temperature",
+          "Green — measures low pressure"
+        ],
+        "answer": 1,
+        "explain": "The high-pressure gauge is typically red, with a continuous scale (usually 0 to 500 psi), measuring discharge pressure."
+      },
+      {
+        "q": "What is the center hose (usually yellow) on a gauge manifold used for?",
+        "options": [
+          "Only measuring temperature",
+          "Connecting to a recovery device, vacuum pump, or charging device",
+          "Replacing the high-pressure hose",
+          "It has no practical use"
+        ],
+        "answer": 1,
+        "explain": "The center (yellow) hose is the connection point for recovery, vacuum evacuation, or charging the system with refrigerant."
+      },
+      {
+        "q": "Why is welding or brazing without first recovering the system's refrigerant dangerous?",
+        "options": [
+          "There's no real danger",
+          "Heat can decompose the refrigerant into hydrochloric acid, hydrofluoric acid, and phosgene gas, all toxic",
+          "It only affects the metal's color",
+          "The refrigerant turns into nitrogen"
+        ],
+        "answer": 1,
+        "explain": "Flame or excessive heat chemically decomposes remaining refrigerant, forming toxic gases and acids — which is why the system must be recovered and evacuated before any welding."
       }
     ],
     "type1": [
@@ -606,13 +1324,23 @@
       },
       {
         "q": "What if the compressor is not working, with the same post-1993 equipment?",
-        "options": ["70%, or 4 in. Hg vacuum", "80%, or 4 in. Hg vacuum", "90%, or 4 in. Hg vacuum", "Recovery isn't possible without a compressor"],
+        "options": [
+          "70%, or 4 in. Hg vacuum",
+          "80%, or 4 in. Hg vacuum",
+          "90%, or 4 in. Hg vacuum",
+          "Recovery isn't possible without a compressor"
+        ],
         "answer": 1,
         "explain": "With the compressor inoperative, the requirement drops to 80% recovery, or evacuation to 4 inches of Hg vacuum — using access valves on both the high and low sides."
       },
       {
         "q": "Recovery equipment manufactured BEFORE 11/15/1993 must be able to recover, regardless of whether the compressor works:",
-        "options": ["70% of the refrigerant, or 4 in. Hg vacuum", "80% of the refrigerant, or 4 in. Hg vacuum", "90% of the refrigerant, or 6 in. Hg vacuum", "100% of the refrigerant"],
+        "options": [
+          "70% of the refrigerant, or 4 in. Hg vacuum",
+          "80% of the refrigerant, or 4 in. Hg vacuum",
+          "90% of the refrigerant, or 6 in. Hg vacuum",
+          "100% of the refrigerant"
+        ],
         "answer": 1,
         "explain": "Equipment manufactured before 11/15/1993 has a single requirement of 80%, regardless of compressor condition, or 4 inches of Hg vacuum."
       },
@@ -651,7 +1379,12 @@
       },
       {
         "q": "To work on small appliances as of 11/15/1993, which certification must a technician hold?",
-        "options": ["Type II only", "Type I or Universal", "Core only", "None, it's exempt"],
+        "options": [
+          "Type II only",
+          "Type I or Universal",
+          "Core only",
+          "None, it's exempt"
+        ],
         "answer": 1,
         "explain": "Type I certification (or Universal, which includes Type I) is required to purchase regulated refrigerant and work on small appliances."
       },
@@ -665,6 +1398,72 @@
         ],
         "answer": 1,
         "explain": "With the compressor inoperative, both the high side and low side must be accessed to reach the required 80% recovery."
+      },
+      {
+        "q": "What is the correct approach when recovering refrigerant from a system with a working compressor, using passive recovery?",
+        "options": [
+          "Recover from the low side only",
+          "Use the appliance's own compressor to pump refrigerant from a single valve on the high side",
+          "It's not possible to recover with the compressor running",
+          "Recover from the high side without using the compressor"
+        ],
+        "answer": 1,
+        "explain": "With the compressor working, it can be used to pump refrigerant into a non-pressurized container, typically from a single valve on the high side."
+      },
+      {
+        "q": "What can help release refrigerant trapped in a non-operating compressor's oil during passive recovery?",
+        "options": [
+          "Heating and lightly striking the compressor",
+          "Cooling the compressor with ice",
+          "Adding nitrogen to the oil",
+          "Replacing the oil immediately"
+        ],
+        "answer": 0,
+        "explain": "Heating and lightly striking the compressor helps release refrigerant dissolved in the oil, aiding passive recovery."
+      },
+      {
+        "q": "Solderless (piercing) access fittings installed for service should be:",
+        "options": [
+          "Left permanently on the appliance",
+          "Removed at the end of service, since they tend to leak over time",
+          "Replaced with electrical tape",
+          "Used only on Type II systems"
+        ],
+        "answer": 1,
+        "explain": "Solderless piercing fittings tend to leak over time and should be removed at the end of service, not left permanently."
+      },
+      {
+        "q": "After recovering refrigerant and letting it reach room temperature, how do you check for air or non-condensables in the cylinder?",
+        "options": [
+          "Smell the cylinder",
+          "Compare the cylinder's pressure to temperature using a pressure/temperature chart",
+          "Weigh the cylinder",
+          "Open it and check visually"
+        ],
+        "answer": 1,
+        "explain": "If the cylinder's pressure doesn't match room temperature according to that refrigerant's pressure/temperature chart, it indicates air or other non-condensables are present."
+      },
+      {
+        "q": "A recovery cylinder that has ended up with mixed refrigerants should be treated how?",
+        "options": [
+          "Vented to the atmosphere",
+          "Never mix refrigerants — if it happened, recover into a separate tank",
+          "Reclaimed normally with no restriction",
+          "Sold as virgin refrigerant"
+        ],
+        "answer": 1,
+        "explain": "Refrigerants should never be mixed in a recovery cylinder; if it happens, the contents must be handled separately, and the reclaimer notified — they may refuse it or charge an extra fee."
+      },
+      {
+        "q": "Small appliances (Type I) using recovered refrigerant can be recharged with that same refrigerant without recycling/reclaiming, as long as it:",
+        "options": [
+          "It's never allowed to reuse without reclaiming",
+          "Is returned to the same appliance or another one owned by the same person",
+          "Is sold to a third party",
+          "Is mixed with virgin refrigerant"
+        ],
+        "answer": 1,
+        "explain": "Recovered refrigerant can be returned to the appliance it came from, or to another appliance owned by the same person, without needing to be recycled or reclaimed."
       }
     ],
     "type2": [
@@ -692,25 +1491,45 @@
       },
       {
         "q": "What evacuation level is required for a system with HCFC-22 and a charge under 200 lb?",
-        "options": ["0 in. Hg", "4 in. Hg", "10 in. Hg", "15 in. Hg"],
+        "options": [
+          "0 in. Hg",
+          "4 in. Hg",
+          "10 in. Hg",
+          "15 in. Hg"
+        ],
         "answer": 0,
         "explain": "For HCFC-22 under 200 lb, the required level is 0 inches of Hg vacuum — the only case in the table that doesn't distinguish pre/post-1993 equipment."
       },
       {
         "q": "How many inches of Hg vacuum are required for HCFC-22 with a charge over 200 lb, using equipment manufactured on or after 11/15/1993?",
-        "options": ["4", "10", "15", "25"],
+        "options": [
+          "4",
+          "10",
+          "15",
+          "25"
+        ],
         "answer": 1,
         "explain": "With certified post-1993 equipment, the required level rises to 10 inches of Hg (versus 4 in. Hg for pre-1993 equipment)."
       },
       {
         "q": "Passive (system-dependent) recovery is prohibited in Type II for appliances with a refrigerant charge above:",
-        "options": ["5 lb", "15 lb", "50 lb", "200 lb"],
+        "options": [
+          "5 lb",
+          "15 lb",
+          "50 lb",
+          "200 lb"
+        ],
         "answer": 1,
         "explain": "Above 15 lb, the technician must use active recovery equipment (with its own compressor) — passive recovery is not permitted in that case."
       },
       {
         "q": "Commercial and industrial process refrigeration with 50 lb or more of charge must be repaired if the annual leak rate exceeds:",
-        "options": ["10%", "15%", "35%", "50%"],
+        "options": [
+          "10%",
+          "15%",
+          "35%",
+          "50%"
+        ],
         "answer": 2,
         "explain": "The threshold for commercial and industrial process refrigeration is 35% annually; other equipment (including comfort cooling) uses the 15% threshold."
       },
@@ -749,9 +1568,124 @@
       },
       {
         "q": "What unit is used to express the evacuation level in Type II systems?",
-        "options": ["Millimeters of Hg absolute", "Inches of Hg vacuum", "PSIA", "Bar"],
+        "options": [
+          "Millimeters of Hg absolute",
+          "Inches of Hg vacuum",
+          "PSIA",
+          "Bar"
+        ],
         "answer": 1,
         "explain": "Type II uses inches of Hg (vacuum, gauge) — unlike Type III, which uses millimeters of Hg absolute."
+      },
+      {
+        "q": "Which gas can be used as a trace gas (in small quantity) mixed with nitrogen to help locate a leak?",
+        "options": [
+          "Oxygen",
+          "R-22",
+          "Compressed air",
+          "Pure helium"
+        ],
+        "answer": 1,
+        "explain": "It's acceptable to use a small quantity of R-22 as a trace gas mixed with nitrogen to locate leaks, though pure nitrogen alone is always preferred."
+      },
+      {
+        "q": "After completing recovery, why should a technician wait a few minutes and watch whether the pressure rises?",
+        "options": [
+          "To check whether the weather is stable",
+          "Because remaining liquid in the system or oil may keep vaporizing, requiring further recovery",
+          "To save energy",
+          "There's no need to wait"
+        ],
+        "answer": 1,
+        "explain": "If pressure rises after recovery, it indicates liquid remains in the system or dissolved in the oil and is still vaporizing — recovery should continue until it stabilizes."
+      },
+      {
+        "q": "What is the general deep-vacuum dehydration target, measured with a micron gauge?",
+        "options": [
+          "50 microns",
+          "250 microns",
+          "500 microns",
+          "1000 microns"
+        ],
+        "answer": 2,
+        "explain": "The general deep-vacuum target for removing moisture is 500 microns, checked with a micron gauge (not a standard gauge)."
+      },
+      {
+        "q": "What factors affect how long it takes to evacuate a system?",
+        "options": [
+          "Only the system's size",
+          "Equipment size, ambient temperature, amount of moisture, and pump/suction-line capacity",
+          "Only the refrigerant's color",
+          "Only the type of oil used"
+        ],
+        "answer": 1,
+        "explain": "Evacuation time depends on equipment size, ambient temperature, the amount of moisture present, and the capacity of the pump and suction line."
+      },
+      {
+        "q": "What can happen if a deep vacuum is pulled too quickly on a system with a lot of water present?",
+        "options": [
+          "Nothing special",
+          "Water inside the system can freeze",
+          "The oil evaporates instantly",
+          "The compressor starts by itself"
+        ],
+        "answer": 1,
+        "explain": "Pulling vacuum too fast can freeze water present in the system — in those cases, evacuate more slowly or introduce heat/nitrogen."
+      },
+      {
+        "q": "Which techniques speed up refrigerant recovery?",
+        "options": [
+          "Keeping the recovery cylinder warm",
+          "Keeping the system warm and the recovery cylinder cold, with short, wide hoses",
+          "Using long, thin hoses",
+          "Recovering vapor only, never liquid"
+        ],
+        "answer": 1,
+        "explain": "Keeping the system warm (high pressure) and the recovery cylinder cold (low pressure), with short, large-diameter hoses, significantly speeds up recovery."
+      },
+      {
+        "q": "Why is it recommended to recover liquid refrigerant before vapor?",
+        "options": [
+          "It makes no practical difference",
+          "It speeds up the process, since liquid carries far more refrigerant mass per unit of flow",
+          "Vapor is more dangerous to recover",
+          "The law requires recovering vapor first"
+        ],
+        "answer": 1,
+        "explain": "Recovering liquid first speeds up the process, since a given flow rate of liquid removes far more refrigerant mass than the same flow rate of vapor."
+      },
+      {
+        "q": "Why don't true 'drop-in' substitutes exist for R-12 or R-22?",
+        "options": [
+          "Purely cost reasons",
+          "Because the new oils and refrigerants aren't compatible with the old ones",
+          "Because testing substitutes is illegal",
+          "Because no alternative refrigerants exist"
+        ],
+        "answer": 1,
+        "explain": "Incompatibility between the old oils/refrigerants (mineral, CFC/HCFC) and the new ones (POE/PAG, HFC) prevents a true 'drop-in' substitute from existing."
+      },
+      {
+        "q": "What is the recommended order of preference for leak-testing a Type II system?",
+        "options": [
+          "Compressed air, then oxygen",
+          "Pure nitrogen is preferred; nitrogen with a trace of R-22 is acceptable as a last resort",
+          "Pure oxygen, always",
+          "Pure refrigerant always, with no inert gas"
+        ],
+        "answer": 1,
+        "explain": "Pure nitrogen is always the first choice for pressurizing and leak-testing; using refrigerant as a trace gas is acceptable only when needed to pinpoint the leak."
+      },
+      {
+        "q": "When switching a recovery machine from one refrigerant to another, what should be done before recovering the new refrigerant?",
+        "options": [
+          "Nothing, you can recover directly",
+          "Purge the equipment by recovering as much of the previous refrigerant as possible, and change the filter",
+          "Sell the machine",
+          "Deliberately mix the two refrigerants"
+        ],
+        "answer": 1,
+        "explain": "Before switching refrigerants, the recovery equipment should be purged of the previous refrigerant and the filter changed, to avoid cross-contamination."
       }
     ],
     "type3": [
@@ -768,7 +1702,12 @@
       },
       {
         "q": "What evacuation level is required for low-pressure systems using refrigerants such as R-11 and R-123?",
-        "options": ["4 in. Hg", "10 in. Hg", "25 mm Hg absolute", "0 psig"],
+        "options": [
+          "4 in. Hg",
+          "10 in. Hg",
+          "25 mm Hg absolute",
+          "0 psig"
+        ],
         "answer": 2,
         "explain": "The required level is 25 mm Hg absolute — the same value for equipment manufactured both before and after 11/15/1993."
       },
@@ -785,13 +1724,23 @@
       },
       {
         "q": "What is the typical trigger pressure of the rupture disk on low-pressure centrifugal chillers?",
-        "options": ["5 psig", "10 psig", "15 psig", "25 psig"],
+        "options": [
+          "5 psig",
+          "10 psig",
+          "15 psig",
+          "25 psig"
+        ],
         "answer": 2,
         "explain": "The rupture disk typically triggers at 15 psig, which is why the system's maximum test pressure should stay at 10 psig or below."
       },
       {
         "q": "Before removing oil from a low-pressure system, to what temperature should it be heated to release the refrigerant trapped in it?",
-        "options": ["70°F", "100°F", "130°F", "180°F"],
+        "options": [
+          "70°F",
+          "100°F",
+          "130°F",
+          "180°F"
+        ],
         "answer": 2,
         "explain": "The oil should be heated to 130°F before removal, to release refrigerant that has dissolved into it."
       },
@@ -830,7 +1779,12 @@
       },
       {
         "q": "Which unit of measure is used for the evacuation level in Type III, unlike Type II?",
-        "options": ["Inches of Hg, gauge", "PSIG", "Millimeters of Hg, absolute", "Bar"],
+        "options": [
+          "Inches of Hg, gauge",
+          "PSIG",
+          "Millimeters of Hg, absolute",
+          "Bar"
+        ],
         "answer": 2,
         "explain": "Type III uses millimeters of Hg absolute (mm Hg), while Type II uses inches of Hg vacuum — a classic exam trap."
       },
@@ -844,6 +1798,116 @@
         ],
         "answer": 2,
         "explain": "Universal certification requires passing all four sections — Core, Type I, Type II, and Type III — each with a minimum score of 70%."
+      },
+      {
+        "q": "According to ASHRAE guideline 3-1996, when should a low-pressure system be considered leaking during a vacuum test?",
+        "options": [
+          "There's no defined criterion",
+          "When the system rises from 1 mm Hg to above 2.5 mm Hg during the test",
+          "Only if there's audible noise",
+          "Every 6 months, regardless of the result"
+        ],
+        "answer": 1,
+        "explain": "ASHRAE guideline 3-1996 recommends investigating a leak when the system rises from 1 mm Hg to above 2.5 mm Hg during vacuum testing."
+      },
+      {
+        "q": "What characterizes a high-efficiency purge unit?",
+        "options": [
+          "It expels large quantities of refrigerant along with the air",
+          "It expels very little refrigerant while removing non-condensables",
+          "It doesn't remove air, only oil",
+          "It only works on high-pressure systems"
+        ],
+        "answer": 1,
+        "explain": "A high-efficiency purge unit removes non-condensables (air) from the system while releasing as little refrigerant as possible."
+      },
+      {
+        "q": "Where does a centrifugal compressor's purge unit typically draw its suction from?",
+        "options": [
+          "The bottom of the evaporator",
+          "The top of the chiller barrel/condenser",
+          "The compressor suction",
+          "The charging valve"
+        ],
+        "answer": 1,
+        "explain": "A centrifugal compressor's purge unit typically draws suction from the top of the chiller barrel (condenser), where non-condensables accumulate, returning refrigerant to the evaporator."
+      },
+      {
+        "q": "What is the recommended maximum pressure when pressurizing a low-pressure system for a leak test?",
+        "options": [
+          "5 psig",
+          "10 psig or less, to stay below the rupture disk (usually set at 15 psig)",
+          "25 psig",
+          "50 psig"
+        ],
+        "answer": 1,
+        "explain": "Test pressure should stay at 10 psig or below, with a safety margin under the rupture disk, typically set at 15 psig."
+      },
+      {
+        "q": "What are the preferred ways to raise the pressure in a low-pressure system for a leak test?",
+        "options": [
+          "Compressed air and oxygen",
+          "Controlled hot water or heater blankets",
+          "Dry ice",
+          "Additional deep vacuum"
+        ],
+        "answer": 1,
+        "explain": "Controlled hot water circulated through the system, or heater blankets, are the preferred methods for raising pressure without using hazardous gases."
+      },
+      {
+        "q": "How can tubes suspected of having pinhole leaks be tested, beyond standard methods?",
+        "options": [
+          "A hydrostatic tube test",
+          "Only external visual inspection",
+          "Individual tubes can't be tested",
+          "Replace all tubes preventively"
+        ],
+        "answer": 0,
+        "explain": "A hydrostatic tube test can be used when specific tubes in the bundle are suspected of leaking."
+      },
+      {
+        "q": "Why should low-pressure systems sitting idle for long periods have their pressure raised slightly above atmospheric?",
+        "options": [
+          "To save refrigerant",
+          "To prevent air from accumulating in the system while idle",
+          "To speed up the next startup",
+          "There's no need for this"
+        ],
+        "answer": 1,
+        "explain": "Keeping pressure slightly above atmospheric during long idle periods prevents air from being drawn into the vacuum-operating system."
+      },
+      {
+        "q": "Where does the water used in a water-cooled chiller condenser typically come from?",
+        "options": [
+          "From the evaporator itself",
+          "A deep well, cooling tower, or municipal supply",
+          "Always from the chiller itself",
+          "No external water is used"
+        ],
+        "answer": 1,
+        "explain": "Cooling water typically comes from a cooling tower, deep well, or municipal supply, depending on the installation."
+      },
+      {
+        "q": "Which parts of the system should be drained of water before recovering refrigerant from a chiller?",
+        "options": [
+          "Only the evaporator",
+          "Both evaporator and condenser",
+          "Only the cooling tower",
+          "No draining is necessary"
+        ],
+        "answer": 1,
+        "explain": "Both the evaporator and condenser (when water-cooled) should be drained before recovery, to prevent freezing and ease the service."
+      },
+      {
+        "q": "After all liquid has been removed from a 350-ton R-11 chiller, roughly how much residual vapor might still remain?",
+        "options": [
+          "About 10 lb",
+          "About 100 lb",
+          "Zero, nothing remains",
+          "More than 1000 lb"
+        ],
+        "answer": 1,
+        "explain": "Even after removing all the liquid, a large chiller can retain on the order of 100 lb of residual vapor, which must be recovered separately."
       }
     ]
   }

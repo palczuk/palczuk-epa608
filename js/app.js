@@ -105,6 +105,7 @@ async function setLanguage(lang) {
   await loadI18n();
   applyStaticTranslations();
   renderFactSheet();
+  renderStickyPanel();
   resetQuizToPlaceholder();
 }
 
@@ -145,6 +146,15 @@ async function renderFactSheet() {
         { titleKey: 'facts.group.evacuation', items: facts.evacuationLevels },
         { titleKey: 'facts.group.threeRs', items: facts.threeRs },
         { titleKey: 'facts.group.leakRepair', items: facts.leakRepair },
+        { titleKey: 'facts.group.oils', items: facts.oils },
+        { titleKey: 'facts.group.blends', items: facts.blends },
+        { titleKey: 'facts.group.cycle', items: facts.refrigerationCycle },
+        { titleKey: 'facts.group.leakTools', items: facts.leakDetectionTools },
+        { titleKey: 'facts.group.gauges', items: facts.gaugeManifold },
+        { titleKey: 'facts.group.evacMicron', items: facts.evacuationMicron },
+        { titleKey: 'facts.group.recoverySpeed', items: facts.recoverySpeed },
+        { titleKey: 'facts.group.thermalDecomp', items: facts.thermalDecomposition },
+        { titleKey: 'facts.group.substitutes', items: facts.substitutesAndOils },
         { titleKey: 'facts.group.cylinders', items: facts.cylindersAndShipping },
         { titleKey: 'facts.group.safety', items: facts.safetyStandards },
         { titleKey: 'facts.group.penalties', items: facts.penalties },
@@ -170,6 +180,36 @@ async function renderFactSheet() {
     const grid = document.getElementById('examStructureGrid');
     if (grid) grid.innerHTML = `<p>Could not load fact data. If you opened this file directly from disk (file://), run a local server (e.g. <code>npx serve</code>) or publish it on GitHub Pages.</p>`;
   }
+}
+
+/* ---------------- Sticky priority panel ---------------- */
+async function renderStickyPanel() {
+  const list = document.getElementById('stickyList');
+  if (!list) return;
+  const all = await loadFactsData();
+  const facts = all[currentLang] || all.pt;
+  const items = facts.priority || [];
+  list.innerHTML = items.map(it => `
+    <div class="sticky-panel__row">
+      <dt>${escapeHTML(it.label)}</dt>
+      <dd>${escapeHTML(it.value)}</dd>
+    </div>
+  `).join('');
+}
+
+function initStickyPanel() {
+  const toggle = document.getElementById('stickyToggle');
+  const panel = document.getElementById('stickyPanel');
+  const closeBtn = document.getElementById('stickyClose');
+  if (!toggle || !panel) return;
+  toggle.addEventListener('click', () => {
+    panel.classList.toggle('is-open');
+    toggle.classList.toggle('is-active', panel.classList.contains('is-open'));
+  });
+  closeBtn?.addEventListener('click', () => {
+    panel.classList.remove('is-open');
+    toggle.classList.remove('is-active');
+  });
 }
 
 /* ---------------- Tabs (Type I/II/III) ---------------- */
@@ -349,5 +389,7 @@ function escapeHTML(str) {
   });
   applyStaticTranslations();
   await renderFactSheet();
+  initStickyPanel();
+  await renderStickyPanel();
   resetQuizToPlaceholder();
 })();

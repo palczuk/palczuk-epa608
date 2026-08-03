@@ -13,8 +13,18 @@ sem recarregar a página. A escolha de idioma fica salva no navegador (localStor
 
 Fatos e questões foram revisados e corrigidos com base no *EPA 608 Certification Study Guide* oficial (PDF em
 inglês) fornecido pelo autor — datas, tabela de evacuação, taxas de vazamento e demais números seguem
-exatamente esse documento. As perguntas do simulado foram reescritas com palavras próprias (não copiadas
-literalmente do PDF), mas testam os mesmos fatos e números.
+exatamente esse documento. Cobertura completa inclui: óleos de refrigeração, blends/fractionation, ciclo de
+refrigeração, ferramentas de detecção de vazamento, manômetros (manifold), evacuação/microns, técnicas de
+recuperação, decomposição térmica, substitutos/drop-ins, e definições oficiais completas (appliance, technician,
+apprentice, MVAC-like, refrigerant circuit, major repair, opening). Total: 86 perguntas por idioma (172 no
+total) — Core 31, Type I 15, Type II 20, Type III 20. As perguntas foram reescritas com palavras próprias (não
+copiadas literalmente do PDF), mas testam os mesmos fatos e números.
+
+## Painel de prioridades (sticky)
+
+Um botão flutuante "★ Prioridades" no canto inferior direito abre um painel fixo com os ~9 fatos mais cobrados
+na prova (nota de corte, datas-chave, taxas de vazamento, limite de recuperação passiva, armadilha de unidade
+Type II vs III, vácuo profundo, penalidades). Fica disponível em qualquer parte da página, nos dois idiomas.
 
 ## Estrutura
 

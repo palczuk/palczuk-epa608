@@ -324,3 +324,51 @@ code{font-family:var(--font-mono); background:rgba(0,0,0,.06); padding:.1em .35e
   padding:1.75rem 1.5rem; border-top:2px solid var(--copper);
 }
 .footer p{max-width:70ch; margin:0 auto;}
+
+/* ---------- sticky priority panel ---------- */
+.sticky-toggle{
+  position:fixed; right:1.25rem; bottom:1.25rem; z-index:80;
+  font-family:var(--font-mono); font-weight:600; font-size:.82rem; letter-spacing:.03em;
+  background:var(--copper); color:#fff; border:none; border-radius:24px;
+  padding:.75rem 1.3rem; cursor:pointer; box-shadow:0 6px 18px rgba(0,0,0,.25);
+  transition:transform .15s ease, background .15s ease;
+}
+.sticky-toggle::before{content:"★ "; }
+.sticky-toggle:hover{transform:translateY(-2px);}
+.sticky-toggle.is-active{background:var(--ink); }
+
+.sticky-panel{
+  position:fixed; right:1.25rem; bottom:5rem; z-index:81;
+  width:min(340px, calc(100vw - 2.5rem)); max-height:min(70vh, 560px);
+  background:var(--ink); color:var(--paper-text); border:1px solid var(--copper);
+  border-radius:8px; box-shadow:0 12px 32px rgba(0,0,0,.35);
+  display:flex; flex-direction:column; overflow:hidden;
+  opacity:0; transform:translateY(12px) scale(.98); pointer-events:none;
+  transition:opacity .18s ease, transform .18s ease;
+}
+.sticky-panel.is-open{opacity:1; transform:translateY(0) scale(1); pointer-events:auto;}
+
+.sticky-panel__head{
+  display:flex; align-items:flex-start; justify-content:space-between; gap:.75rem;
+  padding:1rem 1.1rem .75rem; border-bottom:1px solid rgba(181,96,46,.4);
+}
+.sticky-panel__head strong{display:block; font-family:var(--font-display); font-size:.95rem; color:var(--copper-lt);}
+.sticky-panel__head span{display:block; font-size:.72rem; color:#9FB0BF; margin-top:.15rem;}
+.sticky-panel__close{
+  background:none; border:none; color:#9FB0BF; font-size:1rem; cursor:pointer; line-height:1;
+  padding:.15rem .3rem;
+}
+.sticky-panel__close:hover{color:var(--copper-lt);}
+
+.sticky-panel__list{margin:0; padding:.5rem 1.1rem 1rem; overflow-y:auto;}
+.sticky-panel__row{
+  padding:.6rem 0; border-top:1px solid rgba(255,255,255,.08);
+}
+.sticky-panel__row:first-child{border-top:none;}
+.sticky-panel__row dt{font-size:.78rem; font-weight:600; color:var(--copper-lt); margin-bottom:.2rem;}
+.sticky-panel__row dd{margin:0; font-size:.82rem; color:#D7DEE6; font-family:var(--font-mono); line-height:1.4;}
+
+@media (max-width:640px){
+  .sticky-toggle{right:.85rem; bottom:.85rem; padding:.65rem 1.05rem; font-size:.76rem;}
+  .sticky-panel{right:.85rem; bottom:4.4rem;}
+}
