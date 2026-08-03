@@ -5,7 +5,7 @@
   "nav.facts":     { "pt": "Ficha de fatos", "en": "Fact sheet" },
   "nav.quiz":      { "pt": "Simulado", "en": "Practice quiz" },
 
-  "hero.eyebrow": { "pt": "Engenharia Mecânica (BR) → HVACR (EUA) · WES validado", "en": "Mechanical Engineering (BR) → HVACR (US) · WES validated" },
+  "hero.eyebrow": { "pt": "Engenharia Mecânica", "en": "Mechanical Engineering" },
   "hero.lede": {
     "pt": "Guia de estudos dinâmico para a certificação federal exigida por lei para manusear refrigerantes nos EUA sob a Seção 608 do Clean Air Act — Core, Type I, Type II, Type III e Universal.",
     "en": "A dynamic study guide for the federal certification legally required to handle refrigerants in the US under Section 608 of the Clean Air Act — Core, Type I, Type II, Type III, and Universal."
